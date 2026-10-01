@@ -1,0 +1,2024 @@
+{
+ "about": [
+  "What the json-cites region reads a JSON document as, in two worlds: a place of the tree and a published folder. What it emits over these cases is the reader: an edit that emits the same over them keeps what it read, an edit that emits otherwise reads the tree again.",
+  "Each case is a document as the reader was handed it, chosen so that together they reach every family the reader answers."
+ ],
+ "worlds": {},
+ "cases": [
+  {
+   "name": "tree · obligations/vectors/states.json",
+   "world": "tree",
+   "request": {
+    "verb": "read",
+    "region": "json-cites",
+    "rootScope": "obligations/vectors/states.json",
+    "files": [
+     {
+      "place": "obligations/vectors/states.json",
+      "text": "{\n  \"about\": [\n    \"The debit as a vector: four states per irreducible, and the counter is the\",\n    \"popcount of one of them. Two bits compose; four labels do not, which is why\",\n    \"the state is derived and never stored.\",\n    \"\",\n    \"The alphabet cases enumerate a five-token palette against every interesting\",\n    \"pair of (demanded, permitted). The interval cases are runs: the answer only\",\n    \"changes where a boundary is, so a million values cost the same as five.\"\n  ],\n  \"coverage\": {\n    \"size\": 22,\n    \"criterion\": \"every quadrant reachable, every degenerate extent, and the disjoint-writers case the convex hull gets wrong\",\n    \"could_exclude_counterexamples\": true,\n    \"why\": \"the four quadrants are a partition of the extent, so a case that lands a value in two of them, or in none, fails the partition assertion regardless of which quadrant is wrong\"\n  },\n  \"cases\": [\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"all four states at once, on one palette\",\n      \"tokens\": [\n        \"draft\",\n        \"sent\",\n        \"paid\",\n        \"void\",\n        \"cancelled\"\n      ],\n      \"demanded\": [\n        \"draft\",\n        \"sent\",\n        \"paid\"\n      ],\n      \"permitted\": [\n        \"draft\",\n        \"sent\",\n        \"void\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [\n          \"draft\",\n          \"sent\"\n        ],\n        \"FREE\": [\n          \"void\"\n        ],\n        \"FORBIDDEN\": [\n          \"cancelled\"\n        ],\n        \"CONFLICT\": [\n          \"paid\"\n        ]\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"no writer: nothing is REQUIRED and nothing CONFLICTS\",\n      \"tokens\": [\n        \"draft\",\n        \"sent\",\n        \"paid\"\n      ],\n      \"demanded\": [],\n      \"permitted\": [\n        \"draft\",\n        \"sent\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [],\n        \"FREE\": [\n          \"draft\",\n          \"sent\"\n        ],\n        \"FORBIDDEN\": [\n          \"paid\"\n        ],\n        \"CONFLICT\": []\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"no reader admits anything: everything written is a conflict\",\n      \"tokens\": [\n        \"draft\",\n        \"sent\"\n      ],\n      \"demanded\": [\n        \"draft\"\n      ],\n      \"permitted\": [],\n      \"expect\": {\n        \"REQUIRED\": [],\n        \"FREE\": [],\n        \"FORBIDDEN\": [\n          \"sent\"\n        ],\n        \"CONFLICT\": [\n          \"draft\"\n        ]\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"everything admitted and everything written\",\n      \"tokens\": [\n        \"a\",\n        \"b\"\n      ],\n      \"demanded\": [\n        \"a\",\n        \"b\"\n      ],\n      \"permitted\": [\n        \"a\",\n        \"b\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [\n          \"a\",\n          \"b\"\n        ],\n        \"FREE\": [],\n        \"FORBIDDEN\": [],\n        \"CONFLICT\": []\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"an empty extent has no states at all\",\n      \"tokens\": [],\n      \"demanded\": [],\n      \"permitted\": [],\n      \"expect\": {\n        \"REQUIRED\": [],\n        \"FREE\": [],\n        \"FORBIDDEN\": [],\n        \"CONFLICT\": []\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"the dead value nothing else reports: admitted by both, written by nobody\",\n      \"tokens\": [\n        \"draft\",\n        \"sent\",\n        \"void\"\n      ],\n      \"demanded\": [\n        \"draft\"\n      ],\n      \"permitted\": [\n        \"draft\",\n        \"sent\",\n        \"void\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [\n          \"draft\"\n        ],\n        \"FREE\": [\n          \"sent\",\n          \"void\"\n        ],\n        \"FORBIDDEN\": [],\n        \"CONFLICT\": []\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"the system's negative: two values nobody admits and nobody writes\",\n      \"tokens\": [\n        \"draft\",\n        \"cancelled\",\n        \"archived\"\n      ],\n      \"demanded\": [\n        \"draft\"\n      ],\n      \"permitted\": [\n        \"draft\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [\n          \"draft\"\n        ],\n        \"FREE\": [],\n        \"FORBIDDEN\": [\n          \"cancelled\",\n          \"archived\"\n        ],\n        \"CONFLICT\": []\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"a writer outside the extent is not a value — the extent is the universe\",\n      \"tokens\": [\n        \"a\",\n        \"b\"\n      ],\n      \"demanded\": [\n        \"a\",\n        \"b\"\n      ],\n      \"permitted\": [\n        \"a\"\n      ],\n      \"extent\": [\n        \"a\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [\n          \"a\"\n        ],\n        \"FREE\": [],\n        \"FORBIDDEN\": [],\n        \"CONFLICT\": []\n      }\n    },\n    {\n      \"kind\": \"alphabet\",\n      \"case\": \"wider than one chunk: 33 tokens crosses the 32-bit word boundary\",\n      \"tokens\": [\n        \"t0\",\n        \"t1\",\n        \"t2\",\n        \"t3\",\n        \"t4\",\n        \"t5\",\n        \"t6\",\n        \"t7\",\n        \"t8\",\n        \"t9\",\n        \"t10\",\n        \"t11\",\n        \"t12\",\n        \"t13\",\n        \"t14\",\n        \"t15\",\n        \"t16\",\n        \"t17\",\n        \"t18\",\n        \"t19\",\n        \"t20\",\n        \"t21\",\n        \"t22\",\n        \"t23\",\n        \"t24\",\n        \"t25\",\n        \"t26\",\n        \"t27\",\n        \"t28\",\n        \"t29\",\n        \"t30\",\n        \"t31\",\n        \"t32\"\n      ],\n      \"demanded\": [\n        \"t0\",\n        \"t32\"\n      ],\n      \"permitted\": [\n        \"t0\",\n        \"t31\"\n      ],\n      \"expect\": {\n        \"REQUIRED\": [\n          \"t0\"\n        ],\n        \"FREE\": [\n          \"t31\"\n        ],\n        \"CONFLICT\": [\n          \"t32\"\n        ]\n      },\n      \"forbidden_count\": 30\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"the slack nobody uses, with a number\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 400\n      },\n      \"demanded\": [\n        {\n          \"lo\": 0,\n          \"hi\": 255\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 320\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 255,\n          \"state\": \"REQUIRED\"\n        },\n        {\n          \"lo\": 256,\n          \"hi\": 320,\n          \"state\": \"FREE\"\n        },\n        {\n          \"lo\": 321,\n          \"hi\": 400,\n          \"state\": \"FORBIDDEN\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"a writer past the reader is a conflict run\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 100\n      },\n      \"demanded\": [\n        {\n          \"lo\": 0,\n          \"hi\": 80\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 50\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 50,\n          \"state\": \"REQUIRED\"\n        },\n        {\n          \"lo\": 51,\n          \"hi\": 80,\n          \"state\": \"CONFLICT\"\n        },\n        {\n          \"lo\": 81,\n          \"hi\": 100,\n          \"state\": \"FORBIDDEN\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"DISJOINT WRITERS: the gap is FREE, and the convex hull would call it REQUIRED\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 100\n      },\n      \"demanded\": [\n        {\n          \"lo\": 0,\n          \"hi\": 10\n        },\n        {\n          \"lo\": 90,\n          \"hi\": 100\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 100\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 10,\n          \"state\": \"REQUIRED\"\n        },\n        {\n          \"lo\": 11,\n          \"hi\": 89,\n          \"state\": \"FREE\"\n        },\n        {\n          \"lo\": 90,\n          \"hi\": 100,\n          \"state\": \"REQUIRED\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"no writer: one FREE run and one FORBIDDEN run\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 100\n      },\n      \"demanded\": [],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 60\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 60,\n          \"state\": \"FREE\"\n        },\n        {\n          \"lo\": 61,\n          \"hi\": 100,\n          \"state\": \"FORBIDDEN\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"no reader: everything written conflicts, the rest is forbidden\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 10\n      },\n      \"demanded\": [\n        {\n          \"lo\": 2,\n          \"hi\": 4\n        }\n      ],\n      \"permitted\": null,\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 1,\n          \"state\": \"FORBIDDEN\"\n        },\n        {\n          \"lo\": 2,\n          \"hi\": 4,\n          \"state\": \"CONFLICT\"\n        },\n        {\n          \"lo\": 5,\n          \"hi\": 10,\n          \"state\": \"FORBIDDEN\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"the whole extent is one run when nothing changes state\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 1000000\n      },\n      \"demanded\": [\n        {\n          \"lo\": 0,\n          \"hi\": 1000000\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 1000000\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 1000000,\n          \"state\": \"REQUIRED\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"a single point\",\n      \"extent\": {\n        \"lo\": 5,\n        \"hi\": 5\n      },\n      \"demanded\": [\n        {\n          \"lo\": 5,\n          \"hi\": 5\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 5,\n        \"hi\": 5\n      },\n      \"expect\": [\n        {\n          \"lo\": 5,\n          \"hi\": 5,\n          \"state\": \"REQUIRED\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"an inverted extent has no runs\",\n      \"extent\": {\n        \"lo\": 10,\n        \"hi\": 0\n      },\n      \"demanded\": [],\n      \"permitted\": null,\n      \"expect\": []\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"adjacent writers merge into one run — a boundary that is not one\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 20\n      },\n      \"demanded\": [\n        {\n          \"lo\": 0,\n          \"hi\": 5\n        },\n        {\n          \"lo\": 6,\n          \"hi\": 10\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 20\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 10,\n          \"state\": \"REQUIRED\"\n        },\n        {\n          \"lo\": 11,\n          \"hi\": 20,\n          \"state\": \"FREE\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"a writer entirely outside what the reader admits, and outside the extent's start\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 50\n      },\n      \"demanded\": [\n        {\n          \"lo\": 40,\n          \"hi\": 50\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 20\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 20,\n          \"state\": \"FREE\"\n        },\n        {\n          \"lo\": 21,\n          \"hi\": 39,\n          \"state\": \"FORBIDDEN\"\n        },\n        {\n          \"lo\": 40,\n          \"hi\": 50,\n          \"state\": \"CONFLICT\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"overlapping writers are still one REQUIRED run\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 30\n      },\n      \"demanded\": [\n        {\n          \"lo\": 0,\n          \"hi\": 15\n        },\n        {\n          \"lo\": 10,\n          \"hi\": 20\n        }\n      ],\n      \"permitted\": {\n        \"lo\": 0,\n        \"hi\": 30\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 20,\n          \"state\": \"REQUIRED\"\n        },\n        {\n          \"lo\": 21,\n          \"hi\": 30,\n          \"state\": \"FREE\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"a permitted band that starts above the extent's floor\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 10\n      },\n      \"demanded\": [],\n      \"permitted\": {\n        \"lo\": 4,\n        \"hi\": 6\n      },\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 3,\n          \"state\": \"FORBIDDEN\"\n        },\n        {\n          \"lo\": 4,\n          \"hi\": 6,\n          \"state\": \"FREE\"\n        },\n        {\n          \"lo\": 7,\n          \"hi\": 10,\n          \"state\": \"FORBIDDEN\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"interval\",\n      \"case\": \"everything forbidden: no writer, no reader\",\n      \"extent\": {\n        \"lo\": 0,\n        \"hi\": 3\n      },\n      \"demanded\": [],\n      \"permitted\": null,\n      \"expect\": [\n        {\n          \"lo\": 0,\n          \"hi\": 3,\n          \"state\": \"FORBIDDEN\"\n        }\n      ]\n    }\n  ]\n}\n"
+     }
+    ]
+   },
+   "expected": [
+    {
+     "scope": "cite/CONFLICT",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "CONFLICT"
+      ]
+     }
+    },
+    {
+     "scope": "cite/FORBIDDEN",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "FORBIDDEN"
+      ]
+     }
+    },
+    {
+     "scope": "cite/FREE",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "FREE"
+      ]
+     }
+    },
+    {
+     "scope": "cite/REQUIRED",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "REQUIRED"
+      ]
+     }
+    },
+    {
+     "scope": "cite/a",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "a"
+      ]
+     }
+    },
+    {
+     "scope": "cite/about",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "about"
+      ]
+     }
+    },
+    {
+     "scope": "cite/alphabet",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "alphabet"
+      ]
+     }
+    },
+    {
+     "scope": "cite/archived",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "archived"
+      ]
+     }
+    },
+    {
+     "scope": "cite/b",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "b"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cancelled",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cancelled"
+      ]
+     }
+    },
+    {
+     "scope": "cite/case",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "case"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cases",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cases"
+      ]
+     }
+    },
+    {
+     "scope": "cite/could_exclude_counterexamples",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "could_exclude_counterexamples"
+      ]
+     }
+    },
+    {
+     "scope": "cite/coverage",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "coverage"
+      ]
+     }
+    },
+    {
+     "scope": "cite/criterion",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "criterion"
+      ]
+     }
+    },
+    {
+     "scope": "cite/demanded",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "demanded"
+      ]
+     }
+    },
+    {
+     "scope": "cite/draft",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "draft"
+      ]
+     }
+    },
+    {
+     "scope": "cite/expect",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "expect"
+      ]
+     }
+    },
+    {
+     "scope": "cite/extent",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "extent"
+      ]
+     }
+    },
+    {
+     "scope": "cite/forbidden_count",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "forbidden_count"
+      ]
+     }
+    },
+    {
+     "scope": "cite/hi",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "hi"
+      ]
+     }
+    },
+    {
+     "scope": "cite/interval",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "interval"
+      ]
+     }
+    },
+    {
+     "scope": "cite/kind",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "kind"
+      ]
+     }
+    },
+    {
+     "scope": "cite/lo",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "lo"
+      ]
+     }
+    },
+    {
+     "scope": "cite/paid",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "paid"
+      ]
+     }
+    },
+    {
+     "scope": "cite/permitted",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "permitted"
+      ]
+     }
+    },
+    {
+     "scope": "cite/sent",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "sent"
+      ]
+     }
+    },
+    {
+     "scope": "cite/size",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "size"
+      ]
+     }
+    },
+    {
+     "scope": "cite/state",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "state"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t0",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t0"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t1",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t1"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t10",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t10"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t11",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t11"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t12",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t12"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t13",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t13"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t14",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t14"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t15",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t15"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t16",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t16"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t17",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t17"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t18",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t18"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t19",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t19"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t2",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t2"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t20",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t20"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t21",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t21"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t22",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t22"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t23",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t23"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t24",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t24"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t25",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t25"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t26",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t26"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t27",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t27"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t28",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t28"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t29",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t29"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t3",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t3"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t30",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t30"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t31",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t31"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t32",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t32"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t4",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t4"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t5",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t5"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t6",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t6"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t7",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t7"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t8",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t8"
+      ]
+     }
+    },
+    {
+     "scope": "cite/t9",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "t9"
+      ]
+     }
+    },
+    {
+     "scope": "cite/tokens",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "tokens"
+      ]
+     }
+    },
+    {
+     "scope": "cite/void",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "void"
+      ]
+     }
+    },
+    {
+     "scope": "cite/why",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "why"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "folder · topos-release/vectors/rotation.json",
+   "world": "folder",
+   "request": {
+    "verb": "read",
+    "region": "json-cites",
+    "rootScope": "topos-release/vectors/rotation.json",
+    "files": [
+     {
+      "place": "topos-release/vectors/rotation.json",
+      "text": "{\n \"about\": [\n  \"A rotation breaks nothing. n keys are admitted; one is lost; k of the n that remain admit a replacement\",\n  \"with an epoch; the lost key's window closes; every claim it signed inside its window still verifies,\",\n  \"and whatever it signs after the close is refused with the key named. There is no recovery by mail and\",\n  \"nothing is exported: a rotation is claims on keys/<id>, signed by the lock itself.\",\n  \"\",\n  \"`verify` is the same stand-in as signers.json: a line verifies against a public key when its `sig` is\",\n  \"`ok:` followed by that key. Epochs are plain integers.\"\n ],\n \"verify\": \"sig === 'ok:' + publicKey\",\n \"root\": {\n  \"id\": \"owner\",\n  \"keyClass\": \"authorize\",\n  \"publicKey\": \"K0\",\n  \"coverage\": [\n   \"*\"\n  ],\n  \"depth\": {\n   \"lo\": 1,\n   \"hi\": 16\n  },\n  \"admittedBy\": []\n },\n \"lock\": [\n  {\n   \"scope\": \"keys/a\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/a\",\n   \"measure\": \"public-key\",\n   \"value\": \"K1\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/a\",\n   \"measure\": \"coverage\",\n   \"value\": \"*\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/a\",\n   \"measure\": \"resolution\",\n   \"value\": \"1..16\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/b\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/b\",\n   \"measure\": \"public-key\",\n   \"value\": \"K2\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/b\",\n   \"measure\": \"coverage\",\n   \"value\": \"*\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/b\",\n   \"measure\": \"resolution\",\n   \"value\": \"1..16\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/c\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/c\",\n   \"measure\": \"public-key\",\n   \"value\": \"K3\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/c\",\n   \"measure\": \"coverage\",\n   \"value\": \"*\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys/c\",\n   \"measure\": \"resolution\",\n   \"value\": \"1..16\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"1\"\n  },\n  {\n   \"scope\": \"keys\",\n   \"measure\": \"quorum\",\n   \"value\": \"2..2\",\n   \"by\": \"owner\",\n   \"sig\": \"ok:K0\",\n   \"epoch\": \"2\"\n  },\n  {\n   \"scope\": \"keys/a\",\n   \"measure\": \"epoch\",\n   \"value\": \"1..5\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"5\"\n  },\n  {\n   \"scope\": \"keys/d\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/d\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"c\",\n   \"sig\": \"ok:K3\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/d\",\n   \"measure\": \"public-key\",\n   \"value\": \"K4\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/d\",\n   \"measure\": \"coverage\",\n   \"value\": \"*\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/d\",\n   \"measure\": \"resolution\",\n   \"value\": \"1..16\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/e\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"a\",\n   \"sig\": \"ok:K1\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/e\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/e\",\n   \"measure\": \"public-key\",\n   \"value\": \"K5\",\n   \"by\": \"b\",\n   \"sig\": \"ok:K2\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/f\",\n   \"measure\": \"class\",\n   \"value\": \"authorize\",\n   \"by\": \"c\",\n   \"sig\": \"ok:K3\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/f\",\n   \"measure\": \"public-key\",\n   \"value\": \"K6\",\n   \"by\": \"c\",\n   \"sig\": \"ok:K3\",\n   \"epoch\": \"6\"\n  },\n  {\n   \"scope\": \"keys/c\",\n   \"measure\": \"epoch\",\n   \"value\": \"1..6\",\n   \"by\": \"a\",\n   \"sig\": \"ok:K1\",\n   \"epoch\": \"7\"\n  }\n ],\n \"cases\": [\n  {\n   \"name\": \"every claim the lost key signed inside its epoch still verifies\",\n   \"line\": {\n    \"scope\": \"audit/x\",\n    \"by\": \"a\",\n    \"sig\": \"ok:K1\",\n    \"epoch\": \"3\"\n   },\n   \"verdict\": \"admitted\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"the last epoch of a closed window is still inside it\",\n   \"line\": {\n    \"scope\": \"audit/x\",\n    \"by\": \"a\",\n    \"sig\": \"ok:K1\",\n    \"epoch\": \"5\"\n   },\n   \"verdict\": \"admitted\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"a claim the lost key signs after its epoch closed is refused naming the key\",\n   \"line\": {\n    \"scope\": \"audit/y\",\n    \"by\": \"a\",\n    \"sig\": \"ok:K1\",\n    \"epoch\": \"7\"\n   },\n   \"verdict\": \"refuse\",\n   \"named\": \"a\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"the replacement admitted by k of n signs\",\n   \"line\": {\n    \"scope\": \"audit/z\",\n    \"by\": \"d\",\n    \"sig\": \"ok:K4\",\n    \"epoch\": \"7\"\n   },\n   \"verdict\": \"admitted\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"the replacement has no authority before its admission\",\n   \"line\": {\n    \"scope\": \"audit/z\",\n    \"by\": \"d\",\n    \"sig\": \"ok:K4\",\n    \"epoch\": \"4\"\n   },\n   \"verdict\": \"grey\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"the lost key does not count toward a quorum after its close\",\n   \"line\": {\n    \"scope\": \"audit/w\",\n    \"by\": \"e\",\n    \"sig\": \"ok:K5\",\n    \"epoch\": \"7\"\n   },\n   \"verdict\": \"grey\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"one admitted signer alone does not reach a quorum of two\",\n   \"line\": {\n    \"scope\": \"audit/w\",\n    \"by\": \"f\",\n    \"sig\": \"ok:K6\",\n    \"epoch\": \"7\"\n   },\n   \"verdict\": \"grey\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  },\n  {\n   \"name\": \"the lost key cannot close another key's window after its own close\",\n   \"line\": {\n    \"scope\": \"audit/v\",\n    \"by\": \"c\",\n    \"sig\": \"ok:K3\",\n    \"epoch\": \"9\"\n   },\n   \"verdict\": \"admitted\",\n   \"potential\": [\n    \"e\",\n    \"f\"\n   ]\n  }\n ]\n}\n"
+     }
+    ]
+   },
+   "expected": [
+    {
+     "scope": "cite/K0",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K0"
+      ]
+     }
+    },
+    {
+     "scope": "cite/K1",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K1"
+      ]
+     }
+    },
+    {
+     "scope": "cite/K2",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K2"
+      ]
+     }
+    },
+    {
+     "scope": "cite/K3",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K3"
+      ]
+     }
+    },
+    {
+     "scope": "cite/K4",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K4"
+      ]
+     }
+    },
+    {
+     "scope": "cite/K5",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K5"
+      ]
+     }
+    },
+    {
+     "scope": "cite/K6",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "K6"
+      ]
+     }
+    },
+    {
+     "scope": "cite/a",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "a"
+      ]
+     }
+    },
+    {
+     "scope": "cite/about",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "about"
+      ]
+     }
+    },
+    {
+     "scope": "cite/admitted",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "admitted"
+      ]
+     }
+    },
+    {
+     "scope": "cite/admittedBy",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "admittedBy"
+      ]
+     }
+    },
+    {
+     "scope": "cite/authorize",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "authorize"
+      ]
+     }
+    },
+    {
+     "scope": "cite/b",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "b"
+      ]
+     }
+    },
+    {
+     "scope": "cite/by",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "by"
+      ]
+     }
+    },
+    {
+     "scope": "cite/c",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "c"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cases",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cases"
+      ]
+     }
+    },
+    {
+     "scope": "cite/class",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "class"
+      ]
+     }
+    },
+    {
+     "scope": "cite/coverage",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "coverage"
+      ]
+     }
+    },
+    {
+     "scope": "cite/d",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "d"
+      ]
+     }
+    },
+    {
+     "scope": "cite/depth",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "depth"
+      ]
+     }
+    },
+    {
+     "scope": "cite/e",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "e"
+      ]
+     }
+    },
+    {
+     "scope": "cite/epoch",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "epoch"
+      ]
+     }
+    },
+    {
+     "scope": "cite/f",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "f"
+      ]
+     }
+    },
+    {
+     "scope": "cite/grey",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "grey"
+      ]
+     }
+    },
+    {
+     "scope": "cite/hi",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "hi"
+      ]
+     }
+    },
+    {
+     "scope": "cite/id",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "id"
+      ]
+     }
+    },
+    {
+     "scope": "cite/keyClass",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "keyClass"
+      ]
+     }
+    },
+    {
+     "scope": "cite/keys",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "keys"
+      ]
+     }
+    },
+    {
+     "scope": "cite/line",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "line"
+      ]
+     }
+    },
+    {
+     "scope": "cite/lo",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "lo"
+      ]
+     }
+    },
+    {
+     "scope": "cite/lock",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "lock"
+      ]
+     }
+    },
+    {
+     "scope": "cite/measure",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "measure"
+      ]
+     }
+    },
+    {
+     "scope": "cite/name",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "name"
+      ]
+     }
+    },
+    {
+     "scope": "cite/named",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "named"
+      ]
+     }
+    },
+    {
+     "scope": "cite/owner",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "owner"
+      ]
+     }
+    },
+    {
+     "scope": "cite/potential",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "potential"
+      ]
+     }
+    },
+    {
+     "scope": "cite/public-key",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "public-key"
+      ]
+     }
+    },
+    {
+     "scope": "cite/publicKey",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "publicKey"
+      ]
+     }
+    },
+    {
+     "scope": "cite/quorum",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "quorum"
+      ]
+     }
+    },
+    {
+     "scope": "cite/refuse",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "refuse"
+      ]
+     }
+    },
+    {
+     "scope": "cite/resolution",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "resolution"
+      ]
+     }
+    },
+    {
+     "scope": "cite/root",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "root"
+      ]
+     }
+    },
+    {
+     "scope": "cite/scope",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "scope"
+      ]
+     }
+    },
+    {
+     "scope": "cite/sig",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "sig"
+      ]
+     }
+    },
+    {
+     "scope": "cite/value",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "value"
+      ]
+     }
+    },
+    {
+     "scope": "cite/verdict",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "verdict"
+      ]
+     }
+    },
+    {
+     "scope": "cite/verify",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "verify"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "tree · obligations/vectors/premium.json",
+   "world": "tree",
+   "request": {
+    "verb": "read",
+    "region": "json-cites",
+    "rootScope": "obligations/vectors/premium.json",
+    "files": [
+     {
+      "place": "obligations/vectors/premium.json",
+      "text": "{\n  \"about\": [\n    \"viol* and the premium g = viol − viol*. On a chain, g is identically\",\n    \"zero for any monotone valuation — planning is worth nothing, the\",\n    \"retreat is already optimal. Off a chain it need not be.\",\n    \"\",\n    \"The trap: reporting gated = coarse − gain as the optimum. That equals\",\n    \"viol* only under collapse (g = RI). The square-by-index valuation on\",\n    \"B2 has g = 0 and RI = −4 at (x, y), so gated is not best.\"\n  ],\n  \"coverage\": {\n    \"size\": 3,\n    \"criterion\": \"a chain (g = 0), B2 under height (modular, g = 0), B2 under square-by-index at (x, y) where gated is not licensed\",\n    \"could_exclude_counterexamples\": true,\n    \"why\": \"the structural form and the closed gap are crossed against the sweep by this file's runner, over every pair of four scales\"\n  },\n  \"cases\": [\n    {\n      \"name\": \"five-chain, counting, (all, none)\",\n      \"chain\": [\"none\", \"own\", \"team\", \"region\", \"all\"],\n      \"worth\": \"counting\",\n      \"u\": \"all\",\n      \"w\": \"none\",\n      \"coarse\": 4,\n      \"best\": 4,\n      \"premium\": 0,\n      \"gain\": 0,\n      \"licensed\": true\n    },\n    {\n      \"name\": \"B2, height, (x, y)\",\n      \"kind\": \"b2\",\n      \"worth\": \"height\",\n      \"u\": \"x\",\n      \"w\": \"y\",\n      \"coarse\": 1,\n      \"best\": 1,\n      \"premium\": 0,\n      \"gain\": 0,\n      \"licensed\": true\n    },\n    {\n      \"name\": \"B2, square-by-index, (x, y) — gated is not the optimum\",\n      \"kind\": \"b2\",\n      \"worth\": \"square\",\n      \"u\": \"x\",\n      \"w\": \"y\",\n      \"coarse\": 1,\n      \"best\": 1,\n      \"premium\": 0,\n      \"gain\": -4,\n      \"licensed\": false\n    }\n  ],\n  \"crossed\": {\n    \"about\": \"the sweep, the structural form and the closed gap agree on every pair of a ladder, the powerset, N5 and M3, each valued by its height\",\n    \"scales\": [[\"a\", \"b\", \"c\", \"d\"], {\"levels\": [\"none\", \"x\", \"y\", \"both\"], \"leq\": [[true, true, true, true], [false, true, false, true], [false, false, true, true], [false, false, false, true]]}, {\"levels\": [\"none\", \"a\", \"b\", \"c\", \"all\"], \"leq\": [[true, true, true, true, true], [false, true, true, false, true], [false, false, true, false, true], [false, false, false, true, true], [false, false, false, false, true]]}, {\"levels\": [\"bot\", \"a\", \"b\", \"c\", \"top\"], \"leq\": [[true, true, true, true, true], [false, true, false, false, true], [false, false, true, false, true], [false, false, false, true, true], [false, false, false, false, true]]}]\n  }\n}\n"
+     }
+    ]
+   },
+   "expected": [
+    {
+     "scope": "cite/a",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "a"
+      ]
+     }
+    },
+    {
+     "scope": "cite/about",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "about"
+      ]
+     }
+    },
+    {
+     "scope": "cite/all",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "all"
+      ]
+     }
+    },
+    {
+     "scope": "cite/b",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "b"
+      ]
+     }
+    },
+    {
+     "scope": "cite/b2",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "b2"
+      ]
+     }
+    },
+    {
+     "scope": "cite/best",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "best"
+      ]
+     }
+    },
+    {
+     "scope": "cite/bot",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "bot"
+      ]
+     }
+    },
+    {
+     "scope": "cite/both",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "both"
+      ]
+     }
+    },
+    {
+     "scope": "cite/c",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "c"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cases",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cases"
+      ]
+     }
+    },
+    {
+     "scope": "cite/chain",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "chain"
+      ]
+     }
+    },
+    {
+     "scope": "cite/coarse",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "coarse"
+      ]
+     }
+    },
+    {
+     "scope": "cite/could_exclude_counterexamples",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "could_exclude_counterexamples"
+      ]
+     }
+    },
+    {
+     "scope": "cite/counting",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "counting"
+      ]
+     }
+    },
+    {
+     "scope": "cite/coverage",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "coverage"
+      ]
+     }
+    },
+    {
+     "scope": "cite/criterion",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "criterion"
+      ]
+     }
+    },
+    {
+     "scope": "cite/crossed",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "crossed"
+      ]
+     }
+    },
+    {
+     "scope": "cite/d",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "d"
+      ]
+     }
+    },
+    {
+     "scope": "cite/gain",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "gain"
+      ]
+     }
+    },
+    {
+     "scope": "cite/height",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "height"
+      ]
+     }
+    },
+    {
+     "scope": "cite/kind",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "kind"
+      ]
+     }
+    },
+    {
+     "scope": "cite/leq",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "leq"
+      ]
+     }
+    },
+    {
+     "scope": "cite/levels",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "levels"
+      ]
+     }
+    },
+    {
+     "scope": "cite/licensed",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "licensed"
+      ]
+     }
+    },
+    {
+     "scope": "cite/name",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "name"
+      ]
+     }
+    },
+    {
+     "scope": "cite/none",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "none"
+      ]
+     }
+    },
+    {
+     "scope": "cite/own",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "own"
+      ]
+     }
+    },
+    {
+     "scope": "cite/premium",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "premium"
+      ]
+     }
+    },
+    {
+     "scope": "cite/region",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "region"
+      ]
+     }
+    },
+    {
+     "scope": "cite/scales",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "scales"
+      ]
+     }
+    },
+    {
+     "scope": "cite/size",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "size"
+      ]
+     }
+    },
+    {
+     "scope": "cite/square",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "square"
+      ]
+     }
+    },
+    {
+     "scope": "cite/team",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "team"
+      ]
+     }
+    },
+    {
+     "scope": "cite/top",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "top"
+      ]
+     }
+    },
+    {
+     "scope": "cite/u",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "u"
+      ]
+     }
+    },
+    {
+     "scope": "cite/w",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "w"
+      ]
+     }
+    },
+    {
+     "scope": "cite/why",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "why"
+      ]
+     }
+    },
+    {
+     "scope": "cite/worth",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "worth"
+      ]
+     }
+    },
+    {
+     "scope": "cite/x",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "x"
+      ]
+     }
+    },
+    {
+     "scope": "cite/y",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "y"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "tree · bound/vectors/ports/edges.json",
+   "world": "tree",
+   "request": {
+    "verb": "read",
+    "region": "json-cites",
+    "rootScope": "bound/vectors/ports/edges.json",
+    "files": [
+     {
+      "place": "bound/vectors/ports/edges.json",
+      "text": "{\n  \"witness\": \"colon-in-path\",\n  \"ports\": {\n    \"store\": [\"path-with-colon\", \"cwd-outside-root\", \"two-writers\", \"symlinked-tree\"],\n    \"effects\": [\"cwd-outside-root\", \"two-writers\"],\n    \"clock\": [\"stale-process\"],\n    \"spawn\": [\"missing-binary\", \"stale-process\", \"pnpm-exec\"]\n  },\n  \"cases\": [\n    { \"id\": \"path-with-colon\", \"port\": \"store\", \"input\": \"sha256:deadbeef\", \"refuse\": \"ERR_PNPM_BAD_PATH_DIR\" },\n    { \"id\": \"cwd-outside-root\", \"port\": \"store\", \"input\": \"work/\", \"refuse\": \"store-root\" },\n    { \"id\": \"two-writers\", \"port\": \"effects\", \"input\": \"receipt-floors.bound\", \"refuse\": \"one-file-per-writer\" },\n    { \"id\": \"stale-process\", \"port\": \"spawn\", \"input\": \"bound-mcp/dist/server.js\", \"refuse\": \"judge-stale\" },\n    { \"id\": \"missing-binary\", \"port\": \"spawn\", \"input\": \"cursor-agent\", \"refuse\": \"provider-missing\" },\n    { \"id\": \"symlinked-tree\", \"port\": \"store\", \"input\": \"diorism/ts/diorism/ts\", \"refuse\": \"tree/targets\" }\n  ]\n}\n"
+     }
+    ]
+   },
+   "expected": [
+    {
+     "scope": "cite/ERR_PNPM_BAD_PATH_DIR",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "ERR_PNPM_BAD_PATH_DIR"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cases",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cases"
+      ]
+     }
+    },
+    {
+     "scope": "cite/clock",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "clock"
+      ]
+     }
+    },
+    {
+     "scope": "cite/colon-in-path",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "colon-in-path"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cursor-agent",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cursor-agent"
+      ]
+     }
+    },
+    {
+     "scope": "cite/cwd-outside-root",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "cwd-outside-root"
+      ]
+     }
+    },
+    {
+     "scope": "cite/effects",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "effects"
+      ]
+     }
+    },
+    {
+     "scope": "cite/id",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "id"
+      ]
+     }
+    },
+    {
+     "scope": "cite/input",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "input"
+      ]
+     }
+    },
+    {
+     "scope": "cite/judge-stale",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "judge-stale"
+      ]
+     }
+    },
+    {
+     "scope": "cite/missing-binary",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "missing-binary"
+      ]
+     }
+    },
+    {
+     "scope": "cite/one-file-per-writer",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "one-file-per-writer"
+      ]
+     }
+    },
+    {
+     "scope": "cite/path-with-colon",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "path-with-colon"
+      ]
+     }
+    },
+    {
+     "scope": "cite/pnpm-exec",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "pnpm-exec"
+      ]
+     }
+    },
+    {
+     "scope": "cite/port",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "port"
+      ]
+     }
+    },
+    {
+     "scope": "cite/ports",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "ports"
+      ]
+     }
+    },
+    {
+     "scope": "cite/provider-missing",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "provider-missing"
+      ]
+     }
+    },
+    {
+     "scope": "cite/refuse",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "refuse"
+      ]
+     }
+    },
+    {
+     "scope": "cite/spawn",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "spawn"
+      ]
+     }
+    },
+    {
+     "scope": "cite/stale-process",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "stale-process"
+      ]
+     }
+    },
+    {
+     "scope": "cite/store",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "store"
+      ]
+     }
+    },
+    {
+     "scope": "cite/store-root",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "store-root"
+      ]
+     }
+    },
+    {
+     "scope": "cite/symlinked-tree",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "symlinked-tree"
+      ]
+     }
+    },
+    {
+     "scope": "cite/two-writers",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "two-writers"
+      ]
+     }
+    },
+    {
+     "scope": "cite/witness",
+     "measure": "cites",
+     "role": "reads",
+     "bound": {
+      "kind": "enumerated",
+      "values": [
+       "witness"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
