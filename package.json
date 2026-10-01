@@ -1,0 +1,42 @@
+{
+  "name": "@lapxo/topos-json",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A JSON document read as what it says: the names it cites, its fields and its cases, and the vectors a place runs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Lapxo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapxo/topos-json.git"
+  },
+  "keywords": [
+    "topos",
+    "capsule",
+    "reader",
+    "json"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22.12"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "TARGET.bound"
+  ],
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "@lapxo/topos": "0.1.2"
+  }
+}
