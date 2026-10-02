@@ -1,6 +1,6 @@
 # @lapxo/topos-json
 
-![version 0.1.1](https://img.shields.io/badge/version-0.1.1-8c959f) ![license MIT](https://img.shields.io/badge/license-MIT-8c959f) ![node >=22.12](https://img.shields.io/badge/node-%3E%3D22.12-8c959f) ![dependencies 1](https://img.shields.io/badge/dependencies-1-8c959f) ![cases 0 hold](https://img.shields.io/badge/cases-0_hold-8c959f) ![verify agrees](https://img.shields.io/badge/verify-agrees-2da44e)
+![version 0.1.2](https://img.shields.io/badge/version-0.1.2-8c959f) ![license MIT](https://img.shields.io/badge/license-MIT-8c959f) ![node >=22.12](https://img.shields.io/badge/node-%3E%3D22.12-8c959f) ![dependencies 1](https://img.shields.io/badge/dependencies-1-8c959f) ![cases 0 hold](https://img.shields.io/badge/cases-0_hold-8c959f) ![verify none](https://img.shields.io/badge/verify-none-8c959f)
 
 A document says what it holds.
 
@@ -23,8 +23,15 @@ A document says what it holds, and it cites the names it is built from. Both rea
 Add to your lock:
 sources/topos-json value=github:Lapxo/topos-json
 uses/topos-json sha256:<release digest>
+https://github.com/Lapxo/topos-json/releases
 Fetch the release asset, verify its sha256 equals the uses/ line, place it in bound/cas/blobs/. Fold: its pages appear.
 open: line/install needs=host/resolve — when bound resolves sources/ itself, the fetch line leaves the page by fold.
+
+## How to read it
+
+json is read one region at a time, and each answers one question.
+
+- **json-cites** · which names a JSON document cites
 
 It rests on topos.
 
@@ -33,3 +40,7 @@ It rests on topos.
 ● 0 cases hold
 
 ● `npm ci && npm run build`
+
+## Pointers
+
+- [Reference](docs/reference.md)
