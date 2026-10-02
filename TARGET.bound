@@ -1,0 +1,921 @@
+# rendered from ledger/owner
+# refuse audit/the-reader-compares · REFUSE·authority lane-A does not cover audit/the-reader-compares
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=status role=demands scope=audit/the-reader-compares shape=decision sig="ed25519:era1:k3fdzAUbYLMYe6TB7JcVqaIa3wzEBeCi0YEU8ah75tUsH2Dzp/uHJL5pS5o0cBxKSjZ85DLXvZBHdAnAOHWpDw==" value=present
+# refuse audit/tree/block-names-its-law/topos-json/** · REFUSE·authority lane-A does not cover audit/tree/block-names-its-law/topos-json/**
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=interval measure=count role=reads scope=audit/tree/block-names-its-law/topos-json/** sig="ed25519:era1:Kz/bfdXUiJTF49d8il+1J5vwNEyQqZCUOjQ9Bc4IR1i+DiEV4Dtvz0t7Bnkmj/NefdHdBJxG8rAeRqxA8JAyAA==" value=0..1
+# refuse audit/tree/exports-resolve/topos-json/** · REFUSE·authority lane-A does not cover audit/tree/exports-resolve/topos-json/**
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=interval measure=count role=reads scope=audit/tree/exports-resolve/topos-json/** sig="ed25519:era1:1lKt8D9Joy1OEv8k7cy9IdRuRqZfkLTUzByRfAIM8C2/EqmCsU8cVipPiUDuB7/YWQwMzyabVAkC8CuLwvNEBw==" value=0..1
+# refuse audit/tree/runner-is-a-blob/topos-json/** · REFUSE·authority lane-A does not cover audit/tree/runner-is-a-blob/topos-json/**
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=interval measure=count role=reads scope=audit/tree/runner-is-a-blob/topos-json/** sig="ed25519:era1:W9I418XOi6CSs4ueN0QdpvZ2TGG6n07cCqmHuGwaAhfKHdJvubPgRcO0ElwszMuB57ws8q0zkqGicNZe/nCGAg==" value=0..1
+# refuse audit/wire/acts · REFUSE·authority lane-A does not cover audit/wire/acts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/acts sig="ed25519:era1:iYoqkrRy4CE584IyAdYRbnsDiyC+Tb7JsyzNjRtwzztquaxLO4KwxYzJzx0jV5yXm8f1NUUemVOpEdcO00fhDA==" value="observe:role=writes|withdraw:value=withdraw|sign:reads,interval,hi|require:reads,interval,lo|join:widening,at=witness|refine:@res"
+# refuse audit/wire/at-classes · REFUSE·authority lane-A does not cover audit/wire/at-classes
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/at-classes sig="ed25519:era1:Ylcros48wYXP4COadh0O7Oa9NiwDj/eT2tntzs7V78x4NYg8CWuQDGlh3b4OnvLN7IeiR4P4ppdIuQMZ3n9GDQ==" value=origin|place|receipt|witness|policy
+# refuse audit/wire/badges/world · REFUSE·authority lane-A does not cover audit/wire/badges/world
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/badges/world sig="ed25519:era1:qVHidvEs7cafYhAnZ9tSQP9ZpoFDFy7Z3bjr/VFFlV+2CKc725Ggq8zwY9rt97dWhimXnvhA/rf4/Xo0/PeYAA==" value=version|license|engines|dependencies|cases|verify|doi
+# refuse audit/wire/digest-algorithms · REFUSE·authority lane-A does not cover audit/wire/digest-algorithms
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/digest-algorithms sig="ed25519:era1:DDiXgqVW8m8jF02Bml5gc3DBM5qf+p9SPJekIDZs5dPxfGtqtnvZd1P4y6cZ0S0r1/n1VA1Hu6HqPhD6o/hJDw==" value=sha256:era1
+# refuse audit/wire/effects · REFUSE·authority lane-A does not cover audit/wire/effects
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/effects sig="ed25519:era1:lJgqLf+4uPllHPF73ODcigFtsSbEJGeF1fxvrQeaCvbLO8JXXSiPFs50h5p0xveTMix/XpZ0m4KAuk1jdJJeCQ==" value=none|network|sql
+# refuse audit/wire/era · REFUSE·authority lane-A does not cover audit/wire/era
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/era sig="ed25519:era1:RggjB+s1H5ccLkR4Qz6BRibaH+gwnAXbXikZYAyoCsuZrBzDmyLt0VndSNSHxEz/eayN2HxCwciHckQjHu0qBA==" value=era1
+# refuse audit/wire/facts · REFUSE·authority lane-A does not cover audit/wire/facts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/facts sig="ed25519:era1:TZZra5O6OUNeLjRUtHmmJ2jb+nF+lw4iVZQp01ogC1br+85IHfBpUAHV+xM4zChuwq1S//YqNykqcqqwrDYiDg==" value=fact
+# refuse audit/wire/families · REFUSE·authority lane-A does not cover audit/wire/families
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/families sig="ed25519:era1:/sAB1IwPQnIym0hjQrOdvCsQWfkoGZ++Us39T/2zN1PN1I6PiX4+WGZrftaVfnxeeprQWEzIpldv/Lm+I5egDQ==" value=audit|beat|block|cites|comments|concept|cost|dep|effect|fold|hazard|keys|law|license|lines|literal|offers|question|reader|region|render|roles|sample|session|take|test|tree|vector|view|write
+# refuse audit/wire/fields · REFUSE·authority lane-A does not cover audit/wire/fields
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/fields sig="ed25519:era1:5sf0ziy+FOhI1YtiFp6O0dv54a7LFbm4Z9RWEWcG7Uel1Qmepuvj9k9nQDtKkcxj7GztlJmwA/en+72IrZoKBQ==" value=scope|role|form|measure|value|by|at|needs|sig|epoch|shape|restsOn|condition|about|kind|view
+# refuse audit/wire/form/at · REFUSE·authority lane-A does not cover audit/wire/form/at
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/form/at sig="ed25519:era1:SedFrs+BkecBziWPMkWFkDmkflqRf3Il4uiR7jv4jOtWog/+3hZrVSYRJ7fKoiaCMlBPfa+ciGNgiHK227bFDg==" value=class
+# refuse audit/wire/form/epoch · REFUSE·authority lane-A does not cover audit/wire/form/epoch
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/form/epoch sig="ed25519:era1:l8sLbXwuqvLxDwLiPKa+iXClxjcm6cTyLtNeO/pZkSqu9j+nTi1+lI5EE+1AaBGdehGmE48fnjr1d7xUzzojCA==" value=count
+# refuse audit/wire/form/kind · REFUSE·authority lane-A does not cover audit/wire/form/kind
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/form/kind sig="ed25519:era1:ML9sqsB2Z2zj2QT+eNlArYdSAxvmf49mG1IxcYTdvebBKJFUtCU2EGqQbWG6iADRPEKY8efTBOz6i9mv9JFeBg==" value=kinds
+# refuse audit/wire/form/needs · REFUSE·authority lane-A does not cover audit/wire/form/needs
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/form/needs sig="ed25519:era1:xzlBdOG9bL9zt3mR3A9UUdhxKdcsSqqVzhFSgoEvPvlKAL0jZ6jl9Uy035/fekH7UVZs/VXPBUrueNPwQyy8BA==" value=region
+# refuse audit/wire/form/sig · REFUSE·authority lane-A does not cover audit/wire/form/sig
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/form/sig sig="ed25519:era1:oFhkFBR193hvKOsfwpxtnfnAQPM71zF1YSakAgUd4O7ci7z0vNJAdN4FUdsf29TtZMhPy133s4Xvv+YDrBfOAQ==" value=signature
+# refuse audit/wire/form/view · REFUSE·authority lane-A does not cover audit/wire/form/view
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/form/view sig="ed25519:era1:/al9YSU8twnXALIDxWSQuKfcX+QKN3bt8w9dqMhfBdJx1+28I9GsNwnwb8SBJsnysqQxOPw2K5++XpCQmE7cAQ==" value=views
+# refuse audit/wire/forms · REFUSE·authority lane-A does not cover audit/wire/forms
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/forms sig="ed25519:era1:BJMHX5AZOO1EolwXXxNuOopkSizyqZjYogGub1gQCw/3d8p+7VUDjucQgu3D8bZqQcncwlYDqcQ+VMj2008iBw==" value=interval|alphabet|ladder|formula|budget|rank|phase|stretch|distribution
+# refuse audit/wire/kinds · REFUSE·authority lane-A does not cover audit/wire/kinds
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/kinds sig="ed25519:era1:yQal7/0F2mvQVUWJVc6uE9JuMOIT7aKI1AkxqvkfR1zDpDLxQns7cjXDpSLCj3/NOT0SQT1UtSOschG8QX9uAA==" value=axiom|definition|theorem|corollary|js|wasm|process|conjecture|form|check
+# refuse audit/wire/live · REFUSE·authority lane-A does not cover audit/wire/live
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/live sig="ed25519:era1:dlnysuAEXIAQvUz03+bkdzAmCGLMfBTIPi4Ve/FH5bEye+3To5BggVxtZJmqUwoW4t/ko+KETsLvqasD/YZHBg==" value=beat|cost|verify|attest
+# refuse audit/wire/offers/world · REFUSE·authority lane-A does not cover audit/wire/offers/world
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/offers/world sig="ed25519:era1:fd+GAEyVMBHrCuUyzPBPFHR+bmPosr9VkHaBpOWMpqOk+Hv0Wf4SJqMJeE7j7bclpqWHuNnBxhOFPpvT2CINBQ==" value="artifacts=src/**/*.js\\|src/**/*.ts|capsules=./|concepts=src/**/*.ts|hazards=**|laws=**/*.bound|packages=package.json\\|tsconfig.json|said=src/**/*.ts|source=src/**/*.ts|vocabulary=src/**/*.ts"
+# refuse audit/wire/pipeline/world · REFUSE·authority lane-A does not cover audit/wire/pipeline/world
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/pipeline/world sig="ed25519:era1:mK5H7ndpOd/e5oX0JehwU5HxzYVXhfXC2mjtb9IT6+XrjDW/EvEOZvdIvh5bGb43pw+j9SZhiEth94BO9qcFAA==" value="branch=main|runtime=22|version=node -p \"require('./package.json').version\""
+# refuse audit/wire/questions · REFUSE·authority lane-A does not cover audit/wire/questions
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/questions sig="ed25519:era1:5lMrzAiPBVvIs8/rfNF5/4D8riGnfSDsqp0NzBP2LD+wSFKrm5MhGoMv5REyFVubnpFSQIq4GY7azg6fUA7EBA==" value=source/answers|source/arrow|source/calls|source/carries|source/declared|source/lang|source/literal|source/returns|source/signature|source/union
+# refuse audit/wire/receipts · REFUSE·authority lane-A does not cover audit/wire/receipts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=resolution role=reads scope=audit/wire/receipts sig="ed25519:era1:nKiioGgBTkKbtU5VZw2AWdT1Mo4/dc3P+zumio9C4OwhHqTsmUar7U/t+V+6e+eZXyQu378/fDJrJG7gn4uLCA==" value=0|1|8
+# refuse audit/wire/region-measures · REFUSE·authority lane-A does not cover audit/wire/region-measures
+bound-lock/1 at=policy:wire/region-measures by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/region-measures sig="ed25519:era1:B6xGOXcvi4SfQ5yiSRttzCgSLs81GBpRLqJt8IoVUAnZMiWTFoTAZY7rhbPKcV5Cme+00eCSRkdTO9Xyrde0CQ==" value=coordinates|leaves
+# refuse audit/wire/required · REFUSE·authority lane-A does not cover audit/wire/required
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/required sig="ed25519:era1:3MYLyZ3Vdzg/kTb1SYUzgyXRNgPuWeK0eoLTXs53w+cDYwiX4DY3v+Gepg0QgMD1iFaC2knpLDNDUuIi/u/1AQ==" value=scope|role|form|measure|value|by|at
+# refuse audit/wire/roles · REFUSE·authority lane-A does not cover audit/wire/roles
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/roles sig="ed25519:era1:MlpJ4FtFsAj3yLpRZEcnigmBjEPmqzH8ZMnUklQn7By24Dmm4MW3zARDAM3+6dhnOti4rKyPRXtIVg8eM4kKDw==" value=reads|writes|demands|source|render|receipt
+# refuse audit/wire/rows · REFUSE·authority lane-A does not cover audit/wire/rows
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/rows sig="ed25519:era1:E/+PFE6fQySWvkWgyKBKTNn3kTCGXuwW+diQssOJGmrdUdqAZ0nH8fEFGVtWHsgjD/6AMLiphvZDqh8uVfOyBQ==" value=claim|held
+# refuse audit/wire/shapes · REFUSE·authority lane-A does not cover audit/wire/shapes
+bound-lock/1 at=policy:wire/shapes by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/shapes sig="ed25519:era1:LDJDO1cKSHBSh091J8PICTkXuz2H9LZ6K4x+A1rUsK6j0tUpWfrIIi/na1pLGjaTgf3PAq9A3dmcGen+EQWLDw==" value=decision|lock|package|reader|render|run|vector|view
+# refuse audit/wire/ships · REFUSE·authority lane-A does not cover audit/wire/ships
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/ships sig="ed25519:era1:GipzfcrA3Zg6qkMI3BUEIW6L7iQhNWMOtXFTZnK5UHuKfhOflZ75Nqp6PHO+31UzKMvawwX6xPDkamOB95jqAQ==" value=dist|README.md|LICENSE|TARGET.bound
+# refuse audit/wire/signature-algorithms · REFUSE·authority lane-A does not cover audit/wire/signature-algorithms
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/signature-algorithms sig="ed25519:era1:kf2F12alY+Ibve9zPSUhTmj4UhpdVRtUf/h50SQsfBTGxf94Z6s/g+uAVou6OyKe+u6iCyuOYqvLegDHDz/3DQ==" value=ed25519|sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834|ed25519:era1
+# refuse audit/wire/states · REFUSE·authority lane-A does not cover audit/wire/states
+bound-lock/1 at=policy:wire/states by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/states sig="ed25519:era1:x0ADLI0AQcBylIZy9/RWwtmYOoV8g4lJgZS6krmNSayj+vLp5u4d5t2D8hmxZV29w7phO+RvWZhwI1QLkgHfBA==" value=absent|present|unread|withdraw
+# refuse audit/wire/templates · REFUSE·authority lane-A does not cover audit/wire/templates
+bound-lock/1 at=policy:wire/templates by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/templates sig="ed25519:era1:PvNVwlwLEHLVUWW58E20DU1qrVKz4mfC2XKUcdqkaggpkGSlIlWb9oUOlM721Hslg946k4D1pbEQwRU4Qsv3Bw==" value={cone}|{roots}
+# refuse audit/wire/verdicts · REFUSE·authority lane-A does not cover audit/wire/verdicts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/verdicts sig="ed25519:era1:UoaH+w5Hoq6v3B2dzTez+TcgCvDeGymWuN8tVQXLMbXsUfbw57NkDmfVdpT+KVJkmk6h109qGfCEJ8w51MZCBQ==" value=agrees|forks|stale|grey|none
+# refuse audit/wire/views · REFUSE·authority lane-A does not cover audit/wire/views
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/views sig="ed25519:era1:Yf3GsH7UGUQ1BNwq0BuK53lcLVu3sFC+Kv87L8a14w7FiwbhfQPU0p1zA/Is+mJu6y2nsqtK/ZaXpsqt+HIXCQ==" value=field|spectrum|ideal|chain|complement|dual|product|quotient|valuation|galois
+# refuse audit/wire/views/world · REFUSE·authority lane-A does not cover audit/wire/views/world
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/views/world sig="ed25519:era1:tPrOWEI5zsOwx7z3zvsrSCCsvU9h9Xf2LtkQEFhxK3Ss8Xs5F1qqj0HFutgAcUCD19VLwCiV5PF7SWzP7HQtBw==" value=citation-file|gitignore|guide|manifest|pipeline-release|readme-capsule|reference-capsule|tsconfig
+# refuse audit/wire/worlds/documents · REFUSE·authority lane-A does not cover audit/wire/worlds/documents
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/worlds/documents sig="ed25519:era1:ItsA7/1XXhuPhhJqgO7OfaF7QgaXKF1PftMaqP9XKjMGODk5Z7wAbe0M3lPwsynJEDF0uwL7eq8reAGpG9BpDA==" value=readme|markdown|svg|mermaid|cff|doi|badge
+# refuse audit/wire/worlds/forge · REFUSE·authority lane-A does not cover audit/wire/worlds/forge
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/worlds/forge sig="ed25519:era1:Pmrc0/1yGBq6medjtUh/5rSKTijSmV2Iha9mdfLndvgY4GVzNkGmRKycJODwwapSbc2VIufqLAVn2MPkLUpqBw==" value=github|workflow
+# refuse audit/wire/worlds/packages · REFUSE·authority lane-A does not cover audit/wire/worlds/packages
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=reads scope=audit/wire/worlds/packages sig="ed25519:era1:2poD7WQa0BOrnluDkCThBYiugiqDRjTJ16LiQN5aaGJS8i4enZ4JnA0iH9XUvmg4gM5jgvL3PjOcDGrlP1UBCQ==" value=npm|tsconfig
+# refuse author · REFUSE·authority lane-A does not cover author
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=author shape=package.json sig="ed25519:era1:3+nYmJW4iWZwf3sg4UPuvcWPZ5HvWzcQWQKdXE57e9JbqFgcIu8L8CTPI3FHz65JuSvTa71sVmKass0ZJ1/YAA==" value=Lapxo
+# refuse build/allowImportingTsExtensions · REFUSE·authority lane-A does not cover build/allowImportingTsExtensions
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/allowImportingTsExtensions shape=tsconfig.json sig="ed25519:era1:ldr9urSGp7E28RWWnqIJywlZzSnaiLH5AdNhicMLvJ68LI8QM33oTkPV0jX67WAaJj220RjJNisDoMcq5NSdCg==" value=true
+# refuse build/declaration · REFUSE·authority lane-A does not cover build/declaration
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/declaration shape=tsconfig.json sig="ed25519:era1:wuyZ1QOXsm+h/DWsjYLLdmN2yFV4h8gBTnsLd/Mp0S5U3EaLHrqGTjG6m78pUmidHl5p8PhHKQlE7nvGCpfmAw==" value=true
+# refuse build/esModuleInterop · REFUSE·authority lane-A does not cover build/esModuleInterop
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/esModuleInterop shape=tsconfig.json sig="ed25519:era1:5B4nCucAb0sCqVtK4dA1RqO664Q4Bhq+7jbDmiLWjBBudThuENW37sHW/FyjQlJAHiviFcwmXy5uMR9KjwuKBw==" value=true
+# refuse build/forceConsistentCasingInFileNames · REFUSE·authority lane-A does not cover build/forceConsistentCasingInFileNames
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/forceConsistentCasingInFileNames shape=tsconfig.json sig="ed25519:era1:X+QjhC43+ftpawEiBsFKXwX76tQqsxs3bRJg6WAMM2C2jrPAc4WRyNl0m5H3bzvgrANqfaaQeWYvu5c4mj+/Cw==" value=true
+# refuse build/include · REFUSE·authority lane-A does not cover build/include
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/include shape=tsconfig.json sig="ed25519:era1:J4LhPRwue3qISzTjA46En/r2gheHQ3gkbAhOmvnI3fecHziJ0ozjf8s2GN9Ed0X7AWxe2wr9HrEOgelMikM3Bg==" value=src
+# refuse build/incremental · REFUSE·authority lane-A does not cover build/incremental
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/incremental shape=tsconfig.json sig="ed25519:era1:JNh2qeHlbEyKLlcENbHP1EHfjkP1VteNicbLpsTZNsFCCdWpbb+qj5dKsRvIyZ/FyHkWsHPEIdephOpIMtSaCQ==" value=true
+# refuse build/module · REFUSE·authority lane-A does not cover build/module
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/module shape=tsconfig.json sig="ed25519:era1:yeNp84T0Dhr3ipOxi/PxfNIKVHith3/TKFTkkadIxKGoEsBT/Ph+QGuhfC0pTd//USVXC3kqJV23JFmgkz6yAw==" value=NodeNext
+# refuse build/moduleResolution · REFUSE·authority lane-A does not cover build/moduleResolution
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/moduleResolution shape=tsconfig.json sig="ed25519:era1:mYy+HDxHF4GqbrHjL90BQDYLHBmt95ryQ9xYvW7t63hvQYn02/z+37VR83iEp2uWkD+voh+ytGb03z0daOreDQ==" value=NodeNext
+# refuse build/noFallthroughCasesInSwitch · REFUSE·authority lane-A does not cover build/noFallthroughCasesInSwitch
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/noFallthroughCasesInSwitch shape=tsconfig.json sig="ed25519:era1:pjzTfd+AUDbBWrXS/6cKlF2OB5yQU6qqRB5gOxyGezFlYrE3C3sOUfslWAVgtGhtB86krbFlNQYLP0jxwN2lCw==" value=true
+# refuse build/noImplicitOverride · REFUSE·authority lane-A does not cover build/noImplicitOverride
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/noImplicitOverride shape=tsconfig.json sig="ed25519:era1:PdCa/Bnv1PzzQY+sRU4IupQUIL0I5Oo3GkowI3YVpB1Ki9Dym/s6WmKbw18efvXw+VWIYrGYlTFiBu+6suZPAA==" value=true
+# refuse build/noImplicitReturns · REFUSE·authority lane-A does not cover build/noImplicitReturns
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/noImplicitReturns shape=tsconfig.json sig="ed25519:era1:/k4NGbfVht2wq8fj61sHE+9VWUaZU++C0+Vx6/etKpAU6nrqGXmuHeb+VudBOptbuX7l4Fwb2GXwLFi763BbAw==" value=true
+# refuse build/outDir · REFUSE·authority lane-A does not cover build/outDir
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/outDir shape=tsconfig.json sig="ed25519:era1:rtpJPCOz0cUuweL2Lr0VFeDwqTPC39si1p/MyTc0i/q2pljqRek9NdlsBr8Lf7oi74OCaMOSyjsVqg38fNCDDQ==" value=dist
+# refuse build/rewriteRelativeImportExtensions · REFUSE·authority lane-A does not cover build/rewriteRelativeImportExtensions
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/rewriteRelativeImportExtensions shape=tsconfig.json sig="ed25519:era1:t93F68btVMW5jWdn9Ae+W9Fc2bpGmhAEIi5sNQFqwk13v+sBCcqgxjBMjWnB1rXC1+Rt9796pOYJ87LiHUjkAQ==" value=true
+# refuse build/rootDir · REFUSE·authority lane-A does not cover build/rootDir
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/rootDir shape=tsconfig.json sig="ed25519:era1:pfQsEW8BHbWdYlRs01BQusszXtdyRmfYuSdl2smuJ1O1QEPtNTOJz5Ok/tvg1D6hzqDmaWNsWWeCA5fbJkHBBQ==" value=src
+# refuse build/skipLibCheck · REFUSE·authority lane-A does not cover build/skipLibCheck
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/skipLibCheck shape=tsconfig.json sig="ed25519:era1:r5wQcrC7gdE7Ytza3zFuw8gP9aDQ9LXDe1cC9o/TCm9m9tdjmlRHgGrdeHJy3rleA+c/iQcpQN50sp2Cch6cDA==" value=true
+# refuse build/strict · REFUSE·authority lane-A does not cover build/strict
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/strict shape=tsconfig.json sig="ed25519:era1:x4cqZuB9CZDI2mSV8BbPinEURq8Lkj9+nzPsGJUX6NmnWMTKKN6gff+GGZHzr4uowhm69ItVA2umAaq3gwTODw==" value=true
+# refuse build/target · REFUSE·authority lane-A does not cover build/target
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/target shape=tsconfig.json sig="ed25519:era1:xRG3J8aUrvS2LnW2nPq/xPlGkPNfEaTd/b9N5rcM2Fk6s2qmCWqNfdUI/1Bq15wguBx9XLAZUa5aZQXSF28XCg==" value=ES2020
+# refuse build/tsBuildInfoFile · REFUSE·authority lane-A does not cover build/tsBuildInfoFile
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=tsconfig.json role=writes scope=build/tsBuildInfoFile shape=tsconfig.json sig="ed25519:era1:R9xmuyehxSBdSKut68KEXAZGZJq0+T7DsHL1gC3/DcodRBbSn/1TWHGenfmpcuN7qKEIhCdxmxFvI6pMoaHgDA==" value=.cache/tsbuildinfo
+# refuse check · REFUSE·authority lane-A does not cover check
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=check sig="ed25519:era1:8p7660gNo08Fc0YS3qc5a8g6YTcR6TMoKk7g1EMf0XLyj7gprhU8XWMAdGKjA/Fa6y9aodpTuwHHPUeUQI/MAA==" value="npm ci && npm run build"
+# refuse cites/two-sided-constraints · REFUSE·authority lane-A does not cover cites/two-sided-constraints
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=author role=writes scope=cites/two-sided-constraints sig="ed25519:era1:iiIKnhFuGNRo8CFzKfOalB2VeWYPVzOsI2JE+houOsU8kHdprOBnR19F7zgNfkmTpq16vOI+xObFKSg8tthqDg==" value="Ochoa, N."
+# refuse cites/two-sided-constraints · REFUSE·authority lane-A does not cover cites/two-sided-constraints
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=doi role=writes scope=cites/two-sided-constraints sig="ed25519:era1:XOi7QM0i+vI8LcsrSqYhaVO/6bu5JDfVEAxXAs/ve14B2g45pj7AnOl3oXY6xt091EB2ElD3yNJm96yOQOEEBw==" value=10.5281/zenodo.21858428
+# refuse cites/two-sided-constraints · REFUSE·authority lane-A does not cover cites/two-sided-constraints
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=publisher role=writes scope=cites/two-sided-constraints sig="ed25519:era1:i9hp5rSNmqNGIrvtrq8luf9X6D7eJUGY5c0UXhIcd4Ui62WF2oGVKu7Ev+o9E3IEcXByZk0y3KLlqaenPsZoDA==" value=Zenodo
+# refuse cites/two-sided-constraints · REFUSE·authority lane-A does not cover cites/two-sided-constraints
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=version role=writes scope=cites/two-sided-constraints sig="ed25519:era1:WEEI9G4Lm3HIz/N5gUAWQGBPs/e2Tk9UbUtyeXuOX4h1ElKyC11OClKQaQ24MHTYpq8XJD5kCbvUDAjCQnM3DQ==" value=1.0.0
+# refuse cites/two-sided-constraints · REFUSE·authority lane-A does not cover cites/two-sided-constraints
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=year role=writes scope=cites/two-sided-constraints sig="ed25519:era1:JZo5cdpwcEjFn2rpLf40C+npGplVWz7ZdwQ7IN39gjaITMQ4i9IQg4ke4VfBFGuGe2fLNKW1c25zAKY+KprMBQ==" value=2026
+# refuse claims/1-costs · REFUSE·authority lane-A does not cover claims/1-costs
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=receipts.bound role=writes scope=claims/1-costs sig="ed25519:era1:QQCb0F8hMuFGp9nkuL8Q8PqLm78iA12530vw7Qm3RBNj4CwZsntQRLfRcYS1brBm834ABmHQ/VaQMYW1/M5EAQ==" value="dependencies=dependencies"
+# refuse dep/topos-json · REFUSE·authority lane-A does not cover dep/topos-json
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=dep/topos-json shape=dist/index.js sig="ed25519:era1:r0eoDsD+sUNddtBqwxIqmTNmgA66DJyeAMN8D5LGfUH2f5EZed1OfmvZPkLS+6MVPhHQbXzTRgkfa+aty+aADg==" value=sha256:5622d130682a7ea4e7f9c87614c9fbaf9e1f57867db928dc8f8074629b034957
+# refuse dep/topos-json/born · REFUSE·authority lane-A does not cover dep/topos-json/born
+bound-lock/1 at=policy:bound/capsules by=lane-A epoch=1 form=alphabet measure=id role=writes scope=dep/topos-json/born shape=dist/index.js sig="ed25519:era1:bMZlyUNm/CXmwXYb5PWMv6AhG2rbWx21kJHp9/lVlVRO/QJFtob9gqpViKRCRrpexu7nwsARMBdYzyQ6O5U0BQ==" value=sha256:5622d130682a7ea4e7f9c87614c9fbaf9e1f57867db928dc8f8074629b034957
+# refuse dep/topos-json/own-what · REFUSE·authority lane-A does not cover dep/topos-json/own-what
+bound-lock/1 at=policy:bound/capsules by=lane-A epoch=1 form=alphabet measure=id role=writes scope=dep/topos-json/own-what shape=dist/index.js sig="ed25519:era1:rZD/soCDHVOTH0gSiJs/+2KaOYDvLprVFKScPFaoISaDRlT63kxEuL7mxwbKkotsBCFsOLnbHOkbGCZAT5WZAQ==" value=sha256:5622d130682a7ea4e7f9c87614c9fbaf9e1f57867db928dc8f8074629b034957
+# refuse dependencies · REFUSE·authority lane-A does not cover dependencies
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=dependencies shape=package.json sig="ed25519:era1:+Oul/I1s0RzgmqBvVuTV6fB6TFKAudie/7L0UmCRlg61bYYO4b263y0Iqwmyh3uuT/6IklJst0E8lDt8SUUMCA==" value=@lapxo/topos@0.1.2
+# refuse docs/reading · REFUSE·authority lane-A does not cover docs/reading
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=docs/reading sig="ed25519:era1:9qme71aeUmcupNA/moWYv/SbSuxeO95BPpfgugTKvo2i8ldrXEQDiVO5OeJIJGfMMKEtj0WjPw4D+EZ1hRR2Aw==" value=json-said|json-cites
+# refuse docs/tagline · REFUSE·authority lane-A does not cover docs/tagline
+bound-lock/1 about="A document says what it holds." at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=docs/tagline sig="ed25519:era1:nP/XVQZs3687RoTzEX5ZodEE0+aKaA0PogaePcDGelr5ZBgWDHkOl20ppEcjHKX0gkP2Y/W94cQ4B8bEUVtqBg==" value=lock
+# refuse docs/what · REFUSE·authority lane-A does not cover docs/what
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=docs/reference.md role=writes scope=docs/what sig="ed25519:era1:bmwOpzSRa9Kf7lWH9p/DkWG/TV/M9C9XtPL1mYeO6HgXj2wWONc4DR45hYocOkrMpCNI1ktY4FFCO3bjAxCADA==" value=docs/reference.md
+# refuse docs/world · REFUSE·authority lane-A does not cover docs/world
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=docs/world sig="ed25519:era1:R0TnC3EBxTjDwJS28q3XE2XRR5gYOSnTtrjXm+Gav9ufEQ1ikZ2HbYX1elT2qTE+lWA5DxMh1huXFwxS6WUsCw==" value=document
+# refuse engines · REFUSE·authority lane-A does not cover engines
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=engines shape=package.json sig="ed25519:era1:1XCpVcmFICkNGWKlNNUZ1qAgs+9aLj3/fNmqVREs2zu+FVXvLhnwDHTN1LeWIUNWu+VuEw/sah0HSPXXoPh5Aw==" value=">=22.12"
+# refuse exports · REFUSE·authority lane-A does not cover exports
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=exports shape=package.json sig="ed25519:era1:ttIFRMbfVkIF3dMnZT3tg6ntiK3EZEPSSonysRw/CBbQq9vpHo6/38EOKEyGHp5FJFxeZNClxJbYRhYzGgyJBA==" value=dist/index
+# refuse form/figure/fold · REFUSE·authority lane-A does not cover form/figure/fold
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/figure/fold sig="ed25519:era1:NVE5rVh8NSIMNqxyrsyh8QWwpk1XiWHcLeACTmQ9fP7TrZRE+Fl+LIM2riZ2S/VFzmaMH4YkxFDK0e3nKvt2Dg==" value=REQUIRED|FREE|CONFLICT
+# refuse form/figure/line · REFUSE·authority lane-A does not cover form/figure/line
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/figure/line sig="ed25519:era1:NNGYG7b6/BccWQZMPv3s94MWVS6bbVD8BebfIXKLxJiuBvYtgAhihGlSea2VQ6qYkRlchhXswu11hn9mH3w8DA==" value=scope|role|measure|form|value|at
+# refuse form/formula · REFUSE·authority lane-A does not cover form/formula
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/formula sig="ed25519:era1:HLwsTPZmcPb/NDvxCHFjpMDiLgvvcN/Vk/tRGwxRrlTsWYyBHkvrBJ8aomVbd/FgzrCJ4+7kzThWRgc9N2VhDQ==" value=text|latex|mathml
+# refuse form/page/example · REFUSE·authority lane-A does not cover form/page/example
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/page/example sig="ed25519:era1:sWGFq6lTJq2BrzuW48dQ+A5ykcKE0pXaAuVR8lACFSItwUw/9lbux6UhN54E+syN8IRF4XIIiFTXe13BZWlNBA==" value=15
+# refuse form/page/learn · REFUSE·authority lane-A does not cover form/page/learn
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/page/learn sig="ed25519:era1:2xnwNEbPl6ExoY7+uwS6grePwgKG4NTAoehuibBAbQnj9B2gh5TYH9RVlrCn3RxZpFddkKQN5fZJ6TV3O5bFBA==" value=1
+# refuse form/page/statement · REFUSE·authority lane-A does not cover form/page/statement
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/page/statement sig="ed25519:era1:4a3SXcSCL58J46gbnUQDYrZ70bSHsO3vVHebd3Av0pbSWBCXKhnmjeU/Pcd+F8wGt0kul4Q0urZRE41xLhm8CA==" value=3
+# refuse form/page/whole · REFUSE·authority lane-A does not cover form/page/whole
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/page/whole sig="ed25519:era1:IHmALtZ1oG3BbPwYZmfLiTiKpfvxzQhlTkXkE0vxk/lklKiNKLCNeBMTvZGPU7htMG2QwVOQ3/dHzn2w2JctBw==" value=8
+# refuse form/prose/en/heading · REFUSE·authority lane-A does not cover form/prose/en/heading
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/heading sig="ed25519:era1:Q77bMuu90FMH7ji0YtgCJZvy9ijuEw6o8eAHCzbHkxd3/gbM+Rdd3iS1GGJADsDiAxgzU7oEX+yq9Qk/D8UiBg==" value=capital
+# refuse form/prose/en/list · REFUSE·authority lane-A does not cover form/prose/en/list
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/list sig="ed25519:era1:qqSVBB38rRUna5eFyIgMlaGIEnclUTuZ68/Xw0945QZr9VbUQJ1T2L8rqOlXkNwuZ8kOH/4ex5h+NWE3ZR1KCQ==" value=", | and "
+# refuse form/prose/en/numbers · REFUSE·authority lane-A does not cover form/prose/en/numbers
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/numbers sig="ed25519:era1:torhF4HWR9mSzyBznhwuhUDU0I4BDIM00L6jmU4F0XyYIK/8ZV/mF82+zX+hY03HG+v776kqhJPKT8uoH+kHDg==" value=no|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve
+# refuse form/prose/en/page/badge/cases · REFUSE·authority lane-A does not cover form/prose/en/page/badge/cases
+bound-lock/1 about=cases at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/cases sig="ed25519:era1:gLKSo8bIQQxonTn4u9z2hnbvIEWURflWqImfTZ1AU5wn8AJkldeQxOml50MPeyFEgoM01prwNP9+ibDvWEPXCA==" value=lock
+# refuse form/prose/en/page/badge/dependencies · REFUSE·authority lane-A does not cover form/prose/en/page/badge/dependencies
+bound-lock/1 about=dependencies at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/dependencies sig="ed25519:era1:rLbVQ9sX5/scc2Kq4shAbRLim/V/jgUiGwJWgO0VGzZV4lIjjFCDga/Pq7uh1rNqxEXlGdgh/2Rv+z9hJeL8DQ==" value=lock
+# refuse form/prose/en/page/badge/engines · REFUSE·authority lane-A does not cover form/prose/en/page/badge/engines
+bound-lock/1 about=node at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/engines sig="ed25519:era1:NZOxhXrDQ0WrtdQvP4hLI5NlGXIKKJhDfd7xSECZZEOvkXtTjjZecpQyHo5ByFQrIoEc7TUtelUS4khO7wlmCQ==" value=lock
+# refuse form/prose/en/page/badge/held · REFUSE·authority lane-A does not cover form/prose/en/page/badge/held
+bound-lock/1 about="{count} hold" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/held sig="ed25519:era1:mc0wd3gtv3OQEVARINYh7FJOwp7SqI7s9vLGO32PnDlOlV09HRFn3+a5zGH9K7I+zAm/3phTXHTBqQGdmTZlBg==" value=lock
+# refuse form/prose/en/page/badge/license · REFUSE·authority lane-A does not cover form/prose/en/page/badge/license
+bound-lock/1 about=license at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/license sig="ed25519:era1:fg+/b6ZtzxdA+LCZ09ieY1035BUiUL+ZwfbKfnn0xjI16c3aSO+yGhWBZxv6WpZj+oxTzYl6D6dVfpVwSVO5AQ==" value=lock
+# refuse form/prose/en/page/badge/verify · REFUSE·authority lane-A does not cover form/prose/en/page/badge/verify
+bound-lock/1 about=verify at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/verify sig="ed25519:era1:EHZoml8WhpwL4kQzciiMvbbEg8wMc54Kisd0D5XlEohbiZuZxCB9v3Wba8lCxzxjW7g1bAJIvgWbykRjm1Q0BQ==" value=lock
+# refuse form/prose/en/page/badge/version · REFUSE·authority lane-A does not cover form/prose/en/page/badge/version
+bound-lock/1 about=version at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/badge/version sig="ed25519:era1:L/XmaX9gptJDLHDQlPxDd8IuuSPYHAs6bnhJwRcOXa3tXHacp9QhLUU4UeBsU9A9bpb3KCUOoLwxxJXHKJLTDg==" value=lock
+# refuse form/prose/en/page/cff/name · REFUSE·authority lane-A does not cover form/prose/en/page/cff/name
+bound-lock/1 about="Cite it as {name}." at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/cff/name sig="ed25519:era1:Yi053L+f1s2P0VmDfQ3iRoMpTR5p51GTlYQJOczbkohODhuwpoWj1zw2uzbf//FSD9hASqB3vmf5O9YmIHKUBg==" value=lock
+# refuse form/prose/en/page/check/command · REFUSE·authority lane-A does not cover form/prose/en/page/check/command
+bound-lock/1 about="{glyph} `{check}`" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/check/command sig="ed25519:era1:0Kgs5xxRERJz4DB4lUVMbXR1X9EIzcUiIxun1kc1R+Id5wY+5JtOE9qC9JTnpHHIBW9sp6A6a7mHe7Hp8RMADA==" value=lock
+# refuse form/prose/en/page/check/heading · REFUSE·authority lane-A does not cover form/prose/en/page/check/heading
+bound-lock/1 about=Check at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/check/heading sig="ed25519:era1:BK2zyGuQgjM4hTWKwIcwgS4nk+p+25BTIxhF4eJwOxo1ZXHfor3U6Tf4KNA8Sbhbv2tBN9ZHq5msM/DimLSGBg==" value=lock
+# refuse form/prose/en/page/check/held · REFUSE·authority lane-A does not cover form/prose/en/page/check/held
+bound-lock/1 about="{glyph} {count} cases hold" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/check/held sig="ed25519:era1:O6wZhMTuJ9uLJ86l8EVweOKZh0kt60nXoXnUPMsaIdHtJusBUvgAzIgsYWWeLE9I4ZaTSrrla1r/kk5ry94OAA==" value=lock
+# refuse form/prose/en/page/contributing · REFUSE·authority lane-A does not cover form/prose/en/page/contributing
+bound-lock/1 about="Clone, `{check}`. A leaf that differs from what its lines render is the contribution: send it with the lines it was handed.\nNothing else is asked. Lines land through the fold, never by hand; a page and the lock disagree, the lock is right." at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/contributing sig="ed25519:era1:qvHrKFgwbeP0p8g/dtDWeReNET3YjhV3Ua/B75odtmcbF7XdD9eKiNcVtRzJ1uy08BZajE+5Dub2tl4imzeXBw==" value=lock
+# refuse form/prose/en/page/guide/heading · REFUSE·authority lane-A does not cover form/prose/en/page/guide/heading
+bound-lock/1 about=Contributing at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/guide/heading sig="ed25519:era1:U0AyTotb4vXqAYjYuXWHtwzyfoXshHlRUztIxTI1TCqLPHFsANNAN4LyUfEVL57SmD6bg5G0oTPTJR4/p/IgCw==" value=lock
+# refuse form/prose/en/page/guide/owed · REFUSE·authority lane-A does not cover form/prose/en/page/guide/owed
+bound-lock/1 about="the check command, which is owed" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/guide/owed sig="ed25519:era1:PNAcWGQ21gMIAnoatGrF8M+rXexR1+GKDYiJhmZFLzh6fYm2t5YEgE0cpLEuYeVzJi7zS+ZUNRQEp8zzYr9FCQ==" value=lock
+# refuse form/prose/en/page/pipeline/notes · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/notes
+bound-lock/1 about="{version}, as its lock holds it" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/notes sig="ed25519:era1:Oiqf9GXUgjBdZwAaXDfAOJo0b3LUFOM/x5cwNOIvbJuQWB2Z2umvoH+3j4yk8lDW6ZgwrmpFzv3txctwqZdKDA==" value=lock
+# refuse form/prose/en/page/pipeline/publish · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/publish
+bound-lock/1 about="publish the version once, by the trusted publisher" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/publish sig="ed25519:era1:VsxlycjjJHM7IG7AlEdX26lgxkyXXqU8EYBrkZUvtGhdrtZPzGh07UZzlIoHd4WoETXiKRU8zxp8EuzdPCDkAA==" value=lock
+# refuse form/prose/en/page/pipeline/published · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/published
+bound-lock/1 about="{name}@{version} is published" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/published sig="ed25519:era1:UFpOXdZjvxCI6k57N9C8SHKGINrmwA2I37u2j0U8GjbkHBjHch9a+9maLyL6qhP/mVT3aO8MB4wDUdl4NOc2Cg==" value=lock
+# refuse form/prose/en/page/pipeline/release · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/release
+bound-lock/1 about="release the version with its tarball, once" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/release sig="ed25519:era1:h5fqhp2CLTZ/BDB3BZRS5Tz7RWcZkYy9I6BLx8QrSAj5BtReVqpxlD8JYzR9DtAWVHllel1wj6M6rw909UUHCw==" value=lock
+# refuse form/prose/en/page/pipeline/released · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/released
+bound-lock/1 about="{version} is released" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/released sig="ed25519:era1:Y7JrHEr1VVw+VPfv3akJeVnG+QrX5zkKH2zpUxrpd7WBqCIxNazcKKPmPALx8wz/8Apr7vZzECUt62QP9yx8Dw==" value=lock
+# refuse form/prose/en/page/pipeline/tag · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/tag
+bound-lock/1 about="tag the version the manifest names, once" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/tag sig="ed25519:era1:zkiAa6ZquCou//YRrPlGGfGZokixuAap82jvIzG50wgDso++RYSiwhidIjJlXxyAY3SSGaBJ5qNzyfulLHORBQ==" value=lock
+# refuse form/prose/en/page/pipeline/tagged · REFUSE·authority lane-A does not cover form/prose/en/page/pipeline/tagged
+bound-lock/1 about="{version} is tagged" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pipeline/tagged sig="ed25519:era1:bes+ipUX3TwGKw2U0/uGllE6PjapY+dAVvlaFMEs9mlTEGebpMzyNJyn15K38oWY8pEBlQtfniILePDEJ/zpAA==" value=lock
+# refuse form/prose/en/page/pointers/heading · REFUSE·authority lane-A does not cover form/prose/en/page/pointers/heading
+bound-lock/1 about=Pointers at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/pointers/heading sig="ed25519:era1:QVGBhkeIHTEIb/Cd1KnONNbwc5727XM/loiKRN/eOOR1p8g6Ehk2Y7JjUJv1C6T5qSTguTwq1NwB1XLSd/HcAA==" value=lock
+# refuse form/prose/en/page/regions/heading · REFUSE·authority lane-A does not cover form/prose/en/page/regions/heading
+bound-lock/1 about=Reference at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/regions/heading sig="ed25519:era1:ERyqzY7ozuaTYFoCDyw4PHyOhZ1C66LLhEndxgfJlbfvwGy13TnVdKn1vuA8hpD3jJsQOj/fsMpN/ocSInGsDg==" value=lock
+# refuse form/prose/en/page/regions/lead · REFUSE·authority lane-A does not cover form/prose/en/page/regions/lead
+bound-lock/1 about="{count} regions, each read off the lines its descriptor declares and nothing else; it reaches {effects} beyond them." at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/regions/lead sig="ed25519:era1:99WXmOMU6QWNyJSIKbFST94fJp1XMUvXKbj+Nrj43Uh3JDublaGRhIQyYFd8b3/NTJFW8bh0yMrK0hv1gmnoAQ==" value=lock
+# refuse form/prose/en/page/regions/leaf · REFUSE·authority lane-A does not cover form/prose/en/page/regions/leaf
+bound-lock/1 about="its leaf" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/regions/leaf sig="ed25519:era1:UiAoVS+u3lpz21YuQ51DFTURPwIqYVkwISHXxEW4/XdiAHW05BJ+a1LRhnMks72C3iwRdmHL4f+MpyGBxXRXAg==" value=lock
+# refuse form/prose/en/page/regions/table · REFUSE·authority lane-A does not cover form/prose/en/page/regions/table
+bound-lock/1 about="| region | reads | writes |" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=form/prose/en/page/regions/table sig="ed25519:era1:DiXi/vlXIBruYdb+dCYVZ77y3xxqPTjLOO5N1JSdQ/MkxKWM6K8A9SEyG6DgLQZYBy0WinjHKFMiy8/Qv9BjDQ==" value=lock
+# refuse form/prose/en/sentence · REFUSE·authority lane-A does not cover form/prose/en/sentence
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/sentence sig="ed25519:era1:/X0j3FPtZPlGy8HmYNaGJR/KF9JNRm/RLpP5s67dWnAA+Gsl33mK8nLY+qdcfSYewDXyQRgYk2U8TFk1JRAIAg==" value=capital|period
+# refuse form/prose/en/separator · REFUSE·authority lane-A does not cover form/prose/en/separator
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/separator sig="ed25519:era1:Q3Cs3BUrrmhb12rmcwrWdn06Zt+X8PYj/hXaYik5Tyxtm0TAh0tN8ptKjcSlmUemM2MuJ1vNTYdY+gLlyr/TCw==" value=" · "
+# refuse form/prose/en/state/CONFLICT · REFUSE·authority lane-A does not cover form/prose/en/state/CONFLICT
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/state/CONFLICT sig="ed25519:era1:vLCgQpwibG6AryaB8cEDnYFXvU9Y0bxfampfCjDsabp5pbtH9tEwxN6Fcxnn2CTe7qzC7bC/Nlz6fkG0JcVWAQ==" value="its origins are apart"
+# refuse form/prose/en/state/FORBIDDEN · REFUSE·authority lane-A does not cover form/prose/en/state/FORBIDDEN
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/state/FORBIDDEN sig="ed25519:era1:wVOFv4x7vNgO66YI4jFc9q6XCA96fZvbjh0bFlCiGBXyfHbOnVtikj4xDTA6rayqTWyS/OQxkTng7B+p66c6Dg==" value="its origins meet outside what its lock allows"
+# refuse form/prose/en/state/FREE · REFUSE·authority lane-A does not cover form/prose/en/state/FREE
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/state/FREE sig="ed25519:era1:BVSPFqiSFoHfdqPuSQB8ViitdCs/gkB7kxZ+huolVcxAZrg5VtZvZHdYMVu0U3DbebQrH8YiaZCoe3PbkoXpAA==" value="its origins meet"
+# refuse form/prose/en/state/REQUIRED · REFUSE·authority lane-A does not cover form/prose/en/state/REQUIRED
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/state/REQUIRED sig="ed25519:era1:EPuY8lLuOQgwGXm1sO05peyVotLdwoQVtBsn+038PL4yIqdZlmuVJ11zFivcC5djvUukfharWqC7suYvWKVyCw==" value="it has one origin, and no second has met it"
+# refuse form/prose/en/words · REFUSE·authority lane-A does not cover form/prose/en/words
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/prose/en/words sig="ed25519:era1:5XQkPk3IsaX78BTg97A+pC5K27s6U80HO3kurH57i74kMETPPmjjQo1hImG3o+Jz6x8gkBDtuGz5QlPRPiMtCw==" value=spaces
+# refuse form/runtime/node/effects · REFUSE·authority lane-A does not cover form/runtime/node/effects
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/runtime/node/effects sig="ed25519:era1:5fCBvuAFFWOfLPS2naRbHa5o8Sxqh6iYW635VGrCbCnGcm4VaWjhR55NNTna6xCi7ax3OQo5gjDfFEUjCwjTAw==" value=node:
+# refuse form/runtime/node/entry · REFUSE·authority lane-A does not cover form/runtime/node/entry
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/runtime/node/entry sig="ed25519:era1:aC1OeNi+1XRKqzmO90Fas8Vd5q3zQb7uwdJU8AU1wKMTyO6Z/9ivSTn1WZs+HCK4Ez917Beh6czRlwfiuzAPDw==" value=src/index.ts
+# refuse form/runtime/node/manifest · REFUSE·authority lane-A does not cover form/runtime/node/manifest
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/runtime/node/manifest sig="ed25519:era1:O60dgwgtxzvTjYN2VaMb7FtLiLUKUOeLTZ2T+gg3HpOWAOXRVlB4Hr4s8HOaqESeQF/aTHStyPfGcrB2krKNDg==" value=package.json
+# refuse form/runtime/node/regions · REFUSE·authority lane-A does not cover form/runtime/node/regions
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/runtime/node/regions sig="ed25519:era1:NY0F8slqaronOAg7R3LEgjfyYTm7Ns6/+QoizaAzhu8LY/uiWkgWl1nYQDTyUOYkRlLBOc0ys1YGoBH/6M7KDg==" value=src/regions/
+# refuse form/runtime/node/run · REFUSE·authority lane-A does not cover form/runtime/node/run
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/runtime/node/run sig="ed25519:era1:9HuPJqPkYkT4C3NUgFk1ZXaIWZZceLOLYenkMUBruQucVoRHgkiWnkLTbssgjnQ9kOe1sV1eU+h+0xh9t9lbCA==" value="node {at}"
+# refuse form/runtime/node/source · REFUSE·authority lane-A does not cover form/runtime/node/source
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/runtime/node/source sig="ed25519:era1:7OMa4ZF3M4QsrqmsN+MUFsOFGELN1nG/KbERjxOiuYAX2GCMMhqqXgEktiztCjkj1jm3ePBjXJcgDC139hZJDg==" value=src/**
+# refuse form/style/align/figure · REFUSE·authority lane-A does not cover form/style/align/figure
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/align/figure sig="ed25519:era1:GbGE1OTTsWaHl5YUKmr4FmaWfLJgFu2MJkbmp6zLtIvp1bIOt9GUhFG+Fa93t66qwgI6DmlOrsOqCYZR26sVBQ==" value=center
+# refuse form/style/bond/apart · REFUSE·authority lane-A does not cover form/style/bond/apart
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/bond/apart sig="ed25519:era1:zS44cgtBhRjy5cHYiaSFLw92faT1YkxLTYAB2v0uB/KAqJLZ/Wm5DdeDU7AI1cw/w0SKbq+lBxPiXzdGClqBCw==" value=6
+# refuse form/style/bond/axis · REFUSE·authority lane-A does not cover form/style/bond/axis
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/bond/axis sig="ed25519:era1:y3DXc+wnSSyUZM5QE2u5FvSpNWSv6lmRwHe/hBVqH8ix+WCqu8e9p5/1M3O0plm3dng4W9VZdqZod1zEpBE/Aw==" value=0.5
+# refuse form/style/bond/bottom · REFUSE·authority lane-A does not cover form/style/bond/bottom
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/bond/bottom sig="ed25519:era1:oMwvoF32lGGfy8Y9u3kb7TgKXjbt6DWQKw8ya1yCu/irnZgnTjvOdj2uGePPkNCKhEpkI0E6eOB5Qem73qQCCQ==" value=46.42
+# refuse form/style/bond/r · REFUSE·authority lane-A does not cover form/style/bond/r
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/bond/r sig="ed25519:era1:rslBUPUA7uw6tE9mdh98g+sOmI3MIiiLBOhcsWjuYMO15d/NymmZBc+ab0cBDmo4BuyXI1kyy8kkLFEd95wrBw==" value=17
+# refuse form/style/bond/top · REFUSE·authority lane-A does not cover form/style/bond/top
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/bond/top sig="ed25519:era1:ocKS9SMFO0xcICYBhFMSnkp0FlyyyndL0d4stZVFgpl8tg4+M3MElq5UkdRXT2RGNxWRgY4Y6TZuVqEyC0swDQ==" value=17.58
+# refuse form/style/colour/CONFLICT · REFUSE·authority lane-A does not cover form/style/colour/CONFLICT
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/CONFLICT sig="ed25519:era1:RJJblxK3SrU3wZW7EUGg7dRU1x0I9eD/IWpc8hOeXPkhaNy3sOgUX0YyCRLOQX0pmRSHfDxr/jCzqQBdOH7dCA==" value=#8250df
+# refuse form/style/colour/FORBIDDEN · REFUSE·authority lane-A does not cover form/style/colour/FORBIDDEN
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/FORBIDDEN sig="ed25519:era1:F0LL/qzssPvinaDRqsQnyE50ZTMFdkTI9rqsuK8BTSac6iK8x8QW5ymTGH++2kzI1Yg3KwzgzL6qERGg/t6yBQ==" value=#cf222e
+# refuse form/style/colour/FREE · REFUSE·authority lane-A does not cover form/style/colour/FREE
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/FREE sig="ed25519:era1:LWnvqEjpRdgYWN1dRIO1FMd1lyWjxKUUOwqRHuduSIKoc5SdfIlTpt2gv1wEGQIdHeEZJzfaJSrZNPtEqJ+RDg==" value=#2da44e
+# refuse form/style/colour/REQUIRED · REFUSE·authority lane-A does not cover form/style/colour/REQUIRED
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/REQUIRED sig="ed25519:era1:GJlAzD7s5kJLi3azQ4TxO/JEDvMutB/5Xj8qmsMLDMdEqAw3VUIaOx2kplf/CjAqjaEfHDGT11+mdiK6duC9Bg==" value=#8c959f
+# refuse form/style/colour/text · REFUSE·authority lane-A does not cover form/style/colour/text
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/text sig="ed25519:era1:g8wWM+IGRRUk66UW0W80MZpn7Zt3CXRtSVINA7DHir1HnGLUFQPrS9yZCs2lkQWIfnDzIvBOHZmJVLTgGyb2Cw==" value=#59636e
+# refuse form/style/colour/text-dark · REFUSE·authority lane-A does not cover form/style/colour/text-dark
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/text-dark sig="ed25519:era1:+HTgQWDao5hdq4MEIOHhmMoTHzQUo1itCjTDII7fcTs56LFxVplhULcbXt70gPBUAH8DLszrI2j7NYcfHm2FCg==" value=#9198a1
+# refuse form/style/colour/text-on · REFUSE·authority lane-A does not cover form/style/colour/text-on
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/colour/text-on sig="ed25519:era1:ch/Vmat3bkKrFjUQCT4EN4Q8bS4+Lo2ipONeb5xSrfxs8NKsIYqCH0CdVJZylQx4l0tnkoZzLNI5ev7brRoRBg==" value=#ffffff
+# refuse form/style/fold/bar · REFUSE·authority lane-A does not cover form/style/fold/bar
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/bar sig="ed25519:era1:gzTTMIoI84gjdWo14b4fj2XLa9LhnugwNsGDEKBwpfw9HZ0Pq5dtZVYWJA9JQaGVtS8TvN22tRJJjTOCiJFvCA==" value=18
+# refuse form/style/fold/fall · REFUSE·authority lane-A does not cover form/style/fold/fall
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/fall sig="ed25519:era1:1nZKN6cmaLx2M42xxuHspVuTSjBDNple50Enjzwxfud3sZjV/AKEvcHY15FfgX31mRVMCRDRiURSui5Wg+OXBQ==" value=1.6
+# refuse form/style/fold/gap · REFUSE·authority lane-A does not cover form/style/fold/gap
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/gap sig="ed25519:era1:16DIPr/nk8ZU8Ehfbgz7pccxMjlcvL4OTPmeUWwbJzwZdX3LQhb5MV/OUnk16sxIsQ5+HqWFxQAAyciP7gD3AQ==" value=16
+# refuse form/style/fold/margin · REFUSE·authority lane-A does not cover form/style/fold/margin
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/margin sig="ed25519:era1:N/+BAyX+501zrOJmwgPpZHu7CSNg54syyC94bIVPkn3KzFHCSmmOqRADKO6b5fQap3YP6TmtL83SszhBzPNBBg==" value=40
+# refuse form/style/fold/meet · REFUSE·authority lane-A does not cover form/style/fold/meet
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/meet sig="ed25519:era1:jr0sQd+uwRLR6INJpcy9PbkVifdiO8/tZH+39TOWK54XXoIkWTG5U3jxbFP7Dzwj4bt1ePhiPq62g5fqP4OIAw==" value=1.2
+# refuse form/style/fold/pad · REFUSE·authority lane-A does not cover form/style/fold/pad
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/pad sig="ed25519:era1:e2xI+cHOLWm4JrKRKFdz+MAeg01IvJcpHzCtCCz1UWj/euCf+3q5Y0/MpFKATALSYwcP57JqGe1P63cJaSSMCg==" value=1
+# refuse form/style/fold/radius · REFUSE·authority lane-A does not cover form/style/fold/radius
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/radius sig="ed25519:era1:IIXcpWkmVyh7s5i/eiOMvVQLa8ukRpGQGsHoylVb+8AmA1v/t9OLKB+bU8MY98qcki4yoKYI2J4wfUiLNRdVCw==" value=4
+# refuse form/style/fold/row · REFUSE·authority lane-A does not cover form/style/fold/row
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/row sig="ed25519:era1:lMPA5XFTa6gLaFIlYbDxUPac0dVoUDMMzn1IUrMn8i9uofU5BzVe5W3W4OY3K1lpcxSIwixjlYtsTd8V2P15Dg==" value=28
+# refuse form/style/fold/say · REFUSE·authority lane-A does not cover form/style/fold/say
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/say sig="ed25519:era1:7uPS3my2ZGBUcBBMBotGz3EJ7LltniJS+mU0QTZMFpX1wJ4oWGnTjOfc/7/Gt3oLqxWvnIuDPuJgBsXA+1r+BQ==" value=24
+# refuse form/style/fold/set · REFUSE·authority lane-A does not cover form/style/fold/set
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/set sig="ed25519:era1:i9Tf7ERCZjnS+Yjx/Wuy0zb990ulhgbh//SkcuFE7US0u0kOWEgodTvMQkK3jV2SJ5syp14JQdbXu49gy0eCBw==" value=2.4
+# refuse form/style/fold/slide · REFUSE·authority lane-A does not cover form/style/fold/slide
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/slide sig="ed25519:era1:TL4IPTVnL++C/ztevGs37TQdvIXeBViZYQ5RAwbTkP85uKnONkdomSthtYljl4bDbz3rvIMiIbNyV7CslaiiDQ==" value=48
+# refuse form/style/fold/speak · REFUSE·authority lane-A does not cover form/style/fold/speak
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/speak sig="ed25519:era1:3l0JgFaGf82KdcHD7v1WtS4WUwCwCXs4GMOpP91SE5lUl/zTwTUHU7jXKCXX15hopYOeB0yjNsAfT66QKpPPDw==" value=1.4
+# refuse form/style/fold/top · REFUSE·authority lane-A does not cover form/style/fold/top
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/top sig="ed25519:era1:aNTQvqhfoSzyL3Ga+IUeux567bsJ0+qiCNjHmxVloulfxK5UnE4b7svM4xhhXz4gMoa/V6sW0ebl27ljREk9DQ==" value=8
+# refuse form/style/fold/turn · REFUSE·authority lane-A does not cover form/style/fold/turn
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/fold/turn sig="ed25519:era1:WVIKrkx7zi2vx5V5WvzbTqX2KQ2DnSlQK68jQ447nOPGBMm/idXMyJI/Q87PGi/HVuOzffuUZBQZ10+5OB3MAw==" value=0.4
+# refuse form/style/font/code · REFUSE·authority lane-A does not cover form/style/font/code
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/font/code sig="ed25519:era1:Cx9BQAhlLkQBziQ6EgpxjVyrmUlP4/DyJ0DXVXFTPPgKHgA+RupOF3+EwX3+6qny2LHVBipyYCahcoOTysPGCQ==" value=ui-monospace,SFMono-Regular,Menlo,monospace
+# refuse form/style/font/text · REFUSE·authority lane-A does not cover form/style/font/text
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/font/text sig="ed25519:era1:+PORIRlHQSGcbCvNoh9bb4H747hznU4yaZcT/e/m4tGH+YsWcUhNh5ziWBm3qKxwS3njpgQY5lpl2YcSNqbuBQ==" value="ui-sans-serif,-apple-system,\"Segoe UI\",Helvetica,Arial,sans-serif"
+# refuse form/style/glyph/CONFLICT · REFUSE·authority lane-A does not cover form/style/glyph/CONFLICT
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/glyph/CONFLICT sig="ed25519:era1:7jpYbDJju6kjYGFejtMs8p8h8NYCIC3MZlLZ02hq+Zo6LiIjdaFDll5E3MRruyrTyLJ3LhbXqMu+0KmRqG/7Dw==" value=⋔
+# refuse form/style/glyph/FORBIDDEN · REFUSE·authority lane-A does not cover form/style/glyph/FORBIDDEN
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/glyph/FORBIDDEN sig="ed25519:era1:h8WlmoSSvcPBDXeoR4P4YVyPtVIFzhblueYwG60v8Sz0pTMgj+H+OrPXjYhMxjgdsROoLKYJ7YjnPw0mZXeiCg==" value=✕
+# refuse form/style/glyph/FREE · REFUSE·authority lane-A does not cover form/style/glyph/FREE
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/glyph/FREE sig="ed25519:era1:DDZQeN5aSuP03S2PX8x3+sdcp6/ferUYsUQmGrrdzUhQwpNR7tiBCoB0agUVZvaxZGakIX5b5RohvCTbVEm0CQ==" value=●
+# refuse form/style/glyph/REQUIRED · REFUSE·authority lane-A does not cover form/style/glyph/REQUIRED
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/glyph/REQUIRED sig="ed25519:era1:jvDQw1VjJR3df6cPXFqMJ2GVTKLmlf+eLx8leZjoXxyo29Oc48+W5HBrCsJ7Wc4WuKzuWHQqmuMyrc+Hb/YyBA==" value=○
+# refuse form/style/json/indent · REFUSE·authority lane-A does not cover form/style/json/indent
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/json/indent sig="ed25519:era1:56LT2L4kBNpJgkjbAhHjP+L/PWZCSRd58yR8/6Q0egsqiZH3Ow2WifkmJYqa3Yd4kxPqNUi103KPPC0An2pCDQ==" value=2
+# refuse form/style/line/first · REFUSE·authority lane-A does not cover form/style/line/first
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/line/first sig="ed25519:era1:xLQXXIj4Y5Qf4tx2Ru4zME6Yp8SDZTiCDPZMTRHDtNACPBAK0dPlyoWU04WYFs1QbqWO22eWvEpjh4jPrbq4Dw==" value=30
+# refuse form/style/line/label · REFUSE·authority lane-A does not cover form/style/line/label
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/line/label sig="ed25519:era1:R6FBkPQxXJCanHXIWa2gc/VRho16MXahCQin05n9Y4Agb/2OdOkHpzwNLm4CQapiUdqS3qenteru3Vy8I2rRCw==" value=104
+# refuse form/style/line/row · REFUSE·authority lane-A does not cover form/style/line/row
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/line/row sig="ed25519:era1:azWM1DR9ESh+oLDbArbDFXZgcTU/KMkfi8uuNx8nghxLIO02t2i6jD+kYMjaWwGDojLymOS/rbgSyyBTna7JCQ==" value=26
+# refuse form/style/line/top · REFUSE·authority lane-A does not cover form/style/line/top
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/line/top sig="ed25519:era1:reRInIcglxk7bdRrYAjfMpu/yxUKyGLX5MLJtkH/JezkbbDep1kbVnrD6vEo+bIOnG2V6La9V1T078GnMnviDg==" value=20
+# refuse form/style/line/value · REFUSE·authority lane-A does not cover form/style/line/value
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/line/value sig="ed25519:era1:3aEjuYBrN857ucf8G0u933P/CnbvawvAqOa8NrzuAJ01hKya7ZVFmrWIK1tkZYrjVjXwnMkxd33BTkYhrLvPDA==" value=116
+# refuse form/style/ranges/axis · REFUSE·authority lane-A does not cover form/style/ranges/axis
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/axis sig="ed25519:era1:KQbP3uzPxeUyU8IPhOfQvCkuNKhI3swcZbcCRFO8V9fYP3k/AyV7GO5UudxIr4QmXapElaNJf2vKB27ChzMTBw==" value=6
+# refuse form/style/ranges/bar · REFUSE·authority lane-A does not cover form/style/ranges/bar
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/bar sig="ed25519:era1:sMhkaYMss1ITG3NcDKPa3PLM32CCZcCuCa0KxkT3oxX9QUm4qaW8nWwSEYtMrwggfcb/RGYQD/QvzassV+6kCg==" value=18
+# refuse form/style/ranges/base · REFUSE·authority lane-A does not cover form/style/ranges/base
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/base sig="ed25519:era1:Yd3Hs+oZr8Op2DoWs6Ua/4J14rXpsKqQ+r6ed88SLuS0Uh8/tzHVbrKjn2Ndf97JytPTEL/DNqWU+1F59zKPCg==" value=14
+# refuse form/style/ranges/beat · REFUSE·authority lane-A does not cover form/style/ranges/beat
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/beat sig="ed25519:era1:Ne0u+VccNs+ZjmsawCsMZfQKnbp4QzAfwrKFBqFybXahMIMSVdPMBZSGOVNtvB0bhcr0ZzOvlS/dNXjANoGqDA==" value=1.2
+# refuse form/style/ranges/label · REFUSE·authority lane-A does not cover form/style/ranges/label
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/label sig="ed25519:era1:68sY814QqwNExjBrSpfcCOHbyTOlbHDoHiR+c53C+5jPmjMM9LIpcRMWqkjX1zCEvHOaR2pEx9RG0jEMgt3pAA==" value=14
+# refuse form/style/ranges/left · REFUSE·authority lane-A does not cover form/style/ranges/left
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/left sig="ed25519:era1:1ShZTWFM9BURfQf99ENkRhcitPVjXglCOEBkAHk+lgJU78mQCsFTbUIzatPbaXAuou/BMbV9JMttudwwOG1HDw==" value=96
+# refuse form/style/ranges/pad · REFUSE·authority lane-A does not cover form/style/ranges/pad
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/pad sig="ed25519:era1:CEAJ4Ts9MwFJYVYLmGxiI7d5iqOSfceC7m4MvQFpxPQzPl9WMadfi6iWj/QCrk+CZMGl5dsG4a/wq2oxkuQ9Cg==" value=1
+# refuse form/style/ranges/pole · REFUSE·authority lane-A does not cover form/style/ranges/pole
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/pole sig="ed25519:era1:qSAGgVxZ6EzzqqYMkOtT/JF1KJVLGztPuUhHuEks9U2GFBsWlI8picBh/VALRUSxtcUxVfAGHkJKPeLi7WWDBg==" value=42
+# refuse form/style/ranges/poles · REFUSE·authority lane-A does not cover form/style/ranges/poles
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/poles sig="ed25519:era1:hGQ9cQka1/M9RQ5bka2SxpC8PCihk+qMy7bKhkW5V1mrTHyhulUwMh+NtRjj1GHId7VYqsjW/P0cjmnrmL0sCg==" value=52
+# refuse form/style/ranges/radius · REFUSE·authority lane-A does not cover form/style/ranges/radius
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/radius sig="ed25519:era1:ULAiqmGu33NRlZbeIhiq3AnJe03q5e1eqFth9zoNT8+NjkX3fstlYlFr4FmOrX6Zhu+FjGTDtJeu3r1kWowFDA==" value=4
+# refuse form/style/ranges/right · REFUSE·authority lane-A does not cover form/style/ranges/right
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/right sig="ed25519:era1:atOjjZ5pemajZjhpKPNjiCdAP2XSKt3ZJvVlrT4NgLdwk0uQTqc6LuqIj6akMclc3XO4pdmI1SQ2pobSY/62DQ==" value=24
+# refuse form/style/ranges/row · REFUSE·authority lane-A does not cover form/style/ranges/row
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/row sig="ed25519:era1:bEAa5d/S1H6+ni+SqvKcZGPn59eydHOGbXUlN5+jJo6KoV6zyPvDBlQQ4NeDiYUkZDSI7dpqFE8p4SLIRQbJAg==" value=34
+# refuse form/style/ranges/tail · REFUSE·authority lane-A does not cover form/style/ranges/tail
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/tail sig="ed25519:era1:DkqPIEgsyTALanJB/dKWyo3p9hNrgdjmcOZc3PQfFPDtmgKqJTgWmX4Sp+prjA0WmWfRJfF6hWb0jBL+oKvJAA==" value=34
+# refuse form/style/ranges/tick · REFUSE·authority lane-A does not cover form/style/ranges/tick
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/tick sig="ed25519:era1:KaYmNGbTrei2t4+S92GZH9k50lEQrOaOTVa7wSqPL8Jl7XUzXWqx0fI3JqPsorPTreVoMWFnxChxsf95KJ8sDg==" value=5
+# refuse form/style/ranges/top · REFUSE·authority lane-A does not cover form/style/ranges/top
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/top sig="ed25519:era1:yd3zouf/iRfEj5jaXO64SM2dh/CrdX2zLyZ3zUFi85HyYfVtWbJNIvMlbwl14n3HKWRXPp/v/mRhUpy+58x1Bg==" value=18
+# refuse form/style/ranges/touch · REFUSE·authority lane-A does not cover form/style/ranges/touch
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/touch sig="ed25519:era1:mvNItOOv5dEHtmtu8LWc5GxzkLOHM5sJ+rvMGv8O2SV+g/K/6OOVAL1iR1ngiQ7ckcFB24CCRZ4DvXBtt/UZDg==" value=6
+# refuse form/style/ranges/value · REFUSE·authority lane-A does not cover form/style/ranges/value
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/ranges/value sig="ed25519:era1:PKI2eCh7UsesO+D9pxHQxPXeQ0T88WgESy6P6ukkbr7R9tRhkloZZsLhFVn4m8ILYBoTaPNgITQFzqAUzNgjBg==" value=22
+# refuse form/style/refuses/asked · REFUSE·authority lane-A does not cover form/style/refuses/asked
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/refuses/asked sig="ed25519:era1:CnQW39gUNpoWyBLDViX2mLS7qIHWlK+VSa9xebfuNFt0DyGNdtZt7hFGXhDqWy0oLkQMv36d5WGAUSvBEOIMBw==" value=32
+# refuse form/style/refuses/glyph · REFUSE·authority lane-A does not cover form/style/refuses/glyph
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/refuses/glyph sig="ed25519:era1:KnE6+kBG/tKgv5BpYG8u4JXE3deoQC/XRah4SGSf3ZKVqv9/gFkG2ewbK+0p3RKfLEG9Lt85vsPIYlD6LmWQDg==" value=20
+# refuse form/style/refuses/height · REFUSE·authority lane-A does not cover form/style/refuses/height
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/refuses/height sig="ed25519:era1:h4oPGhYjhKDsOc41WdXYXr56EtOT8BmOlAndg3TFoqTIPaHsDtYiq/8bD0zToYP+bjMC2HizevJRDmSn5cACCA==" value=88
+# refuse form/style/refuses/text · REFUSE·authority lane-A does not cover form/style/refuses/text
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/refuses/text sig="ed25519:era1:aVZVFs9Oy22EeRJ/B4ULGVVbXHUUSQ/tA7FlOLAd6v7XlbfFmYivmnhnqD9c8UaxO0XONhsi7dE6+rjeSUOSCw==" value=44
+# refuse form/style/refuses/why · REFUSE·authority lane-A does not cover form/style/refuses/why
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/refuses/why sig="ed25519:era1:M3dC5LQ/Ib/j8ECumDFyBLC+5vcl6wdJhZF0zu62I9qp6hhxqB0Die6XfzSbkaijmBekdHA0DxfI1j+5Ur5qCA==" value=66
+# refuse form/style/size/code · REFUSE·authority lane-A does not cover form/style/size/code
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/size/code sig="ed25519:era1:7lxGvNO7roRqNoJG5U0ZmYgkpkcl+ZTlsJIMbnwNIESW5hsW46AOG7IlHlnL3enXnGvksY4rEOWk7RmGBTCfBw==" value=13px
+# refuse form/style/size/small · REFUSE·authority lane-A does not cover form/style/size/small
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/size/small sig="ed25519:era1:DCdnjPmA0cV8l05Ndbte34D9UXZzjRWuI3gTtVFAT+U2U8KcATQIYuLFnYO9wbfh0tg0S6IhlH/E8vojSr0BAQ==" value=12px
+# refuse form/style/size/text · REFUSE·authority lane-A does not cover form/style/size/text
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/size/text sig="ed25519:era1:dgO/hmFND0DHGpoRcYkiatkcBGNRoxdWgyxm/rw+2JzcyqUbwkFJX60Jd+aCyJMNnlGLrZLAw0T6exwCtU9FDA==" value=14px
+# refuse form/style/stroke/cap · REFUSE·authority lane-A does not cover form/style/stroke/cap
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/stroke/cap sig="ed25519:era1:hOhXF33Yjke9F0N3HV7Ix8B1XjW6/yBInhf+fHwLhj/tbYJanRwI/U4oL4JhQCBNoZ258GSi5mn1NpUM1RFBDw==" value=round
+# refuse form/style/stroke/dash · REFUSE·authority lane-A does not cover form/style/stroke/dash
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/stroke/dash sig="ed25519:era1:BImSUGxl4L9KzQwXPlQNgkpUnPORi9pr4+m9xGpr0BgOGYvnfEruSL3WDKuDCiHUAc4PwH+D4EtIjajauzuoAw==" value="3 3"
+# refuse form/style/stroke/mark · REFUSE·authority lane-A does not cover form/style/stroke/mark
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/stroke/mark sig="ed25519:era1:yzB+eW5ttaNNrNcnSYFBGd2FoXwBpPl6UmZMknNRj0+ENvXRlKlqVbrf8HJg5CZe/5e2JTK+U7i5vnaiQK5dCw==" value=4
+# refuse form/style/stroke/rule · REFUSE·authority lane-A does not cover form/style/stroke/rule
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/stroke/rule sig="ed25519:era1:2912RVs65xVd1ugWuOSPrP1p5tTkTxm8khbC3FF0dVKDvvzo60AASuclCQfekMCPgttckA2VwcNtgQ4Wu7oABA==" value=1
+# refuse form/style/table/gap/glyph · REFUSE·authority lane-A does not cover form/style/table/gap/glyph
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/table/gap/glyph sig="ed25519:era1:tbjynr3IU7UpBY1y9a2m3S128H77Q/McXTKVBpFIREbgWxaH+8c43jz9pOgNSiHs1/3SzLQZ6yA8rN2NkjQ9Dg==" value=2
+# refuse form/style/table/gap/state · REFUSE·authority lane-A does not cover form/style/table/gap/state
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/table/gap/state sig="ed25519:era1:XJnvMMsrfFKayii6iHeeiP2XvbKKSrfBrY37M6bLGqAcPHXo8CaxHX96KIhm1K456vYrtW65bGFEXSJcNQh1DA==" value=6
+# refuse form/style/weight/strong · REFUSE·authority lane-A does not cover form/style/weight/strong
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/weight/strong sig="ed25519:era1:Tmah4aEx5SqnpAbeQf9g1uDGVk7zAVeREBA6Su2ceT+tzhbgMhEG1BhQvXZ+GW5fZ50aRRHFMNhr5BKmzNmdBA==" value=600
+# refuse form/style/width/figure · REFUSE·authority lane-A does not cover form/style/width/figure
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/width/figure sig="ed25519:era1:2qgrnq/P/uBd4a+TwphkDRAslB94mg5eSNt9uL25vdc7fh2pnKbbOkYGGY4zYVdgtWPZA4vqZS/sdyDGhP0WCA==" value=640
+# refuse form/style/width/logo · REFUSE·authority lane-A does not cover form/style/width/logo
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/width/logo sig="ed25519:era1:jAAZc4XkaoQu5jnaZyg0ANLmAo+gdNz7aWvfFzpy7ECSKjqvexxrDA5m2HDQGCEw1uwN9n498dzo2gGexR38BQ==" value=96
+# refuse form/style/width/mark · REFUSE·authority lane-A does not cover form/style/width/mark
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/width/mark sig="ed25519:era1:Pp/d1U/z7vFchwwvFTatKig8Gwnb0T8mKawmsqozCCeRCkzJ7Cr0YPr22A0gFQS/e3w3otAiUBMYUfkQstyoAQ==" value=64
+# refuse form/style/world/axis · REFUSE·authority lane-A does not cover form/style/world/axis
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/axis sig="ed25519:era1:QPH1+oOPqaXlYvjoUbHK0U3h7d0CDLZuWWymMkCl1LKe1cOF7OI3rLl8jCxROJxnXSz3fjIx59IywZpNxWFrAg==" value=0.5
+# refuse form/style/world/box · REFUSE·authority lane-A does not cover form/style/world/box
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/box sig="ed25519:era1:n4hp1VcbGpvbs2eU1Dsn4MtwRfv2mV9SQI+sH9Qe17riT9Ty1GbCT6V53OOXepPC25/AQlDnvmCFotFjv5ApDA==" value=36
+# refuse form/style/world/char · REFUSE·authority lane-A does not cover form/style/world/char
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/char sig="ed25519:era1:bCoB9Zicfmq5v9ELO5pyN8ivvlmFvBE3Y8fzAjosdKzJAEHvApONQG+WbdM0NVGaG/eqJ9WEG223foExpWqcBA==" value=7.2
+# refuse form/style/world/first · REFUSE·authority lane-A does not cover form/style/world/first
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/first sig="ed25519:era1:FoZ1hV736dWxwXLYYq53wVOuoPNgejObD7mfqKkZDGKYqO/pI8YmKXlQDTP12DdQNq2yxIJJt0oD8OPRtR0yAA==" value=30
+# refuse form/style/world/join · REFUSE·authority lane-A does not cover form/style/world/join
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/join sig="ed25519:era1:0GYXEXPgfSpfbNQF4MtlvmAiaPBXxizAiP8k3ewo572Dvj72b1fA+yabl6LBB87yXGaIXXo2CRqHqT1Uf6lYBw==" value=12
+# refuse form/style/world/left · REFUSE·authority lane-A does not cover form/style/world/left
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/left sig="ed25519:era1:hUgAockv9jbdGjr+VeejDqH1l/SxZ3ssBb7In3aY2TAcYXfLv/nUgZOqRR6S0pusaebZJWYBG9YwvAnR4YNrBg==" value=20
+# refuse form/style/world/margin · REFUSE·authority lane-A does not cover form/style/world/margin
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/margin sig="ed25519:era1:qmHawCvIUStsJsxXPPn9nvPMFfbGxvtI79tw2O/YT56CzukwnW+gY9ik6AAYIR4Y+jtwe3q3iJA69yFv1AxNAw==" value=72
+# refuse form/style/world/pitch · REFUSE·authority lane-A does not cover form/style/world/pitch
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/pitch sig="ed25519:era1:RrP2C3CQU2+Jl83quMeQSf5+jufLd7F6OuXIv+KOZQN/Ghnq8ScWk1Yjp16jQCNx0uiYocnoNKiQJ5mH3MzhDQ==" value=56
+# refuse form/style/world/radius · REFUSE·authority lane-A does not cover form/style/world/radius
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/radius sig="ed25519:era1:PU9rLMeNIhTvC2KSUoZaP2mNIxJEYQJUq7q+40IoJAvgIljeO8NkHyF2ceVXqeExAfFvBYXel1ECnj/PCnLzDA==" value=6
+# refuse form/style/world/text · REFUSE·authority lane-A does not cover form/style/world/text
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/text sig="ed25519:era1:0xbAjvMuzWJ0LOBD/IlZWdUs8PaLWOHnR5uPub3LJR55cEHViCDd5GxSoYuX/oyKYHKvZcJ0/9To8gqHDIWQDQ==" value=36
+# refuse form/style/world/top · REFUSE·authority lane-A does not cover form/style/world/top
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/style/world/top sig="ed25519:era1:HoSAKk/jaLV8lpvdlDn0fowM8Nj9NQmqONDck1zfsA17ww/SupFz3P2uHtvnSHgqVHL2NTkSJABtCCg87ivAAw==" value=8
+# refuse form/template/badge/held · REFUSE·authority lane-A does not cover form/template/badge/held
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/badge/held sig="ed25519:era1:FtfZuTj8//FROu9HoMDFnTb2OjqjgqOqcCuoRsa7qo5SUzk+nsU4NA/lRAn/Neb9KcbDvKnfFifAWk6q/NxfAQ==" value=count
+# refuse form/template/cell/apart · REFUSE·authority lane-A does not cover form/template/cell/apart
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/apart sig="ed25519:era1:TI6kmCQX9mMZk+O4M21trl9UdBmH5MpCke+KnE9p7dXCO/D2+ZY2Jljl/poEhnhIFSXzuHkMApoymi2K1kLTAg==" value=count|apart
+# refuse form/template/cell/bond · REFUSE·authority lane-A does not cover form/template/cell/bond
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/bond sig="ed25519:era1:rGkQ2TLHCURWK/TIAi276HBzOKWt2c63r8Y7INkn4yPnwF8MEh4MhTiY4E5ffeJ6aj5Ng43EHZ54mdonoDjkDA==" value=count
+# refuse form/template/cell/claim · REFUSE·authority lane-A does not cover form/template/cell/claim
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/claim sig="ed25519:era1:jxfGWkp1Tq6HAOI5lrmpokWk0QPpe3c0HpeskF6pv8mkN6QBkie9aGNeZJS6uWm4sPFPa5yEKsUybpVe6QceDA==" value=who|lo|hi
+# refuse form/template/cell/held · REFUSE·authority lane-A does not cover form/template/cell/held
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/held sig="ed25519:era1:msAJEu5frPeAAGIeyD+QTqtRm2c+w9jHo/y/41iiAPiNKnu4bOjrI55RqdqGyBmVtoqV3MvkyL+OhsgVaxbpCw==" value=lo|hi
+# refuse form/template/cell/origins · REFUSE·authority lane-A does not cover form/template/cell/origins
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/origins sig="ed25519:era1:XXchM1JSbyUqO26F5EBhcu22Sb06CgVPSi3z1qXN+vo4S5MmvZMOEkhkbWiKuj3x1b8Pxht65Ggm83L45OGMAg==" value=count|claims|held
+# refuse form/template/cell/outlier · REFUSE·authority lane-A does not cover form/template/cell/outlier
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/outlier sig="ed25519:era1:IRL1D6OSNsisBIwpNviMfouUJp7bJAdHQzBXbedgiS913/LfhBcwyzUjN398rJTDYQsUY1GJDKSzDDrcRPNzCw==" value=count|lo|hi|who|state
+# refuse form/template/cell/together · REFUSE·authority lane-A does not cover form/template/cell/together
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cell/together sig="ed25519:era1:aLu18ce1f/8D3+lAfL3nJBVL9eLed7Avo2ZsEnjc63ROjFqEPTqd/XdGBXvFWLWpPzvDhpnyakfZ6vrOu7Q5DA==" value=count|lo|hi|state
+# refuse form/template/cff/name · REFUSE·authority lane-A does not cover form/template/cff/name
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cff/name sig="ed25519:era1:bvb3q1cKASToNYAjy5RQX+jzbQJfq19kyiom6V/AGq+53yU/Q8OR/wo18JpuX4lq72t83HxQqZwxidKZEd4hDg==" value=name
+# refuse form/template/cff/paper · REFUSE·authority lane-A does not cover form/template/cff/paper
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cff/paper sig="ed25519:era1:gcLJ/vRVnWW6X4kihewxCTHLglzqJlJkB6VdkGxWOQHl34PbmbH57RD98zNCcHJIoROzmW2eU4cHy6aAyKOECg==" value=title
+# refuse form/template/check/command · REFUSE·authority lane-A does not cover form/template/check/command
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/check/command sig="ed25519:era1:OI9xbg5d1FEKv1nTS15ufa4/tYnT81Ed88gSsoDPt4f2mcs1V5QQysSNFlDqipjDo0N1WBlMnESPj5We+YPXAA==" value=glyph|check
+# refuse form/template/check/fold · REFUSE·authority lane-A does not cover form/template/check/fold
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/check/fold sig="ed25519:era1:a3FGSCcUWN7jxbGOTUkg3IC7dXo3GzJ0CWuugM/C+XEE5f9uqalM//EdfZEEhO8FI/BMgJ8Pf3ft9PAO73/ICw==" value=fold|about
+# refuse form/template/check/held · REFUSE·authority lane-A does not cover form/template/check/held
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/check/held sig="ed25519:era1:btuZyIZbnCfbmJxSPBHQtH9ucbw8P6PXRhTgN2grkMKz6Gram7ivkGREnirNwKDXKs5zcvl5WGyrJsm/UZtAAg==" value=glyph|count
+# refuse form/template/check/repository · REFUSE·authority lane-A does not cover form/template/check/repository
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/check/repository sig="ed25519:era1:F63wv+FeSFQoF2KRvhfqxUUxpNa5hJoZREkevBKLGIB01MHgLr17MIlBIlZi5fctUHWXvd18xPO2Rp1gZC8BDw==" value=glyph|repository
+# refuse form/template/cite/versioned · REFUSE·authority lane-A does not cover form/template/cite/versioned
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/cite/versioned sig="ed25519:era1:lq7/iA9k/wolplNVJpn90drHJvmnWTBaDytB72TcOE++05HbGJxOZ1cTgdhkRSovQW8Nq0UZcr8yQaEzEZRiCg==" value=title|version
+# refuse form/template/claims/1-costs · REFUSE·authority lane-A does not cover form/template/claims/1-costs
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/claims/1-costs sig="ed25519:era1:PjYGSij3VppNlOHPQFFxHKuc6s902cc33Lj/EhfXaA0LT+1UziIfxJPMQLUlzDauoGfrl3qpWTqVcGkwPES7Cg==" value=dependencies
+# refuse form/template/contributing · REFUSE·authority lane-A does not cover form/template/contributing
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/contributing sig="ed25519:era1:PyHnoP8kKFaxdPs1Mf2rL6pqBmwGbg/eU87tkklpYiDROeYsuz3HrZbY1LpwE1QQ4QSQN0/3R5gxdUHRaDNlCw==" value=check|open
+# refuse form/template/figure/learn/source · REFUSE·authority lane-A does not cover form/template/figure/learn/source
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/learn/source sig="ed25519:era1:qHuLS9cFq+ITb9qick+clpczIoIgI4C6HlN/i4gYCW4mOrkbQ1eWjgyHlPf9G2rG5NMsL7Tu9uuqp2DnL+uuBg==" value=at
+# refuse form/template/figure/world/adopted · REFUSE·authority lane-A does not cover form/template/figure/world/adopted
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/adopted sig="ed25519:era1:Z2sdcowXciFQEGQ3f9Is5lNRdAMEx7VPXEfQs2l0boyq45iXXdaYpZT5jy1erwWR3eP9U+Ef+gO+eEdtR7YGCQ==" value=scope
+# refuse form/template/figure/world/blob · REFUSE·authority lane-A does not cover form/template/figure/world/blob
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/blob sig="ed25519:era1:jvlM30QrjRJD1aYqhTGW8TkEnXmOXbzCGZTQZhleUOrxvWODEHIl0BAeMiKVqobZLOszorl33Eo5jRD17FACDw==" value=digest
+# refuse form/template/figure/world/declares · REFUSE·authority lane-A does not cover form/template/figure/world/declares
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/declares sig="ed25519:era1:iroU+HKfiNnpeZgSAB5HGFuCPLi9S55JIfx484O8dF+SlOvf27Z5L7YHrrnoUsqh6dCrtNmvcwwfIZd2DOTHDQ==" value=domain|runtime|effects
+# refuse form/template/figure/world/host · REFUSE·authority lane-A does not cover form/template/figure/world/host
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/host sig="ed25519:era1:ZGDaRkTK3xYOwXhJmThtk4jo5js3vvZ2y0tGHYOkOPudAUdRTHEZYXqrXK7E/0Qm32GYAsmEggG8u7/kzURMCw==" value=runtime
+# refuse form/template/figure/world/pinned · REFUSE·authority lane-A does not cover form/template/figure/world/pinned
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/pinned sig="ed25519:era1:CP5NTZPXa9DIK4K3cYdkQZSTLOHlVwTC4CCtrYktjKMpMzlSRvK9IrNKLddny7EsVERlO/bHCSbGqKNwOzk4DQ==" value=place
+# refuse form/template/figure/world/region · REFUSE·authority lane-A does not cover form/template/figure/world/region
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/region sig="ed25519:era1:RpEhcebZ5sybXPxjzDiclgGWzLZt6luNP/7ZKkAQWQfQJK0+FUQ8hVEpuIIWf4Gc8tJiGFAB/Oyf+1t4eX/lAw==" value=name|reads
+# refuse form/template/figure/world/regions · REFUSE·authority lane-A does not cover form/template/figure/world/regions
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/regions sig="ed25519:era1:MS1LwQQ2AdfF8TNxkpOCDZzc9kg3jxsoFTJplQe6yQ8RUa5yojwMeRGjGX1fOu8qrm6sMO2c9dM3BH17NIlADQ==" value=count|longest
+# refuse form/template/figure/world/topos · REFUSE·authority lane-A does not cover form/template/figure/world/topos
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/topos sig="ed25519:era1:UQm6PUrPUYkKr2knZAF+Srz/ploYQukih0pyXUfiVVXgKIFyHrEsKJpZMG7veV8LOUHQPhxAi3NWTihfXDWbDQ==" value=digest
+# refuse form/template/figure/world/vectors · REFUSE·authority lane-A does not cover form/template/figure/world/vectors
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/figure/world/vectors sig="ed25519:era1:E984eyo8Fax5rvyKH2eBDQJ3L1jmFo3pkiXmY2KVq79BRaHNuMR4aWXyqSv4E4a0aldY19BSIfxwpl1PJH6oCA==" value=count
+# refuse form/template/first-use/lead · REFUSE·authority lane-A does not cover form/template/first-use/lead
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/first-use/lead sig="ed25519:era1:F9f11bw8LgsfYnp9IAvdmdwnCjxIjw+Nw8cMAU+nxtTlU4a08HIqywcH3IpE9drmrrwwnyrZlfhPxwBKY8iFCA==" value=name
+# refuse form/template/json/cite · REFUSE·authority lane-A does not cover form/template/json/cite
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/json/cite sig="ed25519:era1:SEL9bLtnVOuBDnl7zXX0M1kXN7PFpU+SClSQMFjO7yqMTWQNz4RaoY9fBDNv2bIyW4Aj32yvVtY+J2ca3HiDBQ==" value=name
+# refuse form/template/json/row · REFUSE·authority lane-A does not cover form/template/json/row
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/json/row sig="ed25519:era1:/mVtrPVwr145sL5CBJrnOdl3WkLRuYi88rRGkV8cpHxG6YdBLkSq1wYd/wIw+BYS7S349C+vOMAd8Q1OJmFiCA==" value=field|measure|value
+# refuse form/template/learn/source · REFUSE·authority lane-A does not cover form/template/learn/source
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/learn/source sig="ed25519:era1:7dr5WmJkLYs3FwqMiQQLyEJYrp9dTQHrj0afvXroRr/f+DtOQO+m/k/sEs3DQjpV3VjYg+g7ya5eWUZWDrtpAQ==" value=at|place
+# refuse form/template/measure/CONFLICT · REFUSE·authority lane-A does not cover form/template/measure/CONFLICT
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/measure/CONFLICT sig="ed25519:era1:UTDwWj45VaaN4HQelY5LjqTUPdzTSlwcHzWxrlNAUG7YpUOLen7SzJ/4udPxeEDalM7TtyCjjv7itC0K1OnOCA==" value=origins|quantity|unit
+# refuse form/template/measure/FREE · REFUSE·authority lane-A does not cover form/template/measure/FREE
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/measure/FREE sig="ed25519:era1:5ClZ6iX2eFA+akhiXRto+ZcZNa7nSAwjOv/nFWEzwta5W4d3rIZTxV6wgmPq/HMZ9XNbJnvC8L5j+9GtaV9CAA==" value=origins|quantity|lo|hi|unit
+# refuse form/template/measure/REQUIRED · REFUSE·authority lane-A does not cover form/template/measure/REQUIRED
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/measure/REQUIRED sig="ed25519:era1:0BmN75bKCg9AalOYZm7rA6dFOQRyhoBn05zsFvOCdeV70Zjr589PTHYTC11WD+jItGP3Bj6zz9F2WWkdxnxrBA==" value=origins|quantity
+# refuse form/template/measure/row · REFUSE·authority lane-A does not cover form/template/measure/row
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/measure/row sig="ed25519:era1:KuikopRMYJQ46I639AoJ8SOgoNLTzTb8n9jGvxyPq9+DR+2pUcBPWlcyBgN0DrYvBbVERVzOds8sztUEZi6/Dg==" value=quantity|origin|value|unit
+# refuse form/template/open/conjecture · REFUSE·authority lane-A does not cover form/template/open/conjecture
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/open/conjecture sig="ed25519:era1:F7T2niStg8Cuol8mf4oY2ERSbWw67CeU7pQbsKMofjMWYeVJLOlxK5sbJ2pN84tgYIcB7XGjXC4DSmTzpnJZCQ==" value=title|brief|breaks
+# refuse form/template/open/group · REFUSE·authority lane-A does not cover form/template/open/group
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/open/group sig="ed25519:era1:gSH5xUU0dfSTTknh66hpCNMPcb7+nEqQgqcO4CGsR+kuvtskgMPN7gLddkWIEArwzIKdQk4iQl3/0wPyzGf2Ag==" value=count|group
+# refuse form/template/open/lead · REFUSE·authority lane-A does not cover form/template/open/lead
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/open/lead sig="ed25519:era1:JSEsSyCLjDjF6mJMsd2ii2rTAz8U1ug9hgnvidEPQtfYQTHCajf341D7rOgEHFQNwAIGLqUf7YtCf56LkdsFDQ==" value=count
+# refuse form/template/page/media · REFUSE·authority lane-A does not cover form/template/page/media
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/page/media sig="ed25519:era1:gZg+0uN3fQ+siGtZKZTDxvLtfbP9l0MYpbYdzlTBDeLykm3t3dTTiDdGm+IIPsITvXld5PaDc+Ym4bdyPfAcBg==" value=digest
+# refuse form/template/pipeline/notes · REFUSE·authority lane-A does not cover form/template/pipeline/notes
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/pipeline/notes sig="ed25519:era1:ZjU6RBEAtNz8dC6vq7aypV2GMW2YhkKq7raJKBHVst+I6MAfFx45vCZk38TV7HAZwSzjYiRDHQulNmfWj926Cg==" value=version
+# refuse form/template/pipeline/published · REFUSE·authority lane-A does not cover form/template/pipeline/published
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/pipeline/published sig="ed25519:era1:drccXH6XOiP0iJUChad2B4TkA8U6h9CmBVyzkSYYQIN7qcF2BPM3ThZwUaLmibeyfHmT4Bi6eh4G4gvu41bHCw==" value=name|version
+# refuse form/template/pipeline/released · REFUSE·authority lane-A does not cover form/template/pipeline/released
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/pipeline/released sig="ed25519:era1:B5tahdcWMkJ4bV+LjQdKpdPNRE3Erw1npOzrzox7DduptOd7w5E7KtZiZ83UBwPqZ+6CcXkG1XQ0hWfiOYT1Aw==" value=version
+# refuse form/template/pipeline/tagged · REFUSE·authority lane-A does not cover form/template/pipeline/tagged
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/pipeline/tagged sig="ed25519:era1:4ZSdJnPbY4Bri9Tco0no8zRVFUZZxBLj0ZzsNI4NUAPwT+OtOIzjYlSGxLsFLDKMII8vHvOAA45qzk2FL+vUCg==" value=version
+# refuse form/template/pointers/learn · REFUSE·authority lane-A does not cover form/template/pointers/learn
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/pointers/learn sig="ed25519:era1:m7hhAne96IIrPeIxLYDuwTADUEI9GKBdQtKD4ceutS03VfWFBOFmcZIbm+TPyabJ3qCI8pqUdx6idnlCxjgdCg==" value=pages
+# refuse form/template/reading/summary · REFUSE·authority lane-A does not cover form/template/reading/summary
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/reading/summary sig="ed25519:era1:26TV91GvxptfKjTwDqiqpOhYTtcVwBic1OIxcfaydpj6HvQvU23EU1e54Sq8ZC5ZLEkevcwlxzwG5Q+Q4z7oDQ==" value=count
+# refuse form/template/reading/view · REFUSE·authority lane-A does not cover form/template/reading/view
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/reading/view sig="ed25519:era1:6wY30FQiCOqYAqIjFMP2Ga/Dy5ZxB6vtOO98CLRxlSofWkgZnwxLNJBf2LazVPJuOgn1EXWRFuAwtKhO7BtAAA==" value=name|answer
+# refuse form/template/reference/form · REFUSE·authority lane-A does not cover form/template/reference/form
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/reference/form sig="ed25519:era1:aQZbNe6RKcjWQi4FhV7Xg5kVnqVXA4BwpC1vdSJWwHTCsVLjD7+t98+yXLrJ6EUm9l1CheF0qdLEGRbky88WBg==" value=name|args
+# refuse form/template/reference/lead · REFUSE·authority lane-A does not cover form/template/reference/lead
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/reference/lead sig="ed25519:era1:ov0goLaRDEOaV+2se6sPa6C8kDRKxaGogbc5sYOgWyIsAEdZ5H15mivykeewnEdZs0NBrMYUhbrOOCd/WbY9Dw==" value=operations|laws|forms
+# refuse form/template/regions/laws · REFUSE·authority lane-A does not cover form/template/regions/laws
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/regions/laws sig="ed25519:era1:pA95kNzH2h/75DsuaPf588PxVnGz/zgvxRrI9Jh6YLiku6DZ1ElankSJ691rN1IcvfQlwvcuaYlYfqckCqtRDA==" value=count
+# refuse form/template/regions/lead · REFUSE·authority lane-A does not cover form/template/regions/lead
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/regions/lead sig="ed25519:era1:6ZrwJCZVtXQaavQ7RxlF8EjvScOWb4Xsp8bIDt7vkEyVGXZli14qYSssJO5tFksR/jDcjTeUekd1fWckjXJRCg==" value=count|effects
+# refuse form/template/rests/on · REFUSE·authority lane-A does not cover form/template/rests/on
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/rests/on sig="ed25519:era1:HDWG4fUzFZI2p6AfSYpwgyDAsMYRXwxSuDgaa83Mhs1t0mG2XVnPWviDW91pMO+wakC2DXA3Vu/pFqR7fLn8AQ==" value=names
+# refuse form/template/runtime/node/run · REFUSE·authority lane-A does not cover form/template/runtime/node/run
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/runtime/node/run sig="ed25519:era1:GhpkvO4m7jxvBP0XbfxFZLFWYdBq525ZflO+M7SCV9vZps70mN2762Py3o/FC7Rf7pdSQqrhc1HIWE+6YsHQDQ==" value=at
+# refuse form/template/what · REFUSE·authority lane-A does not cover form/template/what
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/what sig="ed25519:era1:0PRD2AXiSrgQivDMO+b8C3cWuwLNc7RYIoX2hAA5AjlPmgdL8ZyrMjQsE8gpVlL750G7HQUc3hZeUcjYdeDCAw==" value=places
+# refuse form/template/what-holds/axiom · REFUSE·authority lane-A does not cover form/template/what-holds/axiom
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/what-holds/axiom sig="ed25519:era1:ghn+HhyTFAd0Xrw8lmPCutEmPPnwsYVf69lfsUIbeYb2gDEV29X0mgOz40MQ6JET8ZLe07d3xkL9orJa8b8hAg==" value=sentence|name|rests
+# refuse form/template/what-holds/lead · REFUSE·authority lane-A does not cover form/template/what-holds/lead
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/what-holds/lead sig="ed25519:era1:ipTfHaZqH+kjYGigIw9USb+5jAyPw2389iUGFrBX0wAPnhoKQlMWceJ7kEcZ6FT2FCBQDKRee2PZdscFOpgJBQ==" value=count|spelled
+# refuse form/template/what-holds/measured · REFUSE·authority lane-A does not cover form/template/what-holds/measured
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/what-holds/measured sig="ed25519:era1:pTWBxNeEK7fjWGVJOqI8hNnTY6EqD9yuKcIwnoh2oLLki5VK/NpeuhniiMYW1AC2KtG7hrdupM+qhInlygMKAA==" value=sentence|measured
+# refuse form/template/what-holds/other · REFUSE·authority lane-A does not cover form/template/what-holds/other
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/what-holds/other sig="ed25519:era1:Bd3o6coalP1CY1JYyV+vqHE0aWuQzgMDIYu5LARblEcMeDDHy2U9Z7Cp1jtU5PKZiA6oMZF5gf6bgzfEYfiZDQ==" value=name|about
+# refuse form/template/what-holds/others · REFUSE·authority lane-A does not cover form/template/what-holds/others
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/what-holds/others sig="ed25519:era1:NSEIIURJKGfa6mKqPLr/JrCy/Dwcg8PHYKoCcwwzaIO+6VbQed9p8N4hAqUlM/Vsl7+pMqYU2JvG7fsmz+tWDQ==" value=count
+# refuse form/template/wire/blob · REFUSE·authority lane-A does not cover form/template/wire/blob
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/wire/blob sig="ed25519:era1:eEO8LpxqSQXYRfYke8pX9M9YpepgJO42KTytK8mh2RCvlPvzucshlZFA9Csa23pQkIM7MePjlPk/vhvHwDgRDw==" value=hash
+# refuse form/template/wire/canonical · REFUSE·authority lane-A does not cover form/template/wire/canonical
+bound-lock/1 at=policy:topos/wire-page by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/wire/canonical sig="ed25519:era1:vwU/bX+Z90PAZr+d35kBQ4fAfgGcJjxr4nYVrSIEICdfJnwFDKLw6apBf3QTTbQSn6KHmcxOII+QbusjJLW+Bg==" value=hash
+# refuse form/template/wire/encoding · REFUSE·authority lane-A does not cover form/template/wire/encoding
+bound-lock/1 at=policy:topos/wire-page by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/wire/encoding sig="ed25519:era1:NED9PbAEzPuL5kP+k356P1M+RDRUtXdxuIdRKIJPFOrhL4HvDV4cVSrL7G+o8r3WPlolo2AJFHw9p4IkNNMwBA==" value=encoding
+# refuse form/template/wire/header · REFUSE·authority lane-A does not cover form/template/wire/header
+bound-lock/1 at=policy:topos/wire-page by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/wire/header sig="ed25519:era1:M/HsNypKowre0tD8iapue9yJmD9oEgfulsAdG/04512wM4i7seSTa/TkPb8l5sf2SyEwxrO2VYOlv1IDBzvdDg==" value=header
+# refuse form/template/wire/lead · REFUSE·authority lane-A does not cover form/template/wire/lead
+bound-lock/1 at=policy:topos/wire-page by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/wire/lead sig="ed25519:era1:/eU+XH6c4bsRy7LpOUCFS3OeNCULGHCbgERpgSySaICre+pMt1peRwKWfv4+aFNPOY3PqOl6ITWnQOrztRumCw==" value=header|encoding
+# refuse form/template/wire/order · REFUSE·authority lane-A does not cover form/template/wire/order
+bound-lock/1 at=policy:topos/wire-page by=lane-A epoch=1 form=alphabet measure=id role=writes scope=form/template/wire/order sig="ed25519:era1:txuZLg6R3Ges0zwrN9mUPeFXZx1yd6iZ/JKS7eAhfodYTJXVM6K0DxpIYpkSaDnZSM+J4nQ7VUPPuwsmafzQCA==" value=encoding
+# refuse ignore · REFUSE·authority lane-A does not cover ignore
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=ignore sig="ed25519:era1:D+3f5Gn2kr/G5dcqaERadV4Xmj3kZvVPovzYfVQ5mqS2FYFHx7UQszULygZWCCNoE68GEMzftZoCGvepARcTBw==" value=.bound/|dist/|node_modules/|.cache/
+# refuse install · REFUSE·authority lane-A does not cover install
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=install sig="ed25519:era1:dAupPQqejdcW9o6qxHCRCtcKy4vDnfF8fNf6HtDGtADG/LUu425hbeeUlivy08MvGQtk4Pp9XYA8GCr0cUk8Aw==" value="npm install"
+bound-lock/1 at=place:keys by=owner epoch=408 form=alphabet measure=class role=reads scope=keys/lane-A sig="ed25519:era1:p/HafVMSXR1Vb26b7w5oNc/3atStY/kN42m4joxyB8ikhFvlSswlKoWDQSajj2NXXMJVVzXbuPCvvSUNN070Dg==" value=agent
+bound-lock/1 at=place:topos-json by=owner epoch=409 form=alphabet measure=coverage role=reads scope=keys/lane-A sig="ed25519:era1:9Oo3j34Ka4hg2nnAzZl9ElLr+YLpni3/AzFkZPwsm+LhBkZAInCnrekGKKm8z+es56NcZE5F5Xes/6EZlrFyCQ==" value=topos-json/**|region/topos-json/**
+bound-lock/1 at=place:keys by=owner epoch=408 form=alphabet measure=public-key role=reads scope=keys/lane-A sig="ed25519:era1:pPVnGBreI+AiTF7wIF1PTUFvgmWj9sAf1BVOnNSAw84ZA9PHdlUlBijFxwBFAKpV2QjZv3vlgj4FkqvAuqCbCA==" value="MCowBQYDK2VwAyEALpdMdPO3OeXyp6PQcisnTjB9mdeSUiUZCCkRiFK0lys="
+bound-lock/1 at=place:keys by=owner epoch=408 form=interval measure=resolution role=reads scope=keys/lane-A sig="ed25519:era1:/DaeujiuekTD86LuqgNTOd9wdELh1GcvS/ZVAyf9JY7ZtLzRIGZ1Mwc5ECu/H7u340JuAbGuFM2dXgIsQWKXAA==" value=1..16
+bound-lock/1 at=policy:keys by=owner epoch=9 form=alphabet measure=class role=reads scope=keys/owner sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:z1+6gtFVPc3MfHCK2FUOfqyuPjZDSefYTfkQkcILMfMlRRnmne1mY9BpiO4QqoH0q9gNt2wCLlpQ+sldM+4tCg==" value=authorize
+bound-lock/1 at=policy:keys by=owner epoch=9 form=alphabet measure=coverage role=reads scope=keys/owner sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:gdr4oPiX4pWLNOzhwWcALHKr2zGHo906NoHpymaXTLq1f6Z7icy0gmEn2/smtcjlfAqv/Tr3jbb1nWM23L8QDQ==" value=*
+bound-lock/1 at=policy:keys by=owner epoch=9 form=alphabet measure=public-key role=reads scope=keys/owner sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:vAdWbDyY9geq4MaZj39T9A2o+00zb1Mnr2wLzW7w2ZMrgMJjM0abvmVtsRwTaFwfkkJEGDBb0QuNaKmEE5sIDQ==" value="MCowBQYDK2VwAyEAIYI0be8OWhf3HcVceKpibjgZ+hbYJKYO5ayX8Kk16LE="
+bound-lock/1 at=policy:keys by=owner epoch=9 form=interval measure=resolution role=reads scope=keys/owner sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:m/Pm3pk3THBm5Wah79TmXgxq9qpnwWZ6R4a2UvJdTJnJthquUsLMXgcUBagynG/h/WgakNTL6vB+pbL8WnogAQ==" value=1..16
+bound-lock/1 about="the key this lock admits to write what the tree is read as: a reader speaks only what it observed, and the lock says which key that is" at=policy:keys by=owner epoch=22 form=alphabet measure=class role=reads scope=keys/reader sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:+GFCyG3ntO7YFHrDvyii+/Lu3voIpq4HbByzO/LgLUXfXKV5lvp62DDC0+DXalYDw0Cc15mkkculj1UPeQJSDw==" value=read
+bound-lock/1 at=policy:keys by=owner epoch=22 form=alphabet measure=coverage role=reads scope=keys/reader sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:bd3JgJ3/P/6zqLo19xwgq+ZrAklwuT7mHMI6yuqU8ayfAZid0gSyVV7xWKuAzwsfgtTuKWuUadfNK5FmnqyUAA==" value=*
+bound-lock/1 at=policy:keys by=owner epoch=10 form=alphabet measure=class role=reads scope=keys/verify sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:Q6liul128VZBmQNTlcIx8QK/k8oJsD3JMwaxZ1FinaIkj8ZZA4pcOm1cZbp/yuxgNymJrBR8IQ0ZpahV0ACZCQ==" value=attest
+bound-lock/1 at=policy:keys by=owner epoch=10 form=alphabet measure=coverage role=reads scope=keys/verify sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:jxZ1478dEngHANVcHA15tSE+fBlgUeqQnmRLmg/vK7Mk94njKFBZnh+ccye/dpY01zwc5XmDbi2p6Q8+45uvCQ==" value=verify
+bound-lock/1 at=policy:keys by=owner epoch=10 form=alphabet measure=public-key role=reads scope=keys/verify sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:YXaWrvwPsC/XULzvHV3r/2oS9cFytiEEcdjhJi3+omwNmdVykyVPUnqltKKMv65YbjJ+BCxrVKRmI/MY8fG0DQ==" value="MCowBQYDK2VwAyEACLnnkNAHf4V7vXG4cCZv6rM7suRwGTe0MJoqqCUxnvw="
+bound-lock/1 at=policy:keys by=owner epoch=10 form=interval measure=resolution role=reads scope=keys/verify sig="sha256:58f1f0983fe65f062bebefd0a6ffc901049c67525ef12dd86ed4dbb7a184b834:Do/XC5Jz7KbVhPNGZkUID1c7w8L0CEMzblgBpU3UEBjfkIs/X6I9ScrAeL3lGYXBY8hYUDohw5kWO85bSlQuDQ==" value=1..16
+# refuse keywords · REFUSE·authority lane-A does not cover keywords
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=keywords shape=package.json sig="ed25519:era1:7+Yc0PQdZTcbcRp8aCZYUizk/+ff8sz7vSd95cF3DixcmholcZewyWHXmg2BoQue+LbhXEbGB1+FjaRlz/nmCg==" value=topos|capsule|reader|json
+# refuse lang · REFUSE·authority lane-A does not cover lang
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=lang sig="ed25519:era1:UXFZrWdxaLDG7x7rZjAUbqW3kbO+rBGJlXVxUpPLsg72PPsXRUyb1FrRwApGDrROh59HSuR2F6gvp9MKhgWbBQ==" value=en
+# refuse leaf-role/.cache · REFUSE·authority lane-A does not cover leaf-role/.cache
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/.cache sig="ed25519:era1:H3pNNHRZrKBa+vWzl+Pw96X2uqFm1+Odm4kbrIHBNELCoAEZpM4E9s9ENdL5Gp8jjdsvse23XfsaRAihCwMRAA==" value=derived
+# refuse leaf-role/.github · REFUSE·authority lane-A does not cover leaf-role/.github
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/.github sig="ed25519:era1:naf7rAV00yUiRjGOaA/tdJKIahfgfS7EUI2wamUaXAmRw9IdsQr7LEy3y1m/VNT+LlmzSJsOZzf0ZSngyHZVDw==" value=derived
+# refuse leaf-role/.gitignore · REFUSE·authority lane-A does not cover leaf-role/.gitignore
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/.gitignore sig="ed25519:era1:KDPEUxnn490aCnVIjnVNoN6InVlYplwa5C0qTjgVXkTQFNHBLZdAepLqXe4V8bCki8VEEX8O0qJhZeXeexPxCQ==" value=derived
+# refuse leaf-role/CITATION.cff · REFUSE·authority lane-A does not cover leaf-role/CITATION.cff
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/CITATION.cff sig="ed25519:era1:jOAE8iGqBNfJsdm8PFKMweEGOya/7Bod5wapd11/ZIDuRsFx4k0tp8ZpUqRY0WH1DYp7hAECTRBJ09M4GuFlAQ==" value=derived
+# refuse leaf-role/CONTRIBUTING.md · REFUSE·authority lane-A does not cover leaf-role/CONTRIBUTING.md
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/CONTRIBUTING.md sig="ed25519:era1:RAdF5geqdkBk02BuQqxgdBsUjOvLyWZkox0iJf9Ia51L27W32BQdpsx8IZwcHVP152hPE5Pa9O1GRMtXnWOtDQ==" value=derived
+# refuse leaf-role/package-lock.json · REFUSE·authority lane-A does not cover leaf-role/package-lock.json
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/package-lock.json sig="ed25519:era1:jd4MjL3wj3daMX9BuW2Mke2zDf/ElNG/1bD2jtkccLJCFTHzIAuTNg7plYByLFuHnTPfbOKm5vF+plsryFNgAQ==" value=derived
+# refuse leaf-role/receipts.bound · REFUSE·authority lane-A does not cover leaf-role/receipts.bound
+bound-lock/1 at=policy:bound/leaf-roles by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/receipts.bound sig="ed25519:era1:qwiXrqRWpk0VmvthVRb8DoNpyFwA/1oywGl1MLz7AthxqhGcWZ7Jk4nhqMwPl9mRCe4Pfj3r0yN2WcLuf72GCA==" value=derived
+# refuse leaf-role/reference.md · REFUSE·authority lane-A does not cover leaf-role/reference.md
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=role role=reads scope=leaf-role/reference.md sig="ed25519:era1:dx3d3n86+89vGc43immD402U1ubeubqGrX0Hf3PEHTQfYB7FX0uj23g8bGLTDRKM7oiL/h9JL4eMxZ0fb9ZEBA==" value=derived
+# refuse license · REFUSE·authority lane-A does not cover license
+bound-lock/1 about="MIT License\n\nCopyright (c) 2026 Lapxo\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE." at=policy:license by=lane-A epoch=1 form=alphabet measure=id role=demands scope=license sig="ed25519:era1:Z2p0lHMOkCf/U+pnibeI/i9GfszTnq7XcGnYO+gx2swFHY50vxeKYJcbqN2ZP5zuhIJKSPx1C4D78C/Z1yRKAQ==" value=MIT
+# refuse license · REFUSE·authority lane-A does not cover license
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=license shape=package.json sig="ed25519:era1:GhAmPWh86Z+VISP23cdDU2rM/KDkpHU918MZRlyT94UQ7qyO/g1RHTpepmJz1bMciWLkcMBjtwbv6lVWdPfeCg==" value=MIT
+# refuse name · REFUSE·authority lane-A does not cover name
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=name shape=package.json sig="ed25519:era1:mcWDRsSHfw2ONTQhLjoIMLwQC5p68BKZX6PYJCQrVSde10muLL7kwGVEBTvAtgaCSIJyai9zJm+zlWMfBhQ/Bg==" value=@lapxo/topos-json
+# refuse notation/cell · REFUSE·authority lane-A does not cover notation/cell
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/cell sig="ed25519:era1:d1Zlj+JlAMrjuz5UNKg1UeXyTfeSEcdHTUs/208qaJXfdKnTOE7qZWFRjSLS8w0W0fx8g59XWI230CKl/3HlAA==" value="floor=⊥|ceiling=⊤|origins=O|rest=⊑"
+# refuse notation/claim · REFUSE·authority lane-A does not cover notation/claim
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/claim sig="ed25519:era1:Gu7tkbMq8yp1wFNe/hPbGgHA/dtl6FBUixDCQESc8rC4f9lwFW/LM//am5mQhVklr91bTz15JLs6arUI7ff/CA==" value="who=origin|lo=span.lo|hi=span.hi|without=takes"
+# refuse notation/formulas · REFUSE·authority lane-A does not cover notation/formulas
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/formulas sig="ed25519:era1:7IynSiURmaIwW7er4nei5DZSu8FJ4dMITdu2zHg6Vh4aOwwFALnvOXgx3c+16j+yYQgiAS3Mftg6BcNqIM+3CA==" value=law/D11-the-obligatory|law/A1-encounter|law/A7-freedom-conserved|law/T49-amplitude-has-sign-and-phase|law/T95-signatures-live-where-they-are-signed|law/T87-the-quarter-turn|law/D3-state
+# refuse notation/gloss · REFUSE·authority lane-A does not cover notation/gloss
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/gloss sig="ed25519:era1:pwkqXnZf3H/6Pyl3Gn8Zn4Ps6e625I48pZFztkpOjYGU4kOgqmAyFQH5KPl4EEDBsBXCSFVxcNvDg6soWGgWBA==" value="over L at r"
+# refuse notation/glue · REFUSE·authority lane-A does not cover notation/glue
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/glue sig="ed25519:era1:2tM8BS6wOHtNvQr7ty8ZYXWmNdKlbTXYzdD6QE/M5YP8EYmZbjKD1u4hzbAydrZgszI6LMJehQiDi8Mx3CgPAw==" value="open=⟨|close=⟩|member=∈|product=×|maps=→|iff=⟺"
+# refuse notation/moves · REFUSE·authority lane-A does not cover notation/moves
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/moves sig="ed25519:era1:zP5EANGdeZQ46BWRV5Weo5BGy/xCPFUrmUYs5orz9ZRpWFa3nVdAv0Dn0k1M5A116giZZ+h/Q6wBc4gFusDzCg==" value=vectors/moves.json
+# refuse notation/named · REFUSE·authority lane-A does not cover notation/named
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/named sig="ed25519:era1:mlnx8rtGh7FEW68Yrccj4BHAhXLRqG9Gmt9O1SPKvUTv+vgpRd+b5aM7/C/F6aL4JdB6mk109XUEslDRUPGiAg==" value=string|number|boolean
+# refuse notation/object · REFUSE·authority lane-A does not cover notation/object
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/object sig="ed25519:era1:i6ivEHjMoa/rMsJDCxc3JDPPiAzYCsXVbtPzfi+QucCycVYVahHw6ZgqQIJHOlfD8auVo50ouBA02ysfp1iyAQ==" value=law/D11-the-obligatory
+# refuse notation/renders · REFUSE·authority lane-A does not cover notation/renders
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/renders sig="ed25519:era1:iHgLig/ubf/JW6CTqxVPO6BEhjIDsXuTP2MPmn81+jBfAk4nB/q52iXbA0WIi73E2/oOc2ABze/O+pmO65M4CQ==" value="FREE=green|REQUIRED=grey|FORBIDDEN=red|CONFLICT=fork"
+# refuse notation/states · REFUSE·authority lane-A does not cover notation/states
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/states sig="ed25519:era1:lT/dT+byiiPrejH9Nn/sU7RCdwxZKKDxsOAc76cXs0nLuOW//p/3pG2UF+029we+GP2XnPYZvWM7FihjfifMDQ==" value="bounds that cross=CONFLICT|one origin=REQUIRED|claims that do not meet=CONFLICT|claims that meet and fit the bounds=FREE|claims that meet outside the bounds=FORBIDDEN"
+# refuse notation/symbols · REFUSE·authority lane-A does not cover notation/symbols
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/symbols sig="ed25519:era1:fJj26V1v5Pp+kmZwcDodk5lIZUEqstLO/HMLhgsTNLTjyDPyoJYijw0wS/iqo3o1g/1pn75ffFtE4qWAref4DQ==" value="object=c|state=state"
+# refuse notation/types · REFUSE·authority lane-A does not cover notation/types
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=notation/types sig="ed25519:era1:x9CTwTliX/ISRpVo4prAV4elC/rCTIFgMelOo58+yowUF25JPVhQm55AldWzMqoxXMd+SoerwESv5yczLlzDAQ==" value="Origin=(o, φ)|Act=s|State=state"
+# refuse open/who · REFUSE·authority lane-A does not cover open/who
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=open/who sig="ed25519:era1:15OSF1z/JamLmKESrzP+p4DkQocxtjKE+bIVq1mZXeC7THU+HbFoYUaoIkVYmwooPAYAmtboT5z/+7C6DJVqCA==" value="for a ledger=H1-uncertainty|for a ledger=H2-density-attracts|for a mathematician=H4-enriched-semilattice|for a mathematician=H9-the-obligatory-is-maximal|readings=H3-a-distant-signature-moves-a-cell-that-did-not-move|readings=H5-hilbert-is-the-obligatory-without-four-fields|readings=H6-structure-of-measurement|readings=H7-the-medium-of-encounters|readings=H8-refereed-game"
+# refuse pipeline/branch · REFUSE·authority lane-A does not cover pipeline/branch
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/branch sig="ed25519:era1:RszK0J4YGwigRiio4EkpKUU3F7S7R1ms5Bt3SP1jeoPaA5U15umZcVXvFbkt7/SaSmwXK+Uplo/YZqy2+Is7CA==" value=main
+# refuse pipeline/environment · REFUSE·authority lane-A does not cover pipeline/environment
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/environment sig="ed25519:era1:G1cmM1JgUqJGZar0Bv9Q42ryFuuU0xwFf9vPlm7qhcnY+9HAgIa9+PQ8nB1tWIQHvyUES7sMlcgvwifV2b7TAQ==" value=release
+# refuse pipeline/node · REFUSE·authority lane-A does not cover pipeline/node
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/node sig="ed25519:era1:EL9HxdzKjDBAO1IfUQX6BjD6rqfsO0dKvHAFOTGmvnyvG6Deh029zoPkEAqcLpStfrK1pbzkw3mQFIV9T1nRBQ==" value=22|24
+# refuse pipeline/pack · REFUSE·authority lane-A does not cover pipeline/pack
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/pack sig="ed25519:era1:S5COmR0xZpTrSYRQeA2d8kGmTAPdSFPhO0xzsqfowKsivCD1tjPSs7eQWmr+wWVEx17frqZXoxyd3mX11mEwCQ==" value="npm pack --silent"
+# refuse pipeline/publish/command · REFUSE·authority lane-A does not cover pipeline/publish/command
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/publish/command sig="ed25519:era1:oMeA6VMjL61TCPCmwKBCV545utf1Phui2hZGaG2yK8Xj7mTnSKydjkJhyzT4RmBMIenjIlLUS7Nrjr/bp1BOCg==" value="npm stage publish --access public"
+# refuse pipeline/published · REFUSE·authority lane-A does not cover pipeline/published
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/published sig="ed25519:era1:g2823G9xVxDKPM6nOIzgAgb+6URTuQW+cfVOZiCMulW9TxZHFxJtgC4Wm/LQCXxjVjgGEiNZQUOuHgHQ9uiWDw==" value="npm view"
+# refuse pipeline/registry · REFUSE·authority lane-A does not cover pipeline/registry
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/registry sig="ed25519:era1:jQpKKIlkbwuwjdZGz/gepMaiPClcxvPRys9aBNV4+aSz2NdrBxCW9pZTUfhQefEbN8yqsVpZD7DLjDbwO7ojCA==" value=https://registry.npmjs.org
+# refuse pipeline/trusted-publisher · REFUSE·authority lane-A does not cover pipeline/trusted-publisher
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=pipeline/trusted-publisher sig="ed25519:era1:xir+6/9iUCH5wK4p1RNo5IiPLw8GCfw+DkyONhlF7+1jpGJj2EGTZ5hQWiF8BP2PZSIyPOuXVNnpRwwLtFN6CA==" value=pending
+# refuse private · REFUSE·authority lane-A does not cover private
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=private shape=package.json sig="ed25519:era1:zkEfXAKGudYDxXuQheMNh0ZBw3biUs20QC2WGm2CW8Myv423DS6Emg8I/fov4drv0SUbO8Qw0J0mTDFQo5HnAw==" value=true
+# refuse prose/en/cell/outlier · REFUSE·authority lane-A does not cover prose/en/cell/outlier
+bound-lock/1 about="{count} meet at {lo}..{hi}; {who} is apart: {state}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/cell/outlier sig="ed25519:era1:aoSIhWInMoF6zJTgbE5zCpwI3GT2QWVqvhil5JICcn4IheZURS5Vye/xROx8FgQ5q/0lb1P3gaL8w+oPAgLMCw==" value=lock
+# refuse prose/en/cell/together · REFUSE·authority lane-A does not cover prose/en/cell/together
+bound-lock/1 about="{count} meet at {lo}..{hi}: {state}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/cell/together sig="ed25519:era1:cjZR8TPcEQputxzILCC7gaYB3EwLJsq4g637jXlGrx+291kCLyOXpctAeFDHJxJzV/Ae2MZ2j7A7iYBTCdtsBQ==" value=lock
+# refuse prose/en/figure/world/blob · REFUSE·authority lane-A does not cover prose/en/figure/world/blob
+bound-lock/1 about="packed as {digest}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/blob sig="ed25519:era1:4+oYr/b/B1wBllxwDAVxLWfDV4lprZW3PW2LFrGfi7KJYr+GM+k01qvU9pb55bk/DHixtzeoogkvveriZ42uCA==" value=lock
+# refuse prose/en/figure/world/declares · REFUSE·authority lane-A does not cover prose/en/figure/world/declares
+bound-lock/1 about="declares {domain}, runs on {runtime}, reaches {effects}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/declares sig="ed25519:era1:9xIGpSkB2z2ozlnrgNZiGZKFIwZk4x/5EpHFnrfulHKTOewS3Rjd9xCWMaxk8g/ZgURU+9gum8gDFS16l3GyAg==" value=lock
+# refuse prose/en/figure/world/host · REFUSE·authority lane-A does not cover prose/en/figure/world/host
+bound-lock/1 about="run by the {runtime} host" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/host sig="ed25519:era1:JDfOc/rXBuV8NuoBDkfd+dPB6o7tVSb8lCfJmoCEHRjq23cnIV6MGMjaLxmmWwNtItrtVSw8FgvgXaDY4JhHBQ==" value=lock
+# refuse prose/en/figure/world/pinned · REFUSE·authority lane-A does not cover prose/en/figure/world/pinned
+bound-lock/1 about="pinned by {place}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/pinned sig="ed25519:era1:p609tkmhv4f3KL3LoVd7cUAZaAlZqLX4rgJuHlH8nhinAWFv7xSwEQyi5JTiVgH1eDrVt4oPWmGiXMFWICArBA==" value=lock
+# refuse prose/en/figure/world/region · REFUSE·authority lane-A does not cover prose/en/figure/world/region
+bound-lock/1 about="{name} reads {reads}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/region sig="ed25519:era1:VZIwBAZK08KSpRfROn3t2Tek/97PcvoWirxzjx4Zaptrwir4oCjFAy/fErF+t4jjOdJIzuzvMmQnYTCJjI7xBA==" value=lock
+# refuse prose/en/figure/world/regions · REFUSE·authority lane-A does not cover prose/en/figure/world/regions
+bound-lock/1 about="{count} regions, the longest of them {longest} lines" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/regions sig="ed25519:era1:6U80XMxWXEFagWlvsBH4EYJJtiks67RMwX1HC7QfNKRdjm8pQufeGTAZlz4Tmuuo45Mmi3HawJ6MJ+XUtBfHDQ==" value=lock
+# refuse prose/en/figure/world/topos · REFUSE·authority lane-A does not cover prose/en/figure/world/topos
+bound-lock/1 about="against topos {digest}" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/topos sig="ed25519:era1:bdSZwFGYID6C9WYPZwgM2QPQ+lQcwUo32fyH0oQrq1NHG26aIufGwQwQFLy0+NZoAqypVC3NYvPKuAARlPafCA==" value=lock
+# refuse prose/en/figure/world/vectors · REFUSE·authority lane-A does not cover prose/en/figure/world/vectors
+bound-lock/1 about="{count} vector files, each held from the blob" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/figure/world/vectors sig="ed25519:era1:1pCaiMVC7e/PxNOjAcUX2GF4uJTjtQLyIQBaNF92JBg6FkQn0TrSqrQh/CIKx2LkmJcH2I3eMenHaBkAYKXCCA==" value=lock
+# refuse prose/en/pipeline/notes · REFUSE·authority lane-A does not cover prose/en/pipeline/notes
+bound-lock/1 about="{version}, as its lock holds it" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/notes sig="ed25519:era1:xS0zq7Tzjk/PxyVoDP2i8TnhJkzI9omI/rqL40YslnKEnXBm7CCQVwuyz6LyyFQfQU/zJcV2ekjSQdsElz1WAw==" value=lock
+# refuse prose/en/pipeline/publish · REFUSE·authority lane-A does not cover prose/en/pipeline/publish
+bound-lock/1 about="publish the version once, by the trusted publisher" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/publish sig="ed25519:era1:0SWquvIlTRpVrUZpp6bEOGZSfR3Uh0OfgVbWje+919y/JbCEY4BEo1U+zpoAvSkCvekoyHs5wxxbm43U+g2VCw==" value=lock
+# refuse prose/en/pipeline/published · REFUSE·authority lane-A does not cover prose/en/pipeline/published
+bound-lock/1 about="{name}@{version} is published" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/published sig="ed25519:era1:gZPCcG702yHE32U6GCVHE776lVs4smhu7OQU24rnabGxZB/Sw3oVmc2zcTmNdVrayRTxXKka/i3AeRmGHqZrBg==" value=lock
+# refuse prose/en/pipeline/release · REFUSE·authority lane-A does not cover prose/en/pipeline/release
+bound-lock/1 about="release the version with its tarball, once" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/release sig="ed25519:era1:AKtwjzD2DthnZWvwRiWyum8ECJBUswyVCOcne4QkY9sNshp/ln27DMhbPD4QurAVuJZgQzci/MFbsIGnRiURCw==" value=lock
+# refuse prose/en/pipeline/released · REFUSE·authority lane-A does not cover prose/en/pipeline/released
+bound-lock/1 about="{version} is released" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/released sig="ed25519:era1:guvWRe4Oyl+sHjAQFhGRx4YALb8JYJrRidlH+oSUd9OONi/O52tA03jGCgTGfu5ZjmxGQOhAPI4J68hrdfyNCQ==" value=lock
+# refuse prose/en/pipeline/tag · REFUSE·authority lane-A does not cover prose/en/pipeline/tag
+bound-lock/1 about="tag the version the manifest names, once" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/tag sig="ed25519:era1:MLQOjQB/miaDXhYONEnsue3zxNjIPtEwGUoIIHU8FlWgopZGMAjlhVNhoe5JMMicXZFo3vOahUXHq8eq5khgBg==" value=lock
+# refuse prose/en/pipeline/tagged · REFUSE·authority lane-A does not cover prose/en/pipeline/tagged
+bound-lock/1 about="{version} is tagged" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/pipeline/tagged sig="ed25519:era1:Ec802TipGqu+zp6cuj8AV6MwI0AK096pPB/uSIhj9byBZr81PL35j4dSWvun7n0RCS7ZlihLR2bMk1ykSwrfDA==" value=lock
+# refuse prose/en/regions/lead · REFUSE·authority lane-A does not cover prose/en/regions/lead
+bound-lock/1 about="{count} readers, each handed the bytes of the leaves its descriptor declares and nothing else; it reaches {effects} beyond them." at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/regions/lead sig="ed25519:era1:evLeNcfR7288ygayBU5+eUNoIUpPB2jN14ECIz5lNznP/8iU8iLhKBi9kDWL40DdxUjxgk+wuzz4pliEGKPGAA==" value=lock
+# refuse prose/en/regions/table · REFUSE·authority lane-A does not cover prose/en/regions/table
+bound-lock/1 about="| reader | reads | writes |" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/regions/table sig="ed25519:era1:452D0l+nya3FwA4TuJ63J9UXVjCMR57XFwisywcvyVZxs3Ct9OVcqYx48OsLYHSogM5M7vOTspKQvLwxU8IqDA==" value=lock
+# refuse prose/en/what · REFUSE·authority lane-A does not cover prose/en/what
+bound-lock/1 about="a JSON document read as what it says: the names it cites, its fields and its cases, and the vectors a place runs" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=prose/en/what sig="ed25519:era1:MT4I/yZGASqtriBGLcqEeGZsjSv4AIDG+rk0wuLyvyiuQNYQazxRd4MYvLG4gUG4Rcb+juw3S+hJkaUc6YKOAA==" value=lock
+# refuse publish/bootstrap · REFUSE·authority lane-A does not cover publish/bootstrap
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=status role=writes scope=publish/bootstrap sig="ed25519:era1:zO/AubuOQxMCNaYvSdMEyDiX5DuLU+jHdF5PemMwDr+EI5B57wov2ehn+mwbw5jGuPL5BKbO5NkpFeGMSHf9AA==" value=topos-json
+# refuse region/approaching · REFUSE·authority lane-A does not cover region/approaching
+bound-lock/1 about="the regions spoken in more this epoch than last" at=policy:region/approaching by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/approaching sig="ed25519:era1:3y9CHo5SoHxDz7xzJDnVkHGkgVVkQkkglAmFAOuYmHGAp0bSoImHEQpwJNn9lLbzjWn0eQBD5xHLMiTKLXOSAQ==" value=lock
+# refuse region/audiences · REFUSE·authority lane-A does not cover region/audiences
+bound-lock/1 about="what the package attacks for an engineer, a mathematician and a physicist, in the owner's words" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/audiences sig="ed25519:era1:mRZ3p4Fe18drcAO7qmTdPNi+dukXmX+kmPx1nGcOAoO8Al3qsROeLHf5l3bvzxXkVrISD4RjtTw9CY9GlY38Ag==" value=lock
+# refuse region/axioms · REFUSE·authority lane-A does not cover region/axioms
+bound-lock/1 about="the axioms of a place, the three most rested on spelled out in their own words" at=policy:region/axioms by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/axioms sig="ed25519:era1:f9vcb5PIegeqTz3DkIGDJjhuRZ4BxPkkQVxmzoQT6J3KW5/Uh+pbwSeMCtQhAbBA5tCB4mrWgPe5B9LXIIDCBQ==" value=leaves
+# refuse region/badges · REFUSE·authority lane-A does not cover region/badges
+bound-lock/1 about="the facts of the lock as badges a reader recognizes: version, licence, engine, dependencies, the cases that hold, what the second head says, grey until the instrument that runs it is published, and the paper's identifier" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/badges sig="ed25519:era1:b0ULOApFp21VIkKeGU7/e2klFIB3lSlfyp9qathTlZiEALdGpcIRRxIWThB7ivzO5sVekLE+M6fYSB7HMAo6DA==" value=lock
+# refuse region/biography · REFUSE·authority lane-A does not cover region/biography
+bound-lock/1 about="each signer as a life: what it signed, what it left free and where it forked" at=policy:region/biography by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/biography sig="ed25519:era1:yrgBo4Sv5qN+7Ym8StA6D5LhHjTGBXAuohd6dKGHOPjFJJrn/XE8ZWe1ZgG3C9nYAhUqljaxSMcDyGaKMdsdDA==" value=lock
+# refuse region/build · REFUSE·authority lane-A does not cover region/build
+bound-lock/1 about="the options a place builds with, each from its own line" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/build sig="ed25519:era1:iHQRHCMlCnSFrpH3gqkDCXoF4wzvft01fBa3l7RcbXlIWfRsPnqqjjpxlWsSiyTo6hjqZ2HM/ANlIdEg8DwTBg==" value=lock
+# refuse region/cells · REFUSE·authority lane-A does not cover region/cells
+bound-lock/1 about="what a tree has not answered, one card per cell: its cone by digest, its ceiling, its origins and each state it could take with what that state would be worth" at=policy:region/cells by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/cells sig="ed25519:era1:Lx5uTdi6KC3IZ5JL4ircD//ngnaCDJbpvFw3KfBDdMbwkwdOZH4M0PxXzjG0u3NHLfgZDzsroTALItB7BM4ECQ==" value=lock
+# refuse region/census · REFUSE·authority lane-A does not cover region/census
+bound-lock/1 about="every conjecture of a place as the thing it is: who met it, with what, how together their claims arrived, and whether anything has closed it" at=policy:region/census by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/census sig="ed25519:era1:aziccG1Sfz9ndfNWlG/jNXGUluO1pq4EUOGe4YHp8cxqU9Z1YbMkpFuiUJppUv1AbMunvzFthq8aruTs9b6tCA==" value=readings
+# refuse region/cff · REFUSE·authority lane-A does not cover region/cff
+bound-lock/1 about="the citation a forge offers with one click, from the lines that already say it: the software by its name, version, author, repository and licence, and the paper it rests on as the citation the forge prefers" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/cff sig="ed25519:era1:Q71IJILPEcYxu+yuwbb2xNLvFPsY1VmCQTJ6/bDOohQ1ZOnzRhwunNS9Ksmm91Pl0dExCGRVv1lPpSvzMe1nDw==" value=lock
+# refuse region/cheapest-closer · REFUSE·authority lane-A does not cover region/cheapest-closer
+bound-lock/1 about="the question that costs least to close next" at=policy:region/cheapest-closer by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/cheapest-closer sig="ed25519:era1:vKTgNLdZoukJCaLe6L/TMOVvSRYuId+HF23XIN18/WLuC2Exjw7TjPmvW83dTsFLsE7kW9c4qF3Lv2oSmQyLBQ==" value=lock
+# refuse region/check · REFUSE·authority lane-A does not cover region/check
+bound-lock/1 about="how not to believe any of it: the command a clone runs today, and the one that runs the cases with bound once it ships, with how many there are; the repository only once it resolves" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/check sig="ed25519:era1:OiyktzqVWqGez4MrPXF7MuJsYIW7if6Bjk5okoZZN3vaP0fxY9HsHCSE52POJizHRP7Sn2VJEecOQXaJxnxKCA==" value=lock
+# refuse region/cite · REFUSE·authority lane-A does not cover region/cite
+bound-lock/1 about="what this work cites and by what identifier" at=policy:region/cite by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/cite sig="ed25519:era1:mvcQ1gXVHP887gXS+vrie6iHpgYueab+4j5O774VVHF02DqtUaF5qzcLhFd2dRntlNtlyy/SI3u6TRUw3nJ4DA==" value=readings
+# refuse region/coherence · REFUSE·authority lane-A does not cover region/coherence
+bound-lock/1 about="how together a region arrived, one when every line landed at the same turn of the period" at=policy:region/coherence by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/coherence sig="ed25519:era1:UnspidSdGzLQMs4uRqJUctw0HHGc7A4h/Rg3um+EbjtUHx+jTwokTiI04SaZChiGbygwrvDxMLfFE971QaxxDQ==" value=lock-and-readings
+# refuse region/commands · REFUSE·authority lane-A does not cover region/commands
+bound-lock/1 about="the commands the owner gives, and a grey mark while the verb they call is not published" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/commands sig="ed25519:era1:v7OGOq3wGXBbvyV3RQuDqlNBwEFRE2GshnLMGqKwZRjtDrlw76GGo8j2EtoFcb8yqrSDVhu1Nt63ur8fo8MRDw==" value=lock
+# refuse region/conjectures · REFUSE·authority lane-A does not cover region/conjectures
+bound-lock/1 about="every conjecture with the falsifier its own line names" at=policy:region/conjectures by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/conjectures sig="ed25519:era1:nYEo9NSJAuG1ioGE0qg7fatvGXLiuOfTy83oFQcYxlu+KfspT5kDmgsAOWe4niofWRhRXN0IJw98pJPCxgXfAg==" value=leaves
+# refuse region/consumes · REFUSE·authority lane-A does not cover region/consumes
+bound-lock/1 about="what this place takes from another, by name" at=policy:region/consumes by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/consumes sig="ed25519:era1:UQcWMBiscv1w3FBWYpNn5LQtbFUsZk4DlphJ+dO3stC8NAePPi4v42l/LjyefMEARQR16/Y3vgsyOglDRK/MCw==" value=readings
+# refuse region/dependents · REFUSE·authority lane-A does not cover region/dependents
+bound-lock/1 about="what rests on each line, so what would move if it moved is known before it moves" at=policy:region/dependents by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/dependents sig="ed25519:era1:3ELfBNd9wR2fJZ701E2WxJHcJcSk/CW5BGk5r2a9XpXQ79JTTwJDnbyiLJ1PqlHm60KRQkFe+sDXxI572G9pCg==" value=lock
+# refuse region/door · REFUSE·authority lane-A does not cover region/door
+bound-lock/1 about="the first screen of the root: its name, the figure one of its places draws, and one sentence of what the places are together" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/door sig="ed25519:era1:VK+CT105G7KKMosFwCD2ytg9SdzDD10Fi1u9Al+QCGCPcrW51jbgQF+ZTPUEqGPNH/rdZvY8XkIBpOBkoMdvDw==" value=lock
+# refuse region/environments · REFUSE·authority lane-A does not cover region/environments
+bound-lock/1 about="what runs here and what is read, said apart" at=policy:region/environments by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/environments sig="ed25519:era1:cDF/arfs6mT65oFC7kfcxKlKoAJVo45TP6oTHGn2+rQUWW/Vyzlpt5l46eNQqaAu+DPRwsqlyT6iYzb5o4PmBA==" value=prose
+# refuse region/figure · REFUSE·authority lane-A does not cover region/figure
+bound-lock/1 about="the cell of the shortest example, drawn, with the legend of its marks as its caption" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/figure sig="ed25519:era1:+V1LC9VNzKZbzyZWNMMhkEH6bVcxtL/z0BkDyZ9MRCIqZwSwwJw2TMeg9G4rAeJO2MtKZFVw1iEPEmk1peYgBA==" value=lock
+# refuse region/first-use · REFUSE·authority lane-A does not cover region/first-use
+bound-lock/1 about="the shortest example this package ships and what it prints, with the digest the lock pins for it" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/first-use sig="ed25519:era1:AiWXcuMYmtPDRPwDiN+Jv5m8Mrg3La7MmYyOyijDdQrwWA3lZmeR5JMuNsVHaf5N57OWl6WXm5m2JNm3OvSECQ==" value=lock
+# refuse region/folders · REFUSE·authority lane-A does not cover region/folders
+bound-lock/1 about="what lies where in the source, counted from the tree itself" at=policy:region/folders by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/folders sig="ed25519:era1:YvgCJCSm1nVyPsXBE8BWE/jIqCVWXzTT1BaWXkM+vIJ8MrBL8aUv1L8Nl9bnhcqD5AfaYzFY+IiIK5/NUNiLDw==" value=leaves
+# refuse region/forks · REFUSE·authority lane-A does not cover region/forks
+bound-lock/1 about="two readings of one cell that do not meet, with both sides named" at=policy:region/forks by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/forks sig="ed25519:era1:Al5v6vJLlznQzzztTOwEqpoaDejuyfZe0NIIJuvP9ez8dBY33kCpURx1KAbbx+z5gbhGVwUaUjblxHB1GfanCg==" value=lock
+# refuse region/freedom · REFUSE·authority lane-A does not cover region/freedom
+bound-lock/1 about="what is still undecided, in bits, by region and by the epoch it was born in" at=policy:region/freedom by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/freedom sig="ed25519:era1:Pd0yAwluEh5CK9QnguIkVAuFuVgE2S168yhH/pohej7jUeM3c353As60bs+AbqF/l5EbYZxSFZnrb615hSUfAA==" value=lock
+# refuse region/gaze · REFUSE·authority lane-A does not cover region/gaze
+bound-lock/1 about="where looking is worth most, in bits per place" at=policy:region/gaze by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/gaze sig="ed25519:era1:eozl8VcpmJmAhqkFcEDPvf8O5xALUdU7w3wR7acupRWDljtT1BzGnZvc4ZqDeWx+A6vTfO5VrNcswp4DOgSCBA==" value=lock
+# refuse region/grey · REFUSE·authority lane-A does not cover region/grey
+bound-lock/1 about="lines that stand on one origin and are therefore not yet information" at=policy:region/grey by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/grey sig="ed25519:era1:m4PJhCmecZztnU8XytbFMBw8v5DW8WaWysO8WWzgLP6pHZ0d1IuqYwcSwoPMC6d4oh3+25IvRfxybo9eNKVcAA==" value=lock
+# refuse region/guide-at-zero · REFUSE·authority lane-A does not cover region/guide-at-zero
+bound-lock/1 about="the guide at resolution zero: five lines, the command that checks the place, how many conjectures are open, and that nothing else is asked" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/guide-at-zero sig="ed25519:era1:qe7shgsIvOdKlak1drohIIyvD6UIGr8PpL7aj3JsZMGKQfdnSlYupvWj9l+0HO/7XO27SJFPkLs+YodmWDRhCQ==" value=lock
+# refuse region/harness · REFUSE·authority lane-A does not cover region/harness
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=coordinates role=writes scope=region/harness sig="ed25519:era1:vAVJvPMhq51kHwbIMXwNT4Qu0xaP7WN0NdlMU4OGrEhu+3M/f3gEHJ6iErzO0gBHLebMKJXFY6Dsw/oeVBHmCQ==" value=harness/**
+# refuse region/hero · REFUSE·authority lane-A does not cover region/hero
+bound-lock/1 about="the first screen: the mark the place is known by, its name, the badges its lock reads to, and the one line of what it is; what is not signed is not on it" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/hero sig="ed25519:era1:svK97UMXXIdEvEZxF2zMtpBU7VTcZhcjEOwTMzeE/CXK9gV0xIjc9z1IRIzY1WwTo037oT4dgQcmIU7dY5vWDA==" value=lock
+# refuse region/history · REFUSE·authority lane-A does not cover region/history
+bound-lock/1 about="the lines a later line replaced, with when they were replaced" at=policy:region/history by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/history sig="ed25519:era1:VfstkUgHUrNWNqjj9KTqU//9tPZpTY0nXdNAuHw8oBykjISfqFX2r/X9m9UFd/9COkO040aulHhYDks6tGVWBQ==" value=lock
+# refuse region/how-they-rest · REFUSE·authority lane-A does not cover region/how-they-rest
+bound-lock/1 about="how the places rest on each other, drawn from the lock's dependency lines and folded until asked for" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/how-they-rest sig="ed25519:era1:0a4oPCsgjIx7Iifp5rl4eQ6AG7APXMXKdZao6TGCqCQ89sZ1n62dXw1cGK9vhby8b60kDtt6CwNIbma1x+2MCg==" value=lock
+# refuse region/idea · REFUSE·authority lane-A does not cover region/idea
+bound-lock/1 about="the whole idea in one picture, before any name is introduced" at=policy:region/idea by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/idea sig="ed25519:era1:KkP9lZd2xRBDFJ7WfB+3RApgysyl+eFazjdmqd2YtiohK9LBGTrXouqvBtu63y0wiAl3vmyXQ0Fq7OHPr4QQAg==" value=prose
+# refuse region/ignore · REFUSE·authority lane-A does not cover region/ignore
+bound-lock/1 about="what a repository of the place never holds, one line each" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/ignore sig="ed25519:era1:TobctmzLZ3SZrTSoga9wlILsx5cSTd/ZhTHwPwImMDSQ1JNtQvIhFoB0SH2/wmST5dUNhCybQnb10LkK0sg7BA==" value=lock
+# refuse region/install · REFUSE·authority lane-A does not cover region/install
+bound-lock/1 about="the one line that installs it: the verb the lock names, then the name its manifest carries" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/install sig="ed25519:era1:yiQdhZ3Fdb6oNLT9n7PqlExaIoLLVJvjulPQdx5Kcs2PeJ9l74Uwv1jdbHgoChbJ/ua1IYaUvC6ifTUhx9liBQ==" value=lock
+# refuse region/laws · REFUSE·authority lane-A does not cover region/laws
+bound-lock/1 about="the theory of a place as its lists, each law with what met it and what would break it" at=policy:region/laws by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/laws sig="ed25519:era1:UgMkMwqSphoDqizf7EOXJK9NE7yc/AjCNcyDXnLfuwdN8c8Fbm9DO3DqgO6pX7eKHgyUySGUs/FjrVOHnU+CDw==" value=readings
+# refuse region/learn · REFUSE·authority lane-A does not cover region/learn
+bound-lock/1 about="a page to learn from one example: the cell it draws, what it calls and prints, the law it shows, its form, and where it lives; the example is the one the page is named after" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/learn sig="ed25519:era1:Kg6Chz84ZLaH2p8C8DGAqf/0y8jdgugbtd4cUJGi9KFDjKAFVUINmi9qW5r05EesQnEnZ6cOX3OOn5M36dNrAA==" value=lock
+# refuse region/learn-in-phase · REFUSE·authority lane-A does not cover region/learn-in-phase
+bound-lock/1 about="a page to learn from the in-phase example: the cell it draws, what it calls and prints, the law it shows, its form, and where it lives" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/learn-in-phase sig="ed25519:era1:tAedgF/WoNzdw1akffe2Q/8DbTYGyMbafcm63hgcf5fZm/9Dh9dtmLjWQtbT4PMQCQr0sLQwAy1QOASeh3l2AQ==" value=lock
+# refuse region/learn-price · REFUSE·authority lane-A does not cover region/learn-price
+bound-lock/1 about="a page to learn from the price example: the cell it draws, what it calls and prints, the law it shows, its form, and where it lives" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/learn-price sig="ed25519:era1:4oiK+vKMPevPwRT+h5XPtysMkcUD2aXjjPXa7mtSsZM10EKicvOvaTFlB1BtHqGw7Z/flvhboMzFYS5RjSUDDA==" value=lock
+# refuse region/learn-signature · REFUSE·authority lane-A does not cover region/learn-signature
+bound-lock/1 about="a page to learn from the signature example: the cell it draws, what it calls and prints, the law it shows, its form, and where it lives" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/learn-signature sig="ed25519:era1:DfEU4ulv22xMuP+7pDcBeVUKrkM75lWHzvfG0/6V7kNk7QvgHYueSJ/v46n756aoKBy/g7O2FspxaADQtADHDw==" value=lock
+# refuse region/learn-thermometer · REFUSE·authority lane-A does not cover region/learn-thermometer
+bound-lock/1 about="a page to learn from the thermometer example: the cell it draws, what it calls and prints, the law it shows, its form, and where it lives" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/learn-thermometer sig="ed25519:era1:hDXiUtcW5vkzc7edaq8V055gzGOddrEOLEo3Z4AcuNtsawKCOQyQzU9Yp+YMWEYtw1TZOPmx5qoRBfekn+PSAg==" value=lock
+# refuse region/learn-withdrawal · REFUSE·authority lane-A does not cover region/learn-withdrawal
+bound-lock/1 about="a page to learn from the withdrawal example: the cell it draws, what it calls and prints, the law it shows, its form, and where it lives" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/learn-withdrawal sig="ed25519:era1:1DPZJkbsmkWFdH7eNbknZV5j803KbUd+dJf9daawiLG78XucSnW561VgivB9s1Z+sQ/TCa222SHiHzp0dIOcDw==" value=lock
+# refuse region/license · REFUSE·authority lane-A does not cover region/license
+bound-lock/1 about="the licence, carried on a line of the lock and rendered into its own leaf" at=policy:region/license by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/license sig="ed25519:era1:tZgT707o2WHjyHDvoBgTF8gainENLUCXTpmfRp4Q/46NEwQgRrepF9rw9LOqIQZeoi7SegiYM0F9viqzH1JnBQ==" value=lock
+# refuse region/lock-line · REFUSE·authority lane-A does not cover region/lock-line
+bound-lock/1 about="the lock lines a place holds in its own files, unsigned, as they are written there" at=policy:region/lock-line by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/lock-line sig="ed25519:era1:7Blw4oDuUN+tntAWR54l94xMDFACJPe5MK8Dwn/kV0mTMKQf3sl0xX5vmAZe+1yKxwu6yEmaOnEn9O9dVMvdAQ==" value=leaves
+# refuse region/manifest · REFUSE·authority lane-A does not cover region/manifest
+bound-lock/1 about="the manifest the place holds, rendered from the lines it signs about itself: the fields a consumer reads and the three a resolver older than exports still needs in this tree" at=policy:region/manifest by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/manifest sig="ed25519:era1:SDahDd2qvb/ym6jVIQIkuP2LBzFQxRs0mChZ1BpzGtJzCdMrXlkpjxgYBZTdQWlrIu8qHJtZ8pQj5Iak61sQBw==" value=lock
+# refuse region/marks · REFUSE·authority lane-A does not cover region/marks
+bound-lock/1 about="the legend of the marks a page is drawn in, in the owner's words" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/marks sig="ed25519:era1:tSvD5h32NfHZort+rbt57iPXNCgBIn+Ztvqsu4aV8m4CH3LXuaZp04VJIEfyZNB8fOhLlK63aApWvQHlyOsjCg==" value=lock
+# refuse region/notation · REFUSE·authority lane-A does not cover region/notation
+bound-lock/1 about="the notation of the object at a resolution: at zero the tuple a cell is; at one the tuple and the formulas of what it rests on, in the order they rest; at three each formula beside its law's sentence; at eight all of it with the signature of every arrow and the states" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/notation sig="ed25519:era1:nmkfZWsEbbjcyT3n9doYMfmqCa00+6wnHEj5CF4POFcmphY2PRhUAPlUvfmmeBb2TI30+a24XaXanANk8rKMDg==" value=lock
+# refuse region/offers · REFUSE·authority lane-A does not cover region/offers
+bound-lock/1 about="every operation offered, with how many vectors reached it" at=policy:region/offers by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/offers sig="ed25519:era1:6QBD4NENp5EWRJbAHYCAfUkcCffL3V5q5M0riPiiujNRCUT/VU9yQ+XEZYnZAcfLiNckoY971AWBaO22UhyHBQ==" value=readings
+# refuse region/open-conjectures · REFUSE·authority lane-A does not cover region/open-conjectures
+bound-lock/1 about="every conjecture of the place, marked as such, with what would falsify it" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/open-conjectures sig="ed25519:era1:osfIeslLRQs2qStX32s/x3D02Q22q57pqdkUg44YwqdNuAlA1DaDC+2Z/4YVuhSdlyTOfURxIL1Avce38D43BQ==" value=lock
+# refuse region/open-questions · REFUSE·authority lane-A does not cover region/open-questions
+bound-lock/1 about="the questions with no answer yet, widest first" at=policy:region/open-questions by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/open-questions sig="ed25519:era1:Nd8IMLfaEQhXth9xjmJOC9isIGRZ8PxIbhJ1zbc6pShFANX1D9mri977LJK7loSu2TDx1GCd/yLixT6bDuyjDg==" value=lock
+# refuse region/origins · REFUSE·authority lane-A does not cover region/origins
+bound-lock/1 about="who spoke in each region of the tree, head and reader alike" at=policy:region/origins by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/origins sig="ed25519:era1:P7zzAu4/Aqzo/luR6o5HULFoZO9ZKWQDEwhbkfzL28TSb+vT5gZC6GvGbLkhMTPnnJV4LcIhQUtrXfoGaDx0CQ==" value=lock-and-readings
+# refuse region/orphans · REFUSE·authority lane-A does not cover region/orphans
+bound-lock/1 about="what a place holds that nothing reaches: a test or a sample no demand names and no run reads, and a page no view writes and no demand needs" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/orphans sig="ed25519:era1:l0dOvSz/f22XNmPUUFkGBaKREsoEk9umz3IP9WG54jh9cYCsn++DEtNz2iDqRfBWoPdLwYXz/kD6mVy00dtiCQ==" value=lock
+# refuse region/paper · REFUSE·authority lane-A does not cover region/paper
+bound-lock/1 about="what the theory proves and which views implement it" at=policy:region/paper by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/paper sig="ed25519:era1:R0NJXKZ1KHQY1fkJaqqzUmYQ5GbFCYz+0XV6zIpt32t+tALxRQ5Eep8pxJNkD0w4keyDww6MM2/Iuc6buuzbCA==" value=prose
+# refuse region/picture · REFUSE·authority lane-A does not cover region/picture
+bound-lock/1 about="the scale the shortest example draws: each claim as a bar and what they hold together beneath them" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/picture sig="ed25519:era1:KtKmizKCsoCXlKytsfmN6mt1H3wIUZs8y1rOsLrfKYB6yKt4F1CWObWchDLbESUxNPdE4yuKPAR34MzFeNedDA==" value=lock
+# refuse region/pipeline-release · REFUSE·authority lane-A does not cover region/pipeline-release
+bound-lock/1 about="the release the forge makes after the tag: the version published once by the trusted publisher, and its tarball attached" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/pipeline-release sig="ed25519:era1:uYYq6qNr/LfIuDytMrcdL3c8zYxDsIX9gIsaXlZSj3TLbfuTNPDL3j0gb/yFWGe7D1iwmiMmk1KitCmtzZIjCA==" value=lock
+# refuse region/pipeline-tag · REFUSE·authority lane-A does not cover region/pipeline-tag
+bound-lock/1 about="the tag the forge makes for the version the manifest names, once" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/pipeline-tag sig="ed25519:era1:4xaOH8C8mWir/SOzmQ7Ucs16UBZHHjUhEzUYjYu61XqUaALdvrRZrBiWiWT3wnrRBW4zAIh2shX5e6jSRT4zCg==" value=lock
+# refuse region/pipeline-test · REFUSE·authority lane-A does not cover region/pipeline-test
+bound-lock/1 about="the check the forge runs on every push and every proposal" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/pipeline-test sig="ed25519:era1:LENTIOMLcfoxaM8iciqkNvC6LO5KcjQxWUIQ5kV23eWk1P+aIED+bDSprEw/XddBiolNRu4uCE61r9S15ZcWCw==" value=lock
+# refuse region/places · REFUSE·authority lane-A does not cover region/places
+bound-lock/1 about="each place the owner has said what it is, in the order they rest on each other, with its state as a colour and what the fold counts of it: paid, hazards open, and what the second head says" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/places sig="ed25519:era1:jcFiTy7SYwewZKeHY0iQ7h5SeZH9uGuVPAGp33wKadRMq6kIyJ9PaIcqP4dOGlWA9ANYT8438gYPpbz6X7gbCg==" value=lock
+# refuse region/pointers · REFUSE·authority lane-A does not cover region/pointers
+bound-lock/1 about="the pages below the door, as links from the views that write them: the reference and the pages to learn from; the forge shows the guide and the licence itself" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/pointers sig="ed25519:era1:3kbBDeoscGTrAs1yxJbbnFWaP6C9Znmx2ICzNep4X62FjZ08iXeDWtq6WI3Dn4rwaF8NhAOjw8EWQMxgW2aZAQ==" value=lock
+# refuse region/premium · REFUSE·authority lane-A does not cover region/premium
+bound-lock/1 about="what a line is worth beyond what it says, in bits still free" at=policy:region/premium by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/premium sig="ed25519:era1:dD0qr+ne0ffAYiT6pCFhtntRK9wTWp31AkBgUaOV5t6BKvZnFZsRPReJTkrPSgCgQWMUdezfGOKBtI9Sd1qqDQ==" value=lock
+# refuse region/programs · REFUSE·authority lane-A does not cover region/programs
+bound-lock/1 about="the one line that says what this place is: claims, demands paid, ceilings met, what the second head said, and what a fold of it costs" at=policy:region/programs by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/programs sig="ed25519:era1:Jko+hMtGXxPBO8fjd+Tujjuf+08TMON2W85KrfUZqvUfXwr0BGzGJtwEn61l8uxNEzeUXEbleAXGFdHORtFDCg==" value=lock
+# refuse region/published-lock · REFUSE·authority lane-A does not cover region/published-lock
+bound-lock/1 about="the lock a place is published with, seen from inside it: the bootstrap first, the wire and the keys it is read with, the regions it is written in, its own lines and every line a view of it reads, with the place's name gone from every scope, need, policy and cone; nothing of the tree's history and nothing that needs outside the place" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/published-lock sig="ed25519:era1:eWczsjNdTX7ScT7IV0RSzWUckSWuCljktaDERO7Mw/97drVzafw3sn4jviIeY3foo9hNTDcd8l/zbCtshPoECQ==" value=lock
+# refuse region/published-manifest · REFUSE·authority lane-A does not cover region/published-manifest
+bound-lock/1 about="the manifest the package carries, rendered from the same lines without the three fields only this tree's resolver reads: what npm packs and a consumer installs" at=policy:region/published-manifest by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/published-manifest sig="ed25519:era1:SKJnZuV6ThxGxa32p6Ratl4Swd1XtQ3JAz7uHcwH9GUbwlwVwChR97u6BxXhtvP0zl51oiVzMN0bxfJAWjKNBw==" value=lock
+# refuse region/published-receipts · REFUSE·authority lane-A does not cover region/published-receipts
+bound-lock/1 about="the receipts a place is published with: what it observed, seen from inside it, without the word the tree's second head gave, since the published place asks its own" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/published-receipts sig="ed25519:era1:brbTBaVsengACR0TYKry5RG7xRM9DuBZ6qdZKBnsE0i1ahI98hwDJ2khquvmzvOhmVu8cOr2ga7gYB6wRXKFAA==" value=lock
+# refuse region/question · REFUSE·authority lane-A does not cover region/question
+bound-lock/1 about="the open questions of a place, as the lock asks them" at=policy:region/question by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/question sig="ed25519:era1:R80YbdiGZH/xIqOhlTgAnosbDq4ZftelDQigHhXCjWMYt5Fi8VXAYu5FZzxkYRSDaq2McmJe0DHwsMG2RA7iCg==" value=lock
+# refuse region/ranges · REFUSE·authority lane-A does not cover region/ranges
+bound-lock/1 about="the cell of an example drawn at a resolution: at zero three bars, above it each claim a bar, what they hold together a bar in the colour of a meeting, and its floor and its ceiling named" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/ranges sig="ed25519:era1:JNV1iGagXGbrXEgpmoRwIbqWdYZtwo3TzB4EhN6LH4abSzSee0n7PoDRB21ne+/BpTM8gqKO+DuZam2qqmYHAA==" value=lock
+# refuse region/reading · REFUSE·authority lane-A does not cover region/reading
+bound-lock/1 about="which view answers which question, in the words each view says of itself" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/reading sig="ed25519:era1:d4WN6CNzy8SlvjNv3YA2tmanvOK111bUjLxtgkqcEr+xXggY8C5erq7FUI8Vnl/IYZLOL0Ey1qtohI9mCUIfCA==" value=lock
+# refuse region/receding · REFUSE·authority lane-A does not cover region/receding
+bound-lock/1 about="the regions spoken in less this epoch than last" at=policy:region/receding by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/receding sig="ed25519:era1:/UYjKyNqOqOoWGXKi9HRKv+Sqeyr4dch1W6cu6h+TpSs6npVTJ0qSiJsdI5/lgDaWjg0LnLNzvPcDitPK7+DAQ==" value=lock
+# refuse region/receipts · REFUSE·authority lane-A does not cover region/receipts
+bound-lock/1 about="what a package carries of its own reading, so a clone folds without running anything" at=policy:region/receipts by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/receipts sig="ed25519:era1:O3dcll9mFPzMMhGKzYBc8OW7askD1si9ElHQkdDQt0Whd2FgrFXWTrwmskwwcwuS0SzJDaebQMchnLbdoaOuBg==" value=readings
+# refuse region/red · REFUSE·authority lane-A does not cover region/red
+bound-lock/1 about="every ceiling a reading is over, and every demand nothing paid" at=policy:region/red by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/red sig="ed25519:era1:WDrqZruxlGnpXVP6iCHb5SeUSyHBitaJgC2diRwhKrWqddWguwcKEo70UlAfHsYfALsnFYCdPmUmaUBTETQsBQ==" value=lock
+# refuse region/reference · REFUSE·authority lane-A does not cover region/reference
+bound-lock/1 about="every operation with its signature, its derived refusals, what it reaches and the laws it rests on; every law with its kind, view, premises, sentence and whether it reproduces; every form" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/reference sig="ed25519:era1:JE+UDbFSD4QjcCkUbiIYXeuGzSAUBHyHypUZDuOz4SHRbNIshUP4NQGxO882SiW6pNdmEZYjrpHPky951JEgBw==" value=lock
+# refuse region/region-frequency · REFUSE·authority lane-A does not cover region/region-frequency
+bound-lock/1 about="how often each region of the tree was read" at=policy:region/region-frequency by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/region-frequency sig="ed25519:era1:Fef0m9/mjM1qjSuxLFp1GtMYhDtT3o2Q2Fm9Fz9O9gQGuV6c+wcPhV6MSyAcK/ghCtbTycspkX66TETxmdjSBg==" value=readings
+# refuse region/resonance · REFUSE·authority lane-A does not cover region/resonance
+bound-lock/1 about="the regions spoken in at more than two epochs" at=policy:region/resonance by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/resonance sig="ed25519:era1:zd1StmZAsW+HJrKoHc4mPN40ULAz0pcs297qLe2yGLwrtBHc/phT4rIIY7QXD76y5AbHoO1ohvzCxVGQ0noNAw==" value=lock
+# refuse region/rests · REFUSE·authority lane-A does not cover region/rests
+bound-lock/1 about="what the object rests on, drawn: the definition most offers rest on and the lines it rests on, each by its name" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/rests sig="ed25519:era1:Tm6Eu+d0j7rLqU6SiXSTCl3bkRd9qg+UPbB7+ooaiJDbsD91gdPHkHOMxVnr4GhWHnCHoJQmA0Vt3DddAJZRAA==" value=lock
+# refuse region/rhythm · REFUSE·authority lane-A does not cover region/rhythm
+bound-lock/1 about="how many of those epochs it was actually spoken in" at=policy:region/rhythm by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/rhythm sig="ed25519:era1:YyAYu9/p6yEuTbwHxJR4q1Rf4bvk1AjpYKOVPhX/w64klDiAhTjOUJL3vMgKvap48vrplkYrFpau4COygC06Cw==" value=lock-and-readings
+# refuse region/robustness · REFUSE·authority lane-A does not cover region/robustness
+bound-lock/1 about="whether a region holds without any one of its origins" at=policy:region/robustness by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/robustness sig="ed25519:era1:jTQuSMoX8GuIsLUSlemJmj0ygVtM7xOAzB0JbeWDnzzrfItBq3ZeV18QgGnkSBTLVwrB9CqYCmnzhNxlgIWtBQ==" value=lock-and-readings
+# refuse region/role · REFUSE·authority lane-A does not cover region/role
+bound-lock/1 about="what each leaf of the place is, written or rendered, so a page says which of its own files were never typed" at=policy:region/role by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/role sig="ed25519:era1:KgPrbgWS2JMp3nOeLpwqhRtN6n1XEOSTY1zI0rMReLxZjgf0/i0lmVbpqBz3W1lkWyzchoFHdzLr3Z94WKfwAA==" value=leaves
+# refuse region/scene · REFUSE·authority lane-A does not cover region/scene
+bound-lock/1 about="where this place stands in the tree it belongs to" at=policy:region/scene by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/scene sig="ed25519:era1:8p8Zl0ZG3Pcn+y/yqpM2bqu+dN6o++Hpnaj61vV/Ofx77s/9qzXHO10TOyDEUlRH6PgtsN4KQ19zbSoO1FSvAA==" value=lock
+# refuse region/selfcheck · REFUSE·authority lane-A does not cover region/selfcheck
+bound-lock/1 about="the check a clone runs alone: the subpaths the manifest offers, imported, and the second head's signed word, verified against the key the lock admits and the digest of the lock itself" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/selfcheck sig="ed25519:era1:oQCqZGW3k5Zr37peM319xeQ+kVaZatexUFhnt24dP6+bovx6Qj/h9npXxx5H8hfoLXUhWlOceXFZZybplspICg==" value=lock
+# refuse region/shape · REFUSE·authority lane-A does not cover region/shape
+bound-lock/1 about="the figure a region makes: a point, an edge, or a polygon" at=policy:region/shape by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/shape sig="ed25519:era1:LRrGm8be0rkB41Aqxxz0CyP/Y5JLKk3Ab8wx2+5vXsbow7pjFNa5NaXZ8HFuEot+wRuUTB7hk4aj1xHkMqX0Bg==" value=lock-and-readings
+# refuse region/sign · REFUSE·authority lane-A does not cover region/sign
+bound-lock/1 about="what it takes to sign here, and who may" at=policy:region/sign by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/sign sig="ed25519:era1:gtyAVBBnbjHQL7ZL+NWL6GvjFaWrR1KBJlUl4HFWj9vHuD6MXZ4eDj6HyWzYjLdyUPJg0lQhGLr5A573lgxRDA==" value=lock
+# refuse region/signers · REFUSE·authority lane-A does not cover region/signers
+bound-lock/1 about="each key, what it has signed and what it may sign" at=policy:region/signers by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/signers sig="ed25519:era1:mHMeIsZm9kP0NqNLcgCfL6a1fOG5kr4GcAa8YzOFu+EF37Wy6C4O3USR9FBDxuvLzkVpZPsx73jccvCe9Qz3CQ==" value=lock
+# refuse region/take · REFUSE·authority lane-A does not cover region/take
+bound-lock/1 about="what a demand costs to pay and what paying it lands" at=policy:region/take by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/take sig="ed25519:era1:q52Exsp4G/1CUtq9bIDAIdtgzvR8ejnuSskoyHms6GMPhMn+HdUfozBXLiV7vr0FXRGVdtkrfMfZp6WoBTahAA==" value=lock
+# refuse region/the-object · REFUSE·authority lane-A does not cover region/the-object
+bound-lock/1 about="the obligatory as its definition says it, with the four states and the parts it is made of" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/the-object sig="ed25519:era1:uZn3AL6k02xpMWbwJ/FmTUwod9mUG4oJhAHQto1ebTWBxswncXcS7phXRKsD5Phekv3Mituc2MBZZmwygelwBQ==" value=lock
+# refuse region/the-paper · REFUSE·authority lane-A does not cover region/the-paper
+bound-lock/1 about="the paper: the owner's words on what it proves, then the reference a reader copies, its authors, year, title, version, publisher and address" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/the-paper sig="ed25519:era1:QnPp3EwX+f5LLHo8gAdXA7qi20Wx1i+HRmA33CEDyOH662+QvN8OF7+Pl+3G3WVmSdeIFfoXoQbsJYD4VNH9Cw==" value=lock
+# refuse region/thirty-seconds · REFUSE·authority lane-A does not cover region/thirty-seconds
+bound-lock/1 about="four real calls and what each of them answers" at=policy:region/thirty-seconds by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/thirty-seconds sig="ed25519:era1:VfLQAcVwZol59k8C6vV65gvM79zaCkLpWNJGak+6Mt1xJH3QAAFrT8SnKwkZf9rzQ5Vg+6BOobpdqQtVwUFfCA==" value=prose
+# refuse region/topos-measure · REFUSE·authority lane-A does not cover region/topos-measure
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=coordinates role=writes scope=region/topos-measure sig="ed25519:era1:XT2HsAcdAJYnE+N4Ia9eA7lqoWsN8BadYq+IPs+kl8aen2/Z8Zbtf+8BgdRgsLlMlu5AckpfehfIOqV2O9wLCw==" value=topos-measure/**
+# refuse region/topos-typescript-artifacts · REFUSE·authority lane-A does not cover region/topos-typescript-artifacts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=coordinates role=writes scope=region/topos-typescript-artifacts sig="ed25519:era1:bI8OxQOiykm7J9+TMziSLpIUTuK1C8oHXbhS7tzKr3Sz10UgGglh4vHpv/Nl7CkNhbu5REuO1sHf5imkYx2qDw==" value=topos-typescript-artifacts/**
+# refuse region/topos-typescript-concepts · REFUSE·authority lane-A does not cover region/topos-typescript-concepts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=coordinates role=writes scope=region/topos-typescript-concepts sig="ed25519:era1:T3zXHuHF3Sh2MoMBrfRMlqw3nUh0rKIcJcBQXpbfWIGFOrMwA46uyEsNKTdnIh4WqjdcJhuvxETH23NTtBesCw==" value=topos-typescript-concepts/**
+# refuse region/topos-typescript-packages · REFUSE·authority lane-A does not cover region/topos-typescript-packages
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=coordinates role=writes scope=region/topos-typescript-packages sig="ed25519:era1:9ftNBf3kU0A3KZ04gqPvNEUhfvO9xigtgxzm/iXnVsg2kEXlfT6phyy1Ke8dkItcl8IuRSFaB3fLlY+iaxl2AQ==" value=topos-typescript-packages/**
+# refuse region/vectors · REFUSE·authority lane-A does not cover region/vectors
+bound-lock/1 about="the cases a place holds and which of them did not hold, read from what the runner already answered rather than run again" at=policy:region/vectors by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/vectors sig="ed25519:era1:P+u3x5kQ1slQ77wX1nDJQ0q/TpiUh0wRnNDA7GHcJI6YHcfgowHUpxKX7Wzun0mHlVCd65QFgOLfDiXGD3bZCw==" value=readings
+# refuse region/what-holds · REFUSE·authority lane-A does not cover region/what-holds
+bound-lock/1 about="the three axioms the rest leans on hardest by their sentence, the others by name, and one theorem meeting its measurement" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/what-holds sig="ed25519:era1:g9Ps02NVWI02tgIjQAltblwzTwSg9EKSuyloP0RCIT5hovPg9oSDGgu2vCOLnVCbuVGCx99KU+8FecDl0tgJBw==" value=lock
+# refuse region/what-is-open · REFUSE·authority lane-A does not cover region/what-is-open
+bound-lock/1 about="what is open in each place, folded until asked for: conjectures, hazards by kind, and demands not yet paid" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/what-is-open sig="ed25519:era1:RtHUZsN6kXk5h7Fl7T8LvZhx6Wx2BQJCDXA+PPHYVb7m9T0HdD5n0aD8ex+QsZKNXkKGRKnrbzyKchfEwZWZDw==" value=lock
+# refuse region/where-next · REFUSE·authority lane-A does not cover region/where-next
+bound-lock/1 about="where the package goes next, in the owner's words, in four lines at most" at=place:topos-json by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/where-next sig="ed25519:era1:XUnv4jtB5kIw4C82AcchpFpAnfsNcr4wMTpclRp22BcTHbUWY7TrlqWps6pglIg6T5X/oolhKXoShLzqmL0ZCg==" value=lock
+# refuse region/why · REFUSE·authority lane-A does not cover region/why
+bound-lock/1 about="the prose a place keeps beside its source, read as paragraphs and never as headings" at=policy:region/why by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/why sig="ed25519:era1:NBRs+8AyWyU05XRZWi2m9tM1fREnaHyJgdYgBtvf6OVmrxickr+hrsekvKhDpZjEqcTNnreei8Cqo0ZLslAxBw==" value=leaves
+# refuse region/width · REFUSE·authority lane-A does not cover region/width
+bound-lock/1 about="how many epochs a region spans, from its first line to its last" at=policy:region/width by=lane-A epoch=1 form=alphabet measure=text role=writes scope=region/width sig="ed25519:era1:5HSUBqfbxHUFP32JxVJv1dfeUS/pSeE0ozQFuY7SZZWvnmsbqubo8in0HqohLjL4uFpzLqz25FAuhRUWpCMrAQ==" value=lock-and-readings
+# refuse release/rebirth · REFUSE·authority lane-A does not cover release/rebirth
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=demands scope=release/rebirth sig="ed25519:era1:YWDT+0/DAid6vWYREPDbpPKc5jBU61rYd5iR04XpTe2V9qECIiZ69Re0xMx+C9pFO5BeaETAgPY4aAu2kTqACA==" value=rebirth
+# refuse repository · REFUSE·authority lane-A does not cover repository
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=repository shape=package.json sig="ed25519:era1:FqpcS+X26DFZz6lumb23RrwTJ0Yfg7yaV1h+TWa7XTjDwD6SuM/icgDsjLhTxPNQroEts3P7goyZO/13kvn/BQ==" value=https://github.com/lapxo/topos-json
+# refuse scripts/build · REFUSE·authority lane-A does not cover scripts/build
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=scripts/build shape=package.json sig="ed25519:era1:oZnTWH8MnMsPdToUNww+7/QDs8kzDRzuEtegydyCJX5sN8icTX3j8CBgzGBr2CUudlTryvM6IESozMUh+4dSCw==" value="tsc --build"
+# refuse sideEffects · REFUSE·authority lane-A does not cover sideEffects
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=sideEffects shape=package.json sig="ed25519:era1:pjokuXWLpUgOvHvMVMvgpuk75xM5HIeUx21Ef6wER1BOej7KYuMSEIwgb9BZyP2zJBU/DgijhI0bHijYA3ztDA==" value=false
+# refuse source/lexed/src/** · REFUSE·authority lane-A does not cover source/lexed/src/**
+bound-lock/1 at=policy:capsule/language-facts-come-from-the-language-capsule by=lane-A epoch=1 form=interval measure=count role=reads scope=source/lexed/src/** sig="ed25519:era1:zK7aHUEWGCmLMs7x7wj+hzr7LdIEhbcC/owwtJmxOE7E++l8orY7ZnqFmPLaHlODYJkEWBMmAM8xbD/9DCLZAA==" value=0..0
+# refuse sources/badges · REFUSE·authority lane-A does not cover sources/badges
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=sources/badges sig="ed25519:era1:9bZxkTmsprCV2mEZ4fq3FGUMPo7+3DG0u0xwCfc0edJk4mwcB920CHPsLNuf+0eKa262DvMi5EIg5h7gPgW3DA==" value=https://img.shields.io/badge
+# refuse sources/topos-json · REFUSE·authority lane-A does not cover sources/topos-json
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=sources/topos-json sig="ed25519:era1:t9SxM9lPptORT6dqA+B+iGQ/Vn/Zl5y3MiDH8ndMnYpTDT+XhmVltC3944Jw92tLJ1CCVyBizETdD2MsI4moBA==" value=github:Lapxo/topos-json
+# refuse src/lines · REFUSE·authority lane-A does not cover src/lines
+bound-lock/1 at=policy:topos/capsule-length by=lane-A epoch=1 form=interval measure=count role=reads scope=src/lines sig="ed25519:era1:jmn+AgYTI5Xsg3Ayrfy4BDETueXzh9xiyDHQ3oWWWeljU8ot4mpmDhz4RIx361aHQ1aBPUe/VKGljcYJRi6sBA==" value=0..400
+# refuse theme · REFUSE·authority lane-A does not cover theme
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=theme sig="ed25519:era1:jkZMM5ids2AbQWFJmlioY8H4yURmMNs2WsEFYUubm+aIhfg14rD2GBZpd6G8SBsHTy3/m4QhddhI65H6dAatDg==" value=green:2da44e:●|grey:8c959f:○|red:cf222e:✕|fork:8250df:⋔|text:59636e|text-dark:9198a1|text-on:ffffff
+# refuse type · REFUSE·authority lane-A does not cover type
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=type shape=package.json sig="ed25519:era1:GIRJzIhYhac+bn+cK0pyHwvnW09aETEZ1TYy7DnMt6oLOCMNcdbEdjnIyWZyI3vQeaKl3+scYgr2hz7DzF7ZDA==" value=module
+# refuse uses/topos · REFUSE·authority lane-A does not cover uses/topos
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos sig="ed25519:era1:HnBwgrOfLIYgbE1BQSyl4SoBMNDFM5WWM6z1qCDVUFMkAZaLC+OdifeQQnliHEsGmteBN6APVa0w2TOXTlirDg==" value=sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541
+# refuse uses/topos-bound · REFUSE·authority lane-A does not cover uses/topos-bound
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-bound sig="ed25519:era1:ppZdCRdQrX1WA430ssW4WfxktK4UxLJu/gFYxu/Ufey6MhKWt9LzsN8nn24rxYvfMAV+PEXeMOh2ycG3zgdBBA==" value=sha256:8742250a27d7848a731c72f2f6296a3527ff68e0b5232c6afd44e0d2b666ee92
+# refuse uses/topos-doc · REFUSE·authority lane-A does not cover uses/topos-doc
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-doc sig="ed25519:era1:TVOv/QzKt52MPgQ2p2lU8D5im+eflfEWs0Aa4WNhCXnRbii14WOYi0PU/xrKfdgFgIBETRgEpd0VS/099vOOAA==" value=sha256:a14bf20090a6ada7874525931ce198cf252505d8f3dccda275929573c0048433
+# refuse uses/topos-frame · REFUSE·authority lane-A does not cover uses/topos-frame
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-frame sig="ed25519:era1:YnWwS5KhwIdLytg/uKAyYiDiO2FNW302SAhWH2IrWn2GsTKRde0NN5AWkzaYVljOcV5JTenvnBrjohHDrUmbAw==" value=sha256:a24889f0bc3f3a84942085fca6031315e5271d18b8508e058acc9f5d5fcf6942
+# refuse uses/topos-github · REFUSE·authority lane-A does not cover uses/topos-github
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-github sig="ed25519:era1:y1OAZi+0xv9hPtx/Ss41WWtOoRuNBYX9kD5zxJWKrTS8kGpiq7tnzzXQeNOtxDpwg6pCd2YqwEmfdO5ghhcuDw==" value=sha256:623f0b4cdc4d27cd4ae5789cdbf55494f1def2de23bb9fa48cfa180dd483c8c0
+# refuse uses/topos-json · REFUSE·authority lane-A does not cover uses/topos-json
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-json sig="ed25519:era1:JpUs1TMKFNsp47XcrC0Z7PKO9SDlkB2TDXeBVcwsGtZx7YDCMvxwCXNs6L5BW+f28HK2/EbrKEBC9jDACqM9AQ==" value=sha256:5622d130682a7ea4e7f9c87614c9fbaf9e1f57867db928dc8f8074629b034957
+# refuse uses/topos-node · REFUSE·authority lane-A does not cover uses/topos-node
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-node sig="ed25519:era1:dH+uv8VBbt6BdsF0TrfHabNgqGfDG6RZsgVAZaVIY2lHltMK3yf9XTJ3TPt8DC0VrddCRUNX9mhhIOMW+dNdCA==" value=sha256:bbcd3bbe503353e364e402fdf2ece997d4c757bfe3cbafbf2e9c1d0a0a4999d8
+# refuse uses/topos-typescript-tree · REFUSE·authority lane-A does not cover uses/topos-typescript-tree
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=writes scope=uses/topos-typescript-tree sig="ed25519:era1:2AFIjvZbuG70hOC6Zu0kHGVIQNjl9mfjnQ92Lw7YcSxeHpeAODMLDDjyM2nTAggvx1O8xYIR4xnsv1q1pGgMCw==" value=sha256:793a8b94d5c4a2428f8735918c705905ad16461870649c9fa5398ed123d5c369
+# refuse version · REFUSE·authority lane-A does not cover version
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=package.json role=writes scope=version shape=package.json sig="ed25519:era1:ydqdylSJEUlfWzo+jXDhkz7akoe6skc1YiMWjXi2fAmpAULp7YJ+QRXp9hVcCbGEMCraAz/JgfyNTfM9gk1tCw==" value=0.1.1
+# refuse view/figure-world · REFUSE·authority lane-A does not cover view/figure-world
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=docs/img/world.svg role=demands scope=view/figure-world shape=docs/img/world.svg sig="ed25519:era1:R0Rnu/I3uVUbEP4ZzHMomslb3IJKFLdIDGmYXoBkKiJB2/SPL5kKEIpiPWZ1+xMV3jBaVeOWkncAoP549AuoBg==" value=figure-world@1
+# refuse view/index · REFUSE·authority lane-A does not cover view/index
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=src/index.ts role=demands scope=view/index shape=src/index.ts sig="ed25519:era1:Fy3DgTWz+3vZlTIGw+NDu7/rfu6q/VDTcBEDh9zJ+um5C5BkK9Ru4mXkxCuE+QhWNNzXiONKJWtUz1phzmukAg==" value=index
+# refuse view/license · REFUSE·authority lane-A does not cover view/license
+bound-lock/1 at=policy:view/license by=lane-A epoch=1 form=alphabet measure=id role=demands scope=view/license shape=LICENSE sig="ed25519:era1:zyg9NgVOLBvBj3ka3W8GNh4vpaNC+7noB9hnWxpxKjDfk97twcfM0cbSZw+r83qXyDTYpifKsYcLwK0BjlljAg==" value=license
+# refuse view/pipeline-release · REFUSE·authority lane-A does not cover view/pipeline-release
+bound-lock/1 at=place:topos-measure/release by=lane-A epoch=1 form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml sig="ed25519:era1:XTm2UPPMBCCZS51ZQg4X8T0OPQEazBr5GtS0JvjuFW3Xgcy788J30T7Sh3Q6CaAD3T6WAH97rrWZhpjw/7GKBA==" value=github-actions
+# refuse view/readme-capsule · REFUSE·authority lane-A does not cover view/readme-capsule
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id needs=README.md role=demands scope=view/readme-capsule shape=README.md sig="ed25519:era1:2+hO/G6q/np75O1iiQCLdSTvXQwnrFrd1CN21jjX0rg6KDwEovNbYNSXEOJ7CjFQiCcpsDnrc+7OxLs7iArSAg==" value=hero|door|idea|figure-world|learn|json-said|json-cites|claims|install|refuses|reading|how-they-rest|check|pointers
+# refuse view/receipts · REFUSE·authority lane-A does not cover view/receipts
+bound-lock/1 at=place:topos-json by=lane-A epoch=1 form=alphabet measure=id role=demands scope=view/receipts shape=receipts.bound sig="ed25519:era1:9moBv0eDH4KtnCtxl0GddlloRdGVPJjR5roY4xlo+bYxLLakzd4mcWpEt3v0qnMb5P6P8Uu43noh8KUJ5f5cCw==" value=receipts@0|receipts@1
