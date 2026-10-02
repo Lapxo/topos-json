@@ -1,6 +1,6 @@
 {
   "name": "@lapxo/topos-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "A JSON document read as what it says: the names it cites, its fields and its cases, and the vectors a place runs.",
   "type": "module",
